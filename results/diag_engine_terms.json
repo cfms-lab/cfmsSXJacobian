@@ -1,0 +1,9 @@
+{
+  "engine_commit": "378d20c",
+  "samples": 1000,
+  "dcos_vs_gradP": 2.721e+00, "dsin_vs_gradQ": 1.379e+00,
+  "d2cos_vs_hessP": 2.000e+00, "d2cos_blockT_vs_hessP": 2.000e+00, "d2sin_vs_hessQ": 2.350e+00, "d2sin_blockT_vs_hessQ": 2.350e+00,
+  "formula_on_engine_terms": {"grad": 0.000e+00, "hess": 0.000e+00},
+  "formula_on_symbolic": {"grad": 6.990e+14, "hess": 2.897e+00, "hess_with_blockT_second": 3.377e+00},
+  "best_sign_combo_by_vertex": {"H": {"dcos_PA_PB": [1, -1], "dcos_err": 0.000e+00, "dcos_err_if_correct": 0.000e+00, "dsin_QA_QB_QE": [0, -1, -1], "dsin_err": 1.588e-16, "dsin_err_if_correct": 1.000e+00}, "I": {"dcos_PA_PB": [1, -1], "dcos_err": 0.000e+00, "dcos_err_if_correct": 2.000e+00, "dsin_QA_QB_QE": [0, 0, -1], "dsin_err": 7.614e-16, "dsin_err_if_correct": 3.985e+00}, "J": {"dcos_PA_PB": [1, -1], "dcos_err": 0.000e+00, "dcos_err_if_correct": 2.000e+00, "dsin_QA_QB_QE": [0, 0, -1], "dsin_err": 7.113e-16, "dsin_err_if_correct": 3.983e+00}, "K": {"dcos_PA_PB": [-1, -1], "dcos_err": 0.000e+00, "dcos_err_if_correct": 2.000e+00, "dsin_QA_QB_QE": [-1, 0, -1], "dsin_err": 1.304e-16, "dsin_err_if_correct": 1.000e+00}}
+}

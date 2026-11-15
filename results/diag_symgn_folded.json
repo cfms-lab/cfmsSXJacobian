@@ -1,0 +1,316 @@
+{
+ "dll": "C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsDrape_build_sxjsymgn\\Release\\cfmsDrape.dll",
+ "n": 21,
+ "BE_U": 10000.0,
+ "amps_cm": [
+  0.0,
+  0.25,
+  0.5,
+  1.0,
+  2.0
+ ],
+ "orient": {
+  "x": {
+   "off": {
+    "cases": [
+     {
+      "amp_cm": 0.0,
+      "rayleigh_rot": 326.30938554283495,
+      "eig_min": -2.5542853653628063e-10,
+      "eig_max": 636036.3961505204,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 0.0,
+      "theta_max_deg": 0.0
+     },
+     {
+      "amp_cm": 0.25,
+      "rayleigh_rot": 323.7069724731567,
+      "eig_min": -1.9902394800874863e-10,
+      "eig_max": 632398.6164591645,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 1.5105525157175073,
+      "theta_max_deg": 3.464755560647809
+     },
+     {
+      "amp_cm": 0.5,
+      "rayleigh_rot": 316.19727451694735,
+      "eig_min": -2.1009539041053257e-10,
+      "eig_max": 622157.0779039338,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 2.9977379756201907,
+      "theta_max_deg": 6.904355094696225
+     },
+     {
+      "amp_cm": 1.0,
+      "rayleigh_rot": 289.991113867093,
+      "eig_min": -2.1131025180318642e-10,
+      "eig_max": 589226.8210502467,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 5.824214074081297,
+      "theta_max_deg": 13.613822440803242
+     },
+     {
+      "amp_cm": 2.0,
+      "rayleigh_rot": 222.67295184410978,
+      "eig_min": -1.8712360050831805e-10,
+      "eig_max": 515314.37355397915,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 10.620601933589489,
+      "theta_max_deg": 25.84376964903726
+     }
+    ]
+   },
+   "gn_state": {
+    "cases": [
+     {
+      "amp_cm": 0.0,
+      "rayleigh_rot": -1.863153794240875e-13,
+      "eig_min": -1.3014428248284805e-10,
+      "eig_max": 424721.5264237214,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 0.0,
+      "theta_max_deg": 0.0
+     },
+     {
+      "amp_cm": 0.25,
+      "rayleigh_rot": -7.29860384665253e-14,
+      "eig_min": -1.2755823748972055e-10,
+      "eig_max": 422292.3145515648,
+      "asymmetry": 2.2823552626937012e-17,
+      "theta_rms_deg": 1.5105525157175073,
+      "theta_max_deg": 3.464755560647809
+     },
+     {
+      "amp_cm": 0.5,
+      "rayleigh_rot": -3.948547667318807e-14,
+      "eig_min": -1.1074464707099913e-10,
+      "eig_max": 415450.2062475393,
+      "asymmetry": 4.616012672282625e-17,
+      "theta_rms_deg": 2.9977379756201907,
+      "theta_max_deg": 6.904355094696225
+     },
+     {
+      "amp_cm": 1.0,
+      "rayleigh_rot": -1.5434525662798997e-13,
+      "eig_min": -1.0225916792437708e-10,
+      "eig_max": 393392.76381786785,
+      "asymmetry": 9.630331981243412e-17,
+      "theta_rms_deg": 5.824214074081297,
+      "theta_max_deg": 13.613822440803242
+     },
+     {
+      "amp_cm": 2.0,
+      "rayleigh_rot": 1.0616307834625693e-13,
+      "eig_min": -1.0956484915830215e-10,
+      "eig_max": 344184.3302381113,
+      "asymmetry": 1.1041288022752643e-16,
+      "theta_rms_deg": 10.620601933589489,
+      "theta_max_deg": 25.84376964903726
+     }
+    ]
+   },
+   "symgn_state": {
+    "cases": [
+     {
+      "amp_cm": 0.0,
+      "rayleigh_rot": -1.863153794240875e-13,
+      "eig_min": -1.3014428248284805e-10,
+      "eig_max": 424721.5264237214,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 0.0,
+      "theta_max_deg": 0.0
+     },
+     {
+      "amp_cm": 0.25,
+      "rayleigh_rot": -7.29700176543898e-14,
+      "eig_min": -70.84076800173624,
+      "eig_max": 422336.5051975671,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 1.5105525157175073,
+      "theta_max_deg": 3.464755560647809
+     },
+     {
+      "amp_cm": 0.5,
+      "rayleigh_rot": -3.958329384696435e-14,
+      "eig_min": -275.03274500516403,
+      "eig_max": 415626.2920030653,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 2.9977379756201907,
+      "theta_max_deg": 6.904355094696225
+     },
+     {
+      "amp_cm": 1.0,
+      "rayleigh_rot": -1.5451093924226456e-13,
+      "eig_min": -981.4259445942342,
+      "eig_max": 394055.7370931683,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 5.824214074081297,
+      "theta_max_deg": 13.613822440803242
+     },
+     {
+      "amp_cm": 2.0,
+      "rayleigh_rot": 1.0576927699369478e-13,
+      "eig_min": -2650.8997113195787,
+      "eig_max": 345859.2157804477,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 10.620601933589489,
+      "theta_max_deg": 25.84376964903726
+     }
+    ]
+   }
+  },
+  "z": {
+   "off": {
+    "cases": [
+     {
+      "amp_cm": 0.0,
+      "rayleigh_rot": 326.30938554283495,
+      "eig_min": -2.5542853653628063e-10,
+      "eig_max": 636036.3961505204,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 0.0,
+      "theta_max_deg": 0.0
+     },
+     {
+      "amp_cm": 0.25,
+      "rayleigh_rot": 325.4291003789316,
+      "eig_min": -2.4994797938794037e-10,
+      "eig_max": 632398.6164591645,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 1.5105525157175073,
+      "theta_max_deg": 3.464755560647809
+     },
+     {
+      "amp_cm": 0.5,
+      "rayleigh_rot": 322.84632416338184,
+      "eig_min": -2.2937090328988781e-10,
+      "eig_max": 622157.0779039338,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 2.9977379756201907,
+      "theta_max_deg": 6.904355094696225
+     },
+     {
+      "amp_cm": 1.0,
+      "rayleigh_rot": 313.2981501585585,
+      "eig_min": -1.9369193171961812e-10,
+      "eig_max": 589226.8210502466,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 5.824214074081297,
+      "theta_max_deg": 13.613822440803242
+     },
+     {
+      "amp_cm": 2.0,
+      "rayleigh_rot": 283.90746443517173,
+      "eig_min": -2.1886610100056084e-10,
+      "eig_max": 515314.3735539781,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 10.620601933589489,
+      "theta_max_deg": 25.84376964903726
+     }
+    ]
+   },
+   "gn_state": {
+    "cases": [
+     {
+      "amp_cm": 0.0,
+      "rayleigh_rot": -1.863153794240875e-13,
+      "eig_min": -1.3014428248284805e-10,
+      "eig_max": 424721.5264237214,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 0.0,
+      "theta_max_deg": 0.0
+     },
+     {
+      "amp_cm": 0.25,
+      "rayleigh_rot": 3.1679881777009324e-14,
+      "eig_min": -1.3558569983365728e-10,
+      "eig_max": 422292.3145515646,
+      "asymmetry": 2.2823552626937012e-17,
+      "theta_rms_deg": 1.5105525157175073,
+      "theta_max_deg": 3.464755560647809
+     },
+     {
+      "amp_cm": 0.5,
+      "rayleigh_rot": 1.4991493392688904e-14,
+      "eig_min": -1.339402872862479e-10,
+      "eig_max": 415450.2062475389,
+      "asymmetry": 4.616012672282625e-17,
+      "theta_rms_deg": 2.9977379756201907,
+      "theta_max_deg": 6.904355094696225
+     },
+     {
+      "amp_cm": 1.0,
+      "rayleigh_rot": -2.007580739056335e-15,
+      "eig_min": -1.2661569628695448e-10,
+      "eig_max": 393392.76381786703,
+      "asymmetry": 4.815165990621707e-17,
+      "theta_rms_deg": 5.824214074081297,
+      "theta_max_deg": 13.613822440803242
+     },
+     {
+      "amp_cm": 2.0,
+      "rayleigh_rot": -8.87155683453084e-14,
+      "eig_min": -9.593914589012001e-11,
+      "eig_max": 344184.33023811126,
+      "asymmetry": 1.1041288022752643e-16,
+      "theta_rms_deg": 10.620601933589489,
+      "theta_max_deg": 25.84376964903726
+     }
+    ]
+   },
+   "symgn_state": {
+    "cases": [
+     {
+      "amp_cm": 0.0,
+      "rayleigh_rot": -1.863153794240875e-13,
+      "eig_min": -1.3014428248284805e-10,
+      "eig_max": 424721.5264237214,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 0.0,
+      "theta_max_deg": 0.0
+     },
+     {
+      "amp_cm": 0.25,
+      "rayleigh_rot": 0.05558102651412468,
+      "eig_min": -70.84076800173848,
+      "eig_max": 422336.5051975658,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 1.5105525157175073,
+      "theta_max_deg": 3.464755560647809
+     },
+     {
+      "amp_cm": 0.5,
+      "rayleigh_rot": 0.2170531525597142,
+      "eig_min": -275.0327450051648,
+      "eig_max": 415626.29200306383,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 2.9977379756201907,
+      "theta_max_deg": 6.904355094696225
+     },
+     {
+      "amp_cm": 1.0,
+      "rayleigh_rot": 0.7934949911592993,
+      "eig_min": -981.4259445942411,
+      "eig_max": 394055.7370931678,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 5.824214074081297,
+      "theta_max_deg": 13.613822440803242
+     },
+     {
+      "amp_cm": 2.0,
+      "rayleigh_rot": 2.367889605653951,
+      "eig_min": -2650.8997113195737,
+      "eig_max": 345859.21578044666,
+      "asymmetry": 0.0,
+      "theta_rms_deg": 10.620601933589489,
+      "theta_max_deg": 25.84376964903726
+     }
+    ]
+   }
+  }
+ },
+ "engine": {
+  "git_commit": "277425b",
+  "dirty": true
+ }
+}

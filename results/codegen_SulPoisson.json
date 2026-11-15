@@ -1,0 +1,71 @@
+{
+  "spec": "sul_poisson.py",
+  "spec_sha256": "722ccb7f09bfa77c",
+  "sympy": "1.14.0",
+  "variants": {
+    "exact": {
+      "cse_seconds": 0.03,
+      "temporaries": 117,
+      "ops": 437,
+      "diff_seconds": 0.26,
+      "body_sha256": "ce4687ae5f98604f6b88f59f628284b1b3d78850c9475773eefcf7751e861a22"
+    },
+    "frozen": {
+      "cse_seconds": 0.02,
+      "temporaries": 117,
+      "ops": 437,
+      "diff_seconds": 0.02,
+      "body_sha256": "0cb54a426d7aca08ff92fd496b3e221a964bdddb5b03243cbed81cfdc97a14cc"
+    },
+    "staged": {
+      "cse_seconds": 0.01,
+      "temporaries": 133,
+      "ops": 357,
+      "stages": 6,
+      "diff_seconds": 0.03,
+      "body_sha256": "d98dad04f68474157c9d930310f8121c4cc7a3af8aa87d2a6b3f5d0dd761806a"
+    },
+    "implicit": {
+      "cse_seconds": 0.0,
+      "temporaries": 223,
+      "ops": 714,
+      "stages": 6,
+      "diff_seconds": 0.03,
+      "body_sha256": "8f747f2c0f56f5c39b3464d48065cf21ce680fe175bf32b888aa9a8db3afc4de"
+    },
+    "implicit_gn": {
+      "cse_seconds": 0.0,
+      "temporaries": 81,
+      "ops": 226,
+      "stages": 6,
+      "body_sha256": "16bcdbd95bed2b424d40c5b9e9dfae8ec076d3173821d689b6883c5f8ec36ee6"
+    },
+    "engine": {
+      "cse_seconds": 0.0,
+      "temporaries": 175,
+      "ops": 443,
+      "stages": 6,
+      "body_sha256": "c91e16d5db8447d6c3e9a6c00abc4cf954d5593a07aa16c07f335e091cf4ab45"
+    },
+    "engine_gn": {
+      "cse_seconds": 0.0,
+      "temporaries": 98,
+      "ops": 237,
+      "stages": 6,
+      "body_sha256": "85f8087d27ba1b6e775a7b8dde2c5631b18e1562b21d2d0674d9e88aa62f8e74"
+    },
+    "engine_gn_undamped": {
+      "cse_seconds": 0.0,
+      "temporaries": 96,
+      "ops": 190,
+      "stages": 6,
+      "body_sha256": "7c82a899a5960015615fdcc1dbcb0d331b2b753e7976b5079f27ba8a194d2a0c"
+    }
+  },
+  "header": "generated/SulPoisson.h",
+  "header_bytes": 41149,
+  "header_lines": 1131,
+  "engine_header": "generated/SulPoisson_Engine.h",
+  "engine_header_bytes": 22551,
+  "engine_header_lines": 658
+}

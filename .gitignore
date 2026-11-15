@@ -1,0 +1,23 @@
+# 생성 코드 — 명세에서 결정적으로 다시 만든다(run_gate.bat, 해시 시드 무관)
+generated/
+
+# 빌드 산출물 — run_gate.bat 은 %TEMP%\cfmsSXJacobian_build 에 두지만 실수 방지용
+build/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.lib
+*.exp
+*.log
+
+# 파이썬
+__pycache__/
+*.py[cod]
+.venv/
+
+# results/ 는 넣는다: *.json 은 판정 숫자, hinges.txt · mma_ref.txt 는 Mathematica 없이 G1 을 돌리기 위한 기준
+
+# 공개 스냅샷: 원고(draft/)와 옷 자료(data/garments/ — CLO-SET CONNECT 무료 항목, 재배포 불가)는 싣지 않는다
+draft/
+data/garments/

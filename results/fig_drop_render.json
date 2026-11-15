@@ -1,0 +1,96 @@
+{
+ "what": "그림 8 의 두 회 — 놓은 뒤 정한 시각에 끝 줄(자유 변)의 가운데가 떨어진 거리와 속력. 장면 · 설정은 measure_jacobian_drop.json 의 같은 회",
+ "n": 81,
+ "BE_U": 10000.0,
+ "sps": 200,
+ "gravity": 980.0,
+ "plate_cm": 30.0,
+ "arms": {
+  "off": {
+   "name": "block-symmetric",
+   "v_tip_peak": 48.20962766248763,
+   "instants": [
+    {
+     "t": 0.05,
+     "tip_drop_cm": 0.9030829081017195,
+     "tip_speed": 31.781556384896607,
+     "chord_over_length": 0.9999557008897928,
+     "free_fall_drop_cm": 1.225
+    },
+    {
+     "t": 0.1,
+     "tip_drop_cm": 2.8882462476717023,
+     "tip_speed": 44.28042659129694,
+     "chord_over_length": 0.9990507425221317,
+     "free_fall_drop_cm": 4.9
+    },
+    {
+     "t": 0.15,
+     "tip_drop_cm": 5.186139196007858,
+     "tip_speed": 47.83141532633987,
+     "chord_over_length": 0.9963884145660036,
+     "free_fall_drop_cm": 11.025
+    },
+    {
+     "t": 0.2,
+     "tip_drop_cm": 7.503836824939711,
+     "tip_speed": 48.06101696830178,
+     "chord_over_length": 0.9918847641448284,
+     "free_fall_drop_cm": 19.6
+    },
+    {
+     "t": 0.25,
+     "tip_drop_cm": 9.714392456750673,
+     "tip_speed": 46.799156223023424,
+     "chord_over_length": 0.9858772555859314,
+     "free_fall_drop_cm": 30.625
+    }
+   ]
+  },
+  "gn_state": {
+   "name": "Gauss–Newton",
+   "v_tip_peak": 260.03974587503427,
+   "instants": [
+    {
+     "t": 0.05,
+     "tip_drop_cm": 1.2216493652281564,
+     "tip_speed": 46.61578239662174,
+     "chord_over_length": 0.9973275993651923,
+     "free_fall_drop_cm": 1.225
+    },
+    {
+     "t": 0.1,
+     "tip_drop_cm": 4.870014436259483,
+     "tip_speed": 100.00400671448212,
+     "chord_over_length": 0.9786042367230336,
+     "free_fall_drop_cm": 4.9
+    },
+    {
+     "t": 0.15,
+     "tip_drop_cm": 10.964571635885251,
+     "tip_speed": 162.16496691687848,
+     "chord_over_length": 0.9486770434270781,
+     "free_fall_drop_cm": 11.025
+    },
+    {
+     "t": 0.2,
+     "tip_drop_cm": 19.56523994344012,
+     "tip_speed": 243.7738540297421,
+     "chord_over_length": 0.9492061003444409,
+     "free_fall_drop_cm": 19.6
+    },
+    {
+     "t": 0.25,
+     "tip_drop_cm": 27.666521872367703,
+     "tip_speed": 258.1457035245713,
+     "chord_over_length": 0.9907168646091222,
+     "free_fall_drop_cm": 30.625
+    }
+   ]
+  }
+ },
+ "engine": {
+  "git_commit": "441b685",
+  "dirty": false
+ }
+}

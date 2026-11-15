@@ -1,0 +1,240 @@
+{
+  "tests": 46,
+  "logs_found": true,
+  "arms": {
+    "N": {
+      "compared": 44,
+      "skipped_timeout": [
+        "py_central_load_spin_test.py",
+        "py_open_shell_contact_test.py"
+      ],
+      "exit_differs": [
+        {
+          "test": "py_membrane_nonlinear_test.py",
+          "run1": 2,
+          "run2": 0
+        },
+        {
+          "test": "py_pcg_parallel_test.py",
+          "run1": 1,
+          "run2": 0
+        },
+        {
+          "test": "py_static_body_fastpath_test.py",
+          "run1": 1,
+          "run2": 0
+        },
+        {
+          "test": "py_velocity_readback_test.py",
+          "run1": 1,
+          "run2": 0
+        }
+      ],
+      "stdout_same_raw": 29,
+      "stdout_same_normalized": 35,
+      "stdout_differs": {
+        "py_body_contact_reference_oracle_test.py": {
+          "lines_run1": 3,
+          "lines_run2": 3,
+          "differing_lines": 1,
+          "first": [
+            {
+              "run1": "{'stats': {'total_candidates': 4, 'candidate_nodes': 4, 'multi_contact_nodes': 0, 'max_candidates_per_node': 1, 'collider_candidates': [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'diagnostics':",
+              "run2": "{'stats': {'total_candidates': 4, 'candidate_nodes': 4, 'multi_contact_nodes': 0, 'max_candidates_per_node': 1, 'collider_candidates': [4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, 'diagnostics':"
+            }
+          ]
+        },
+        "py_collider_partition_test.py": {
+          "lines_run1": 4,
+          "lines_run2": 4,
+          "differing_lines": 2,
+          "first": [
+            {
+              "run1": "sphere ON , floor ON  -> centre y = +3.593  (expect ~16, on sphere)",
+              "run2": "sphere ON , floor ON  -> centre y = +2.370  (expect ~16, on sphere)"
+            },
+            {
+              "run1": "sphere OFF, floor ON  -> centre y = -893.104  (expect ~0, on floor)",
+              "run2": "sphere OFF, floor ON  -> centre y = -897.433  (expect ~0, on floor)"
+            }
+          ]
+        },
+        "py_lifecycle_repeat_test.py": {
+          "lines_run1": 8,
+          "lines_run2": 8,
+          "differing_lines": 5,
+          "first": [
+            {
+              "run1": "fresh process  S   : pos 7e127edeab48de48 vel 143212360df16cd5  min y -8.353",
+              "run2": "fresh process  S   : pos f72bbfe4543cf655 vel f886d9664caab772  min y -8.382"
+            },
+            {
+              "run1": "same process #0 S : pos 7e127edeab48de48 vel 143212360df16cd5  min y -8.353  == fresh at every checkpoint",
+              "run2": "same process #0 S : pos f72bbfe4543cf655 vel f886d9664caab772  min y -8.382  == fresh at every checkpoint"
+            },
+            {
+              "run1": "same process #1 P : pos bdaf94fe91243e02 vel 7e66c6237f43d421  min y -9.441  (layer order swapped; primes the stale state)",
+              "run2": "same process #1 P : pos 4581659f3c2cf71b vel 7eb047abf01853d0  min y -9.681  (layer order swapped; primes the stale state)"
+            }
+          ]
+        },
+        "py_membrane_nonlinear_test.py": {
+          "lines_run1": 21,
+          "lines_run2": 21,
+          "differing_lines": 3,
+          "first": [
+            {
+              "run1": "  [FAIL] 2 ON linear range = OFF to 1e-12 (T1'): +0.000e+00 / -2.910e-11",
+              "run2": "  [PASS] 2 ON linear range = OFF to 1e-12 (T1'): +0.000e+00 / -2.910e-11"
+            },
+            {
+              "run1": "  [FAIL] 2 ON linear range = OFF to 1e-12 (T3): -1.455e-11",
+              "run2": "  [PASS] 2 ON linear range = OFF to 1e-12 (T3): -1.455e-11"
+            },
+            {
+              "run1": "RESULT: FAIL [\"2 ON linear range = OFF to 1e-12 (T1')\", '2 ON linear range = OFF to 1e-12 (T3)']",
+              "run2": "RESULT: ALL PASS"
+            }
+          ]
+        },
+        "py_params_test.py": {
+          "lines_run1": 3,
+          "lines_run2": 3,
+          "differing_lines": 1,
+          "first": [
+            {
+              "run1": "damping: late-window motion 7384.974 @0 vs 7411.719 @1000",
+              "run2": "damping: late-window motion 7384.974 @0 vs 7411.736 @1000"
+            }
+          ]
+        },
+        "py_pcg_parallel_test.py": {
+          "lines_run1": 13,
+          "lines_run2": 7,
+          "differing_lines": 11,
+          "first": [
+            {
+              "run1": "default_sphere   1T off 25dcbb11ddb6d8c3 | 8T off 25dcbb11ddb6d8c3 | 8T default 7f32307d11430ffd | verify [22050, 22019, 203808, 5] (calls, bad calls, bad values, branches)",
+              "run2": "default_sphere   1T off 25dcbb11ddb6d8c3 | 8T off 25dcbb11ddb6d8c3 | 8T default 25dcbb11ddb6d8c3 | verify [21950, 0, 0, 17] (calls, bad calls, bad values, branches)"
+            },
+            {
+              "run1": "self_penalty     1T off 38816ac90782a849 | 8T off 38816ac90782a849 | 8T default 5c32f1eecd2eeff8 | verify [17650, 17631, 282526, 7] (calls, bad calls, bad values, branches)",
+              "run2": "self_penalty     1T off 38816ac90782a849 | 8T off 38816ac90782a849 | 8T default 38816ac90782a849 | verify [17600, 0, 0, 19] (calls, bad calls, bad values, branches)"
+            },
+            {
+              "run1": "static_mode      1T off 5402155b7b67b659 | 8T off 5402155b7b67b659 | 8T default b3e83faaf14d9a25 | verify [7800, 7475, 73958, 12] (calls, bad calls, bad values, branches)",
+              "run2": "static_mode      1T off 5402155b7b67b659 | 8T off 5402155b7b67b659 | 8T default 5402155b7b67b659 | verify [7800, 0, 0, 24] (calls, bad calls, bad values, branches)"
+            }
+          ]
+        },
+        "py_seam_flat_test.py": {
+          "lines_run1": 9,
+          "lines_run2": 9,
+          "differing_lines": 5,
+          "first": [
+            {
+              "run1": "B matched/noise    : |z|max 0.0302 cm @15s -> 0.1317 cm @60s  seam 0.00079 cm",
+              "run2": "B matched/noise    : |z|max 0.0214 cm @15s -> 0.1015 cm @60s  seam 0.00630 cm"
+            },
+            {
+              "run1": "C 5% mismatch/60s  : lenA 1.1181  lenB 1.1074  seam 0.00019 cm  resid 2.3e+05",
+              "run2": "C 5% mismatch/60s  : lenA 1.1180  lenB 1.1073  seam 0.00012 cm  resid 352.6"
+            },
+            {
+              "run1": "  - C: panel A length ran away (1.1181, tol 1.02)",
+              "run2": "  - C: panel A length ran away (1.1180, tol 1.02)"
+            }
+          ]
+        },
+        "py_static_body_fastpath_test.py": {
+          "lines_run1": 36,
+          "lines_run2": 26,
+          "differing_lines": 22,
+          "first": [
+            {
+              "run1": "static_sphere        static=0 threads= 8 sha=388cabbb2ebfe26e DIFFERENT  finite=True  proximity=267 ccd=0 recovery=237",
+              "run2": "static_sphere        static=0 threads= 8 sha=2cd44600bf205e34 same  finite=True  proximity=267 ccd=0 recovery=241"
+            },
+            {
+              "run1": "static_sphere        static=1 threads= 8 sha=388cabbb2ebfe26e DIFFERENT  finite=True  proximity=267 ccd=0 recovery=237",
+              "run2": "static_sphere        static=1 threads= 8 sha=2cd44600bf205e34 same  finite=True  proximity=267 ccd=0 recovery=241"
+            },
+            {
+              "run1": "moving_sphere        static=0 threads= 8 sha=306d0df0ecf71563 DIFFERENT  finite=True  proximity=265 ccd=0 recovery=194",
+              "run2": "moving_sphere        static=0 threads= 8 sha=7ae609683093227c same  finite=True  proximity=254 ccd=0 recovery=192"
+            }
+          ]
+        },
+        "py_velocity_readback_test.py": {
+          "lines_run1": 1,
+          "lines_run2": 2,
+          "differing_lines": 2,
+          "first": [
+            {
+              "run1": "",
+              "run2": "PASS: cpu velocity injection/readback and warm-start reset semantics"
+            }
+          ]
+        }
+      }
+    },
+    "K": {
+      "compared": 44,
+      "skipped_timeout": [
+        "py_central_load_spin_test.py",
+        "py_open_shell_contact_test.py"
+      ],
+      "exit_differs": [
+        {
+          "test": "py_velocity_readback_test.py",
+          "run1": 1,
+          "run2": 0
+        }
+      ],
+      "stdout_same_raw": 34,
+      "stdout_same_normalized": 43,
+      "stdout_differs": {
+        "py_velocity_readback_test.py": {
+          "lines_run1": 1,
+          "lines_run2": 2,
+          "differing_lines": 2,
+          "first": [
+            {
+              "run1": "",
+              "run2": "PASS: cpu velocity injection/readback and warm-start reset semantics"
+            }
+          ]
+        }
+      }
+    },
+    "B": {
+      "compared": 44,
+      "skipped_timeout": [
+        "py_central_load_spin_test.py",
+        "py_open_shell_contact_test.py"
+      ],
+      "exit_differs": [
+        {
+          "test": "py_velocity_readback_test.py",
+          "run1": 1,
+          "run2": 0
+        }
+      ],
+      "stdout_same_raw": 36,
+      "stdout_same_normalized": 43,
+      "stdout_differs": {
+        "py_velocity_readback_test.py": {
+          "lines_run1": 1,
+          "lines_run2": 2,
+          "differing_lines": 2,
+          "first": [
+            {
+              "run1": "",
+              "run2": "PASS: cpu velocity injection/readback and warm-start reset semantics"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

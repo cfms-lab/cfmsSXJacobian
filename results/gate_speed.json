@@ -1,0 +1,10 @@
+{
+  "samples": 1000,
+  "S1a_mathematica": {"hinges": 200, "C_abs": 4.441e-16, "grad_rel": 5.455e-16, "hess_rel": 9.091e-16},
+  "S1b_finite_difference": {"grad_rel_max": 5.567e-10, "hess_rel_max": 4.288e-10},
+  "S1c_vs_flat": {"C_abs_max": 8.882e-16, "grad_rel_max": 8.433e-16, "hess_rel_max": 1.743e-14, "hess_rel_median": 8.512e-16},
+  "compact": {"mma_C_abs": 4.441e-16, "mma_grad_rel": 6.716e-16, "mma_hess_rel": 2.460e-15, "vs_flat_C_abs_max": 8.882e-16, "vs_flat_grad_rel_max": 8.473e-16, "vs_flat_hess_rel_max": 1.785e-14, "fd_grad_rel_max": 4.619e-10, "fd_hess_rel_max": 4.123e-10},
+  "S2_time": {"hinges": 118405, "staged_over_frozen": 1.740, "flat_over_staged": 4.772},
+  "ns_per_hinge": {"eval_flat": 1767.1, "eval_frozen": 212.9, "eval_staged": 370.3, "compact_staged": 146.4, "compact_flat": 302.1, "staged_assemble": 695.3, "frozen_assemble": 583.4, "flat_assemble": 2077.3},
+  "gates_failed": 0
+}

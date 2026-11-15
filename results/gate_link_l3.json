@@ -1,0 +1,420 @@
+{
+  "engine_dir": "D:/__CFMS_Projects/cfmsDrape_dev_base378d20c",
+  "link_dir": "D:/__CFMS_Projects/cfmsDrape_dev_sxjacobian-link",
+  "base": "378d20c",
+  "build_info_main": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "378d20c",
+    "dirty": false,
+    "build_utc": "2026-11-13T12:16:41Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "f5466b2bf8fc23056ec18785eaec19c2e36363ca4f9cfdc953947ccf05f1213f",
+    "capabilities": {
+      "schema": 1,
+      "absent": [],
+      "no_op": []
+    }
+  },
+  "build_info_branch": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+      "schema": 1,
+      "absent": [],
+      "no_op": []
+    }
+  },
+  "branch": {
+    "head": "441b685",
+    "descends_from_base": true,
+    "changed_files": [
+      "CLAUDE.md",
+      "drape/CMakeLists.txt",
+      "drape/scripts/py_membrane_nonlinear_test.py",
+      "drape/src/sde_core/SDECore.cpp",
+      "drape/src/sde_core/SDECore.h",
+      "drape/src/sde_core/SDECore_SXJBend.cpp",
+      "drape/src/sde_core/SDECore_SXJMembrane.cpp",
+      "drape/src/sde_core/SDESparseMatrix.cpp",
+      "drape/src/sde_core/SDESparseMatrix.h",
+      "drape/src/sde_core/sxgen/BaraffStretch_Engine.h",
+      "drape/src/sde_core/sxgen/BridsonBend_Engine.h",
+      "drape/src/sde_core/sxgen/ProvotShear_Engine.h"
+    ],
+    "outside_allowed": [],
+    "uncommitted": false,
+    "diff_sha256": "1396adb9c6fba2fd6cffcf37684b1282566982aee33434d1b73721a388d42bf3"
+  },
+  "header_sha256": {
+    "BridsonBend_Engine.h": {
+      "generated": "3bc0dcd8de2535c93d95ce796d982656b1c2d97003504647e07396319a483187",
+      "engine_copy": "3bc0dcd8de2535c93d95ce796d982656b1c2d97003504647e07396319a483187"
+    },
+    "BaraffStretch_Engine.h": {
+      "generated": "9888ca13368198721255bf71511405d165afe9f4dada103fa5bcbee13729f1a6",
+      "engine_copy": "9888ca13368198721255bf71511405d165afe9f4dada103fa5bcbee13729f1a6"
+    },
+    "ProvotShear_Engine.h": {
+      "generated": "5d96cfbceb6e50203431a1c18a0b97bb6ce8d0e15e98809d162c4d3f4f1e6bea",
+      "engine_copy": "5d96cfbceb6e50203431a1c18a0b97bb6ce8d0e15e98809d162c4d3f4f1e6bea"
+    }
+  },
+  "dll_sha256": {
+    "main": "f5466b2bf8fc23056ec18785eaec19c2e36363ca4f9cfdc953947ccf05f1213f",
+    "branch": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc"
+  },
+  "scene": {
+    "nodes": 25,
+    "elements": 32,
+    "velocity_seed": 20261116,
+    "velocity_max": 20.0,
+    "hang_steps": 40,
+    "hang_from_probe_pins": [
+      20,
+      24
+    ],
+    "hang_from_probe_gravity_minus_y": 980.0,
+    "materials": {
+      "stretch": {
+        "E": 100000.0,
+        "SE": 0.0,
+        "BE_U": 0.0
+      },
+      "shear": {
+        "E": 0.0,
+        "SE": 100000.0,
+        "BE_U": 0.0
+      },
+      "bend": {
+        "E": 0.0,
+        "SE": 0.0,
+        "BE_U": 1.0
+      },
+      "all": {
+        "E": 100000.0,
+        "SE": 100000.0,
+        "BE_U": 1.0
+      }
+    }
+  },
+  "limit": 1e-12,
+  "limit_step": 1e-09,
+  "min_branch": 5,
+  "L3_0": {
+    "main_ok": true,
+    "branch_ok": true,
+    "engine_main_clean": true,
+    "headers_same": true,
+    "e_velocity_effect": {
+      "stretch": {
+        "f": 181.96988150698922,
+        "P": 18.057768713925874
+      },
+      "shear": {
+        "f": 69.27737390259657,
+        "P": 7.699452703183019
+      },
+      "bend": {
+        "f": 2700738.0138547076,
+        "P": 235004.9860896946
+      },
+      "all": {
+        "f": 53.10702830600583,
+        "P": 5.914143504477594
+      }
+    },
+    "e_ok": true,
+    "f_l1_ok": true,
+    "f_l2_ok": true,
+    "f_l2_branch_commit": "441b685"
+  },
+  "L3_1": {
+    "off_stretch": {
+      "f_J_P": true,
+      "velocity_probe_and_step": true
+    },
+    "off_shear": {
+      "f_J_P": true,
+      "velocity_probe_and_step": true
+    },
+    "off_bend": {
+      "f_J_P": true,
+      "velocity_probe_and_step": true
+    },
+    "off_all": {
+      "f_J_P": true,
+      "velocity_probe_and_step": true
+    },
+    "off_hang": {
+      "l2_hang": true,
+      "hang_from_probe": true
+    }
+  },
+  "L3_2": {
+    "stretch_v0": 4.750500313162739e-16,
+    "stretch_vel": 2.685052609622585e-16,
+    "shear_v0": 1.4468424497236888e-16,
+    "shear_vel": 2.7124041681630823e-16,
+    "all_v0": 2.2182568017038199e-16,
+    "all_vel": 2.724554439668195e-16
+  },
+  "L3_3": {
+    "stretch_v0": {
+      "J": 3.9913641354425686e-16,
+      "P": 3.325925670357965e-16,
+      "J_same_bits": false
+    },
+    "stretch_vel": {
+      "J": 2.2768276868622836e-16,
+      "P": 2.2088835153541513e-16,
+      "J_same_bits": false
+    },
+    "shear_v0": {
+      "J": 3.7899002333566093e-16,
+      "P": 2.836209478469516e-16,
+      "J_same_bits": false
+    },
+    "shear_vel": {
+      "J": 3.402074704774463e-16,
+      "P": 2.2249175768057437e-16,
+      "J_same_bits": false
+    },
+    "all_v0": {
+      "J": 3.4997002228414107e-16,
+      "P": 4.3571278403967236e-16,
+      "J_same_bits": false
+    },
+    "all_vel": {
+      "J": 2.2520702741940786e-16,
+      "P": 2.964779292801746e-16,
+      "J_same_bits": false
+    }
+  },
+  "L3_4": {
+    "stretch": {
+      "dv_over_v": 1.9678668384845456e-14,
+      "vmax": 11.012713369047024,
+      "on": {
+        "warmup_motion": 0.0,
+        "start_x_err": 0.0,
+        "start_v_err": 0.0,
+        "iterations": 20,
+        "exit_reason": "iteration_cap",
+        "iteration_cap": 20
+      },
+      "off": {
+        "warmup_motion": 0.0,
+        "start_x_err": 0.0,
+        "start_v_err": 0.0,
+        "iterations": 20,
+        "exit_reason": "iteration_cap",
+        "iteration_cap": 20
+      },
+      "twenty_iterations_from_probe": true
+    },
+    "shear": {
+      "dv_over_v": 2.2918973363321468e-14,
+      "vmax": 16.27624982849544,
+      "on": {
+        "warmup_motion": 0.0,
+        "start_x_err": 0.0,
+        "start_v_err": 0.0,
+        "iterations": 20,
+        "exit_reason": "iteration_cap",
+        "iteration_cap": 20
+      },
+      "off": {
+        "warmup_motion": 0.0,
+        "start_x_err": 0.0,
+        "start_v_err": 0.0,
+        "iterations": 20,
+        "exit_reason": "iteration_cap",
+        "iteration_cap": 20
+      },
+      "twenty_iterations_from_probe": true
+    },
+    "all": {
+      "dv_over_v": 4.774936756080358e-14,
+      "vmax": 11.495320072579407,
+      "on": {
+        "warmup_motion": 0.0,
+        "start_x_err": 0.0,
+        "start_v_err": 0.0,
+        "iterations": 20,
+        "exit_reason": "iteration_cap",
+        "iteration_cap": 20
+      },
+      "off": {
+        "warmup_motion": 0.0,
+        "start_x_err": 0.0,
+        "start_v_err": 0.0,
+        "iterations": 20,
+        "exit_reason": "iteration_cap",
+        "iteration_cap": 20
+      },
+      "twenty_iterations_from_probe": true
+    }
+  },
+  "L3_5": {
+    "stretch": {
+      "C>0": 38,
+      "C<=0": 26,
+      "Cdot>0": 34,
+      "Cdot<=0": 30
+    },
+    "shear": {
+      "C>0": 38,
+      "C<=0": 26,
+      "Cdot>0": 37,
+      "Cdot<=0": 27
+    }
+  },
+  "L3_6": {
+    "stretch_v0": {
+      "same_process": true,
+      "threads_1_vs_default": true
+    },
+    "stretch_vel": {
+      "same_process": true,
+      "threads_1_vs_default": true
+    },
+    "shear_v0": {
+      "same_process": true,
+      "threads_1_vs_default": true
+    },
+    "shear_vel": {
+      "same_process": true,
+      "threads_1_vs_default": true
+    },
+    "all_v0": {
+      "same_process": true,
+      "threads_1_vs_default": true
+    },
+    "all_vel": {
+      "same_process": true,
+      "threads_1_vs_default": true
+    }
+  },
+  "L3_7": {
+    "all_v0": {
+      "f": 2.2182568017038199e-16,
+      "J": 3.499700510855471e-16
+    },
+    "all_vel": {
+      "f": 2.724554439668195e-16,
+      "J": 2.252074794538292e-16
+    }
+  },
+  "L3_8": {
+    "arrays": 51,
+    "differ": []
+  },
+  "report": {
+    "membrane_report": {
+      "unset": {
+        "tension_elements": 26368,
+        "tension_fallback": 0,
+        "shear_elements": 26368,
+        "shear_fallback": 0
+      },
+      "off": {
+        "tension_elements": 0,
+        "tension_fallback": 0,
+        "shear_elements": 0,
+        "shear_fallback": 0
+      },
+      "on": {
+        "tension_elements": 26368,
+        "tension_fallback": 0,
+        "shear_elements": 26368,
+        "shear_fallback": 0
+      },
+      "on_t1": {
+        "tension_elements": 26368,
+        "tension_fallback": 0,
+        "shear_elements": 26368,
+        "shear_fallback": 0
+      },
+      "gn_off": {
+        "tension_elements": 0,
+        "tension_fallback": 0,
+        "shear_elements": 0,
+        "shear_fallback": 0
+      },
+      "gn_on": {
+        "tension_elements": 26368,
+        "tension_fallback": 0,
+        "shear_elements": 26368,
+        "shear_fallback": 0
+      }
+    },
+    "rest_frame_alpha_vs_spec_a_max_rel": 0.0,
+    "threads": {
+      "main": 32,
+      "unset": 32,
+      "off": 32,
+      "on": 32,
+      "on_t1": 1,
+      "gn_off": 32,
+      "gn_on": 32
+    },
+    "on_vs_off_bits_differ": {
+      "stretch_v0": true,
+      "stretch_vel": true,
+      "shear_v0": true,
+      "shear_vel": true,
+      "all_v0": true,
+      "all_vel": true
+    },
+    "hang_error": {
+      "off": {
+        "l2": "",
+        "hangx": "",
+        "hangx20": ""
+      },
+      "on": {
+        "l2": "",
+        "hangx": "",
+        "hangx20": ""
+      }
+    },
+    "hang": {
+      "hang": {
+        "steps_on": 40,
+        "steps_off": 40,
+        "finite": true,
+        "end_max_diff_cm": 3.552713678800501e-15,
+        "motion_cm": 0.005979663260029966
+      },
+      "hangx": {
+        "steps_on": 40,
+        "steps_off": 40,
+        "finite": true,
+        "end_max_diff_cm": 1.4732503619829806e-07,
+        "motion_cm": 0.8880383478867486
+      },
+      "hangx20": {
+        "steps_on": 40,
+        "steps_off": 40,
+        "finite": true,
+        "end_max_diff_cm": 8.440470544712753e-14,
+        "motion_cm": 0.88300463164418
+      }
+    }
+  },
+  "gates_failed": 0
+}

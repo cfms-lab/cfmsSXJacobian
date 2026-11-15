@@ -1,0 +1,22 @@
+{
+  "engine_commit": "378d20c",
+  "samples": 1000,
+  "B1_mathematica": {"hinges": 200, "eval": {"C_abs_over_sqrt_w": 5.038e-16, "grad_rel": 7.605e-16, "hess_rel": 3.378e-15, "grad_rel_median": 2.667e-16, "hess_rel_median": 6.699e-16}, "staged": {"C_abs_over_sqrt_w": 5.038e-16, "grad_rel": 9.533e-16, "hess_rel": 2.449e-15, "grad_rel_median": 2.244e-16, "hess_rel_median": 5.233e-16}},
+  "B2_finite_difference": {"eval": {"grad_rel_max": 7.151e-10, "hess_rel_max": 5.357e-10}, "staged": {"grad_rel_max": 7.151e-10, "hess_rel_max": 4.090e-10}},
+  "B3_staged_vs_flat": {"C_abs_over_sqrt_w": 5.147e-16, "grad_rel": 9.160e-16, "hess_rel": 3.082e-15},
+  "B4_implicit": {"A_rel": 1.911e-15, "b_rel": 7.836e-14, "f_rel": 4.603e-14, "A_rel_median": 4.578e-16, "b_rel_median": 5.217e-16, "f_rel_median": 3.715e-16},
+  "report_sum_grad_rel_max": 8.078e-16,
+  "B5_theta": {"hinges": 200, "abs_max": 4.441e-16, "skipped": 0},
+  "B6_class": "exact",
+  "B6_force": {"rel_scale_median": 2.189e-16, "rel_scale_max": 1.143e-15, "rel_plain_median": 3.774e-16, "rel_plain_sample0": 1.914e-02, "rel_plain_max_others": 9.299e-15, "momentum_max": 5.902e-16},
+  "B7_class": "neither",
+  "B7_jacobian": {"vs_K_median": 1.153e+00, "vs_K_max": 2.409e+00, "flat_hinges": 56, "flat_vs_K_median": 7.536e-01, "flat_vs_K_max": 1.479e+00, "vs_GN_median": 1.250e+00, "vs_GN_max": 6.620e+00, "vs_prediction_max": 2.129e-15, "u_sign_plus": 0, "u_vs_grad_theta_max": 1.075e-15,
+    "budget_median": {"hess_theta_term": 9.692e-01, "factor_half_cos": 7.854e-01, "cross_terms": 6.879e-01, "ij_block": 1.539e-01},
+    "budget_max": {"hess_theta_term": 1.655e+00, "factor_half_cos": 2.324e+00, "cross_terms": 2.251e+00, "ij_block": 9.975e-01},
+    "stiffness_ratio_along_grad_theta": {"median": 1.4653, "flat_median": 1.1490, "flat_min": 0.9628, "flat_max": 1.6849, "sample0": 1.0635},
+    "engine_force_fd_jacobian": {"vs_engine_J_max": 2.967e+00, "vs_K_max": 1.028e+00, "vs_K_plus_w_term_max": 4.518e-10, "w_term_median": 4.689e-01, "w_term_max": 1.028e+00}},
+  "B8_time": {"hinges": 118405, "pairs": 237606, "gen_over_engine": 3.192, "engine_bytes": 971096717, "small_hinges": 10325, "small_gen_over_engine": 3.731},
+  "ns_per_hinge": {"engine_oh": 108.6, "engine_oh_serial": 125.2, "gen_implicit_store": 346.8, "gen_staged_store": 174.2, "gen_implicit_scatter": 343.9, "small_engine_oh": 94.4, "small_gen_implicit_store": 352.1},
+  "spec_gates_failed": 0,
+  "gates_failed": 0
+}

@@ -1,0 +1,467 @@
+{
+ "data": "data/garments",
+ "garments": [
+  {
+   "garment": "kofoti_024_classic_dress_shirt",
+   "source_file": "MV2 Classic Dress Shirt.zprj",
+   "clo_version": "2025.0.128",
+   "pattern": "10",
+   "pattern_index": 14,
+   "size_cm": [
+    44.91602783203125,
+    6.9705810546875
+   ],
+   "nodes": 176,
+   "triangles": 292,
+   "pinned": 23,
+   "collar_material": {
+    "E": 1000000.0,
+    "SE": 50000.0,
+    "BE": [
+     10.0,
+     100.0,
+     1000.0,
+     10000.0
+    ]
+   },
+   "results": {
+    "collar": {
+     "nodes": 176,
+     "triangles": 292,
+     "hinges": 409,
+     "boundary_edges": 58,
+     "boundary_nodes": 58,
+     "pinned_nodes": 23,
+     "E": 1000000.0,
+     "SE": 50000,
+     "theta_max_deg": 126.642236,
+     "theta_rms_deg": 28.848407,
+     "hinges_over_10deg": 217,
+     "hinges_over_30deg": 42,
+     "stretch_strain_max": 0.08851978,
+     "stretch_strain_rms": 0.02215696,
+     "hinge_identity_err": 3.688e-16,
+     "cases": [
+      {
+       "BE": 10,
+       "solved": true,
+       "f_exact_bend_max": 6508.057874,
+       "df_max": 23.32935656,
+       "df_boundary_max": 8.345713421,
+       "df_interior_max": 23.32935656,
+       "df_rms": 5.178174638,
+       "u_max_cm": 0.0001229924187,
+       "u_max_node": 134,
+       "u_max_on_boundary": false,
+       "u_boundary_max_cm": 0.000119414269,
+       "u_interior_max_cm": 0.0001229924187,
+       "u_rms_cm": 7.515665172e-05,
+       "edge_length_change_max": 2.568001722e-05,
+       "u_corrected_max_cm": 4.215e-18
+      },
+      {
+       "BE": 100,
+       "solved": true,
+       "f_exact_bend_max": 65080.57874,
+       "df_max": 233.2935656,
+       "df_boundary_max": 83.45713421,
+       "df_interior_max": 233.2935656,
+       "df_rms": 51.78174638,
+       "u_max_cm": 0.00115255614,
+       "u_max_node": 134,
+       "u_max_on_boundary": false,
+       "u_boundary_max_cm": 0.001115900814,
+       "u_interior_max_cm": 0.00115255614,
+       "u_rms_cm": 0.0007077018366,
+       "edge_length_change_max": 0.0002508905708,
+       "u_corrected_max_cm": 2.122e-17
+      },
+      {
+       "BE": 1000,
+       "solved": true,
+       "f_exact_bend_max": 650805.7874,
+       "df_max": 2332.935656,
+       "df_boundary_max": 834.5713421,
+       "df_interior_max": 2332.935656,
+       "df_rms": 517.8174638,
+       "u_max_cm": 0.009799285822,
+       "u_max_node": 58,
+       "u_max_on_boundary": false,
+       "u_boundary_max_cm": 0.008599831084,
+       "u_interior_max_cm": 0.009799285822,
+       "u_rms_cm": 0.005836787293,
+       "edge_length_change_max": 0.002189848806,
+       "u_corrected_max_cm": 1.494e-16
+      },
+      {
+       "BE": 10000,
+       "solved": true,
+       "f_exact_bend_max": 6508057.874,
+       "df_max": 23329.35656,
+       "df_boundary_max": 8345.713421,
+       "df_interior_max": 23329.35656,
+       "df_rms": 5178.174638,
+       "u_max_cm": 0.058396381,
+       "u_max_node": 58,
+       "u_max_on_boundary": false,
+       "u_boundary_max_cm": 0.05817972503,
+       "u_interior_max_cm": 0.058396381,
+       "u_rms_cm": 0.03616368444,
+       "edge_length_change_max": 0.01683675509,
+       "u_corrected_max_cm": 8.41e-16
+      }
+     ]
+    },
+    "clo": {
+     "nodes": 176,
+     "triangles": 292,
+     "hinges": 409,
+     "boundary_edges": 58,
+     "boundary_nodes": 58,
+     "pinned_nodes": 23,
+     "E": 100000,
+     "SE": 32500,
+     "theta_max_deg": 126.642236,
+     "theta_rms_deg": 28.848407,
+     "hinges_over_10deg": 217,
+     "hinges_over_30deg": 42,
+     "stretch_strain_max": 0.08851978,
+     "stretch_strain_rms": 0.02215696,
+     "hinge_identity_err": 3.688e-16,
+     "cases": [
+      {
+       "BE": 7.00282,
+       "solved": true,
+       "f_exact_bend_max": 4557.474081,
+       "df_max": 16.33712236,
+       "df_boundary_max": 5.844350701,
+       "df_interior_max": 16.33712236,
+       "df_rms": 3.626181137,
+       "u_max_cm": 0.0003590617912,
+       "u_max_node": 62,
+       "u_max_on_boundary": false,
+       "u_boundary_max_cm": 0.0003331871037,
+       "u_interior_max_cm": 0.0003590617912,
+       "u_rms_cm": 0.0001993822013,
+       "edge_length_change_max": 7.670271054e-05,
+       "u_corrected_max_cm": 9.455e-18
+      }
+     ]
+    }
+   },
+   "clo_converted": {
+    "E": 100000.0,
+    "SE": 32500.0,
+    "BE": 7.0028173828125
+   }
+  },
+  {
+   "garment": "kofoti_244_wide_fit_open_collar_shirt",
+   "source_file": "MV2 Wide Fit Open Collar Shirt.zprj",
+   "clo_version": "2025.0.432",
+   "pattern": "6",
+   "pattern_index": 10,
+   "size_cm": [
+    50.44677734375,
+    7.71707763671875
+   ],
+   "nodes": 2768,
+   "triangles": 5306,
+   "pinned": 101,
+   "collar_material": {
+    "E": 1000000.0,
+    "SE": 50000.0,
+    "BE": [
+     10.0,
+     100.0,
+     1000.0,
+     10000.0
+    ]
+   },
+   "results": {
+    "collar": {
+     "nodes": 2768,
+     "triangles": 5306,
+     "hinges": 7845,
+     "boundary_edges": 228,
+     "boundary_nodes": 228,
+     "pinned_nodes": 101,
+     "E": 1000000.0,
+     "SE": 50000,
+     "theta_max_deg": 59.83438,
+     "theta_rms_deg": 7.722543,
+     "hinges_over_10deg": 345,
+     "hinges_over_30deg": 192,
+     "stretch_strain_max": 0.1341727,
+     "stretch_strain_rms": 0.02541764,
+     "hinge_identity_err": 5.732e-16,
+     "cases": [
+      {
+       "BE": 10,
+       "solved": true,
+       "f_exact_bend_max": 205.6635407,
+       "df_max": 25.22050661,
+       "df_boundary_max": 25.22050661,
+       "df_interior_max": 8.703425076,
+       "df_rms": 1.150697828,
+       "u_max_cm": 0.0005083347598,
+       "u_max_node": 426,
+       "u_max_on_boundary": false,
+       "u_boundary_max_cm": 0.0003058288329,
+       "u_interior_max_cm": 0.0005083347598,
+       "u_rms_cm": 0.000218328083,
+       "edge_length_change_max": 6.656120831e-05,
+       "u_corrected_max_cm": 6.309e-18
+      },
+      {
+       "BE": 100,
+       "solved": true,
+       "f_exact_bend_max": 2056.635407,
+       "df_max": 252.2050661,
+       "df_boundary_max": 252.2050661,
+       "df_interior_max": 87.03425076,
+       "df_rms": 11.50697828,
+       "u_max_cm": 0.004785432908,
+       "u_max_node": 867,
+       "u_max_on_boundary": false,
+       "u_boundary_max_cm": 0.003016686657,
+       "u_interior_max_cm": 0.004785432908,
+       "u_rms_cm": 0.002158100498,
+       "edge_length_change_max": 0.0006256769912,
+       "u_corrected_max_cm": 4.797e-17
+      },
+      {
+       "BE": 1000,
+       "solved": true,
+       "f_exact_bend_max": 20566.35407,
+       "df_max": 2522.050661,
+       "df_boundary_max": 2522.050661,
+       "df_interior_max": 870.3425076,
+       "df_rms": 115.0697828,
+       "u_max_cm": 0.04412155172,
+       "u_max_node": 509,
+       "u_max_on_boundary": false,
+       "u_boundary_max_cm": 0.02763565506,
+       "u_interior_max_cm": 0.04412155172,
+       "u_rms_cm": 0.02023753845,
+       "edge_length_change_max": 0.005458597941,
+       "u_corrected_max_cm": 3.204e-16
+      },
+      {
+       "BE": 10000,
+       "solved": true,
+       "f_exact_bend_max": 205663.5407,
+       "df_max": 25220.50661,
+       "df_boundary_max": 25220.50661,
+       "df_interior_max": 8703.425076,
+       "df_rms": 1150.697828,
+       "u_max_cm": 0.381513151,
+       "u_max_node": 867,
+       "u_max_on_boundary": false,
+       "u_boundary_max_cm": 0.2392171712,
+       "u_interior_max_cm": 0.381513151,
+       "u_rms_cm": 0.1840112821,
+       "edge_length_change_max": 0.04627834475,
+       "u_corrected_max_cm": 2.291e-15
+      }
+     ]
+    },
+    "clo": {
+     "nodes": 2768,
+     "triangles": 5306,
+     "hinges": 7845,
+     "boundary_edges": 228,
+     "boundary_nodes": 228,
+     "pinned_nodes": 101,
+     "E": 130000,
+     "SE": 65000,
+     "theta_max_deg": 59.83438,
+     "theta_rms_deg": 7.722543,
+     "hinges_over_10deg": 345,
+     "hinges_over_30deg": 192,
+     "stretch_strain_max": 0.1341727,
+     "stretch_strain_rms": 0.02541764,
+     "hinge_identity_err": 5.732e-16,
+     "cases": [
+      {
+       "BE": 7.00282,
+       "solved": true,
+       "f_exact_bend_max": 144.0224218,
+       "df_max": 17.66146021,
+       "df_boundary_max": 17.66146021,
+       "df_interior_max": 6.094849641,
+       "df_rms": 0.8058126755,
+       "u_max_cm": 0.001256502756,
+       "u_max_node": 340,
+       "u_max_on_boundary": false,
+       "u_boundary_max_cm": 0.0005090109572,
+       "u_interior_max_cm": 0.001256502756,
+       "u_rms_cm": 0.0004087317111,
+       "edge_length_change_max": 0.0001422686324,
+       "u_corrected_max_cm": 1.027e-17
+      }
+     ]
+    }
+   },
+   "clo_converted": {
+    "E": 130000.0,
+    "SE": 65000.0,
+    "BE": 7.0028173828125
+   }
+  },
+  {
+   "garment": "kofoti_370_button_down_shirt",
+   "source_file": "MV2_button-down shirt.zprj",
+   "clo_version": "2024.2.120",
+   "pattern": "8",
+   "pattern_index": 11,
+   "size_cm": [
+    47.64063720703125,
+    7.4481445312500005
+   ],
+   "nodes": 273,
+   "triangles": 422,
+   "pinned": 85,
+   "collar_material": {
+    "E": 1000000.0,
+    "SE": 50000.0,
+    "BE": [
+     10.0,
+     100.0,
+     1000.0,
+     10000.0
+    ]
+   },
+   "results": {
+    "collar": {
+     "nodes": 273,
+     "triangles": 422,
+     "hinges": 572,
+     "boundary_edges": 122,
+     "boundary_nodes": 122,
+     "pinned_nodes": 85,
+     "E": 1000000.0,
+     "SE": 50000,
+     "theta_max_deg": 131.654146,
+     "theta_rms_deg": 21.555756,
+     "hinges_over_10deg": 264,
+     "hinges_over_30deg": 34,
+     "stretch_strain_max": 0.06214271,
+     "stretch_strain_rms": 0.02013547,
+     "hinge_identity_err": 3.864e-16,
+     "cases": [
+      {
+       "BE": 10,
+       "solved": true,
+       "f_exact_bend_max": 338.1973942,
+       "df_max": 16.03495909,
+       "df_boundary_max": 16.03495909,
+       "df_interior_max": 14.45425349,
+       "df_rms": 3.484003597,
+       "u_max_cm": 0.0001451843931,
+       "u_max_node": 192,
+       "u_max_on_boundary": false,
+       "u_boundary_max_cm": 0.0001331641209,
+       "u_interior_max_cm": 0.0001451843931,
+       "u_rms_cm": 6.344399096e-05,
+       "edge_length_change_max": 4.602912017e-05,
+       "u_corrected_max_cm": 3.635e-18
+      },
+      {
+       "BE": 100,
+       "solved": true,
+       "f_exact_bend_max": 3381.973942,
+       "df_max": 160.3495909,
+       "df_boundary_max": 160.3495909,
+       "df_interior_max": 144.5425349,
+       "df_rms": 34.84003597,
+       "u_max_cm": 0.001423535015,
+       "u_max_node": 191,
+       "u_max_on_boundary": false,
+       "u_boundary_max_cm": 0.001264108078,
+       "u_interior_max_cm": 0.001423535015,
+       "u_rms_cm": 0.0006138416873,
+       "edge_length_change_max": 0.0004299499072,
+       "u_corrected_max_cm": 3.129e-17
+      },
+      {
+       "BE": 1000,
+       "solved": true,
+       "f_exact_bend_max": 33819.73942,
+       "df_max": 1603.495909,
+       "df_boundary_max": 1603.495909,
+       "df_interior_max": 1445.425349,
+       "df_rms": 348.4003597,
+       "u_max_cm": 0.01233077918,
+       "u_max_node": 191,
+       "u_max_on_boundary": false,
+       "u_boundary_max_cm": 0.01205015016,
+       "u_interior_max_cm": 0.01233077918,
+       "u_rms_cm": 0.005845270418,
+       "edge_length_change_max": 0.004043859271,
+       "u_corrected_max_cm": 2.073e-16
+      },
+      {
+       "BE": 10000,
+       "solved": true,
+       "f_exact_bend_max": 338197.3942,
+       "df_max": 16034.95909,
+       "df_boundary_max": 16034.95909,
+       "df_interior_max": 14454.25349,
+       "df_rms": 3484.003597,
+       "u_max_cm": 0.1190706606,
+       "u_max_node": 73,
+       "u_max_on_boundary": true,
+       "u_boundary_max_cm": 0.1190706606,
+       "u_interior_max_cm": 0.1070935188,
+       "u_rms_cm": 0.04398949126,
+       "edge_length_change_max": 0.03610266908,
+       "u_corrected_max_cm": 1.248e-15
+      }
+     ]
+    },
+    "clo": {
+     "nodes": 273,
+     "triangles": 422,
+     "hinges": 572,
+     "boundary_edges": 122,
+     "boundary_nodes": 122,
+     "pinned_nodes": 85,
+     "E": 130000,
+     "SE": 65000,
+     "theta_max_deg": 131.654146,
+     "theta_rms_deg": 21.555756,
+     "hinges_over_10deg": 264,
+     "hinges_over_30deg": 34,
+     "stretch_strain_max": 0.06214271,
+     "stretch_strain_rms": 0.02013547,
+     "hinge_identity_err": 3.864e-16,
+     "cases": [
+      {
+       "BE": 3.5,
+       "solved": true,
+       "f_exact_bend_max": 118.369088,
+       "df_max": 5.61223568,
+       "df_boundary_max": 5.61223568,
+       "df_interior_max": 5.05898872,
+       "df_rms": 1.219401259,
+       "u_max_cm": 0.0002133134995,
+       "u_max_node": 181,
+       "u_max_on_boundary": false,
+       "u_boundary_max_cm": 0.0002053259628,
+       "u_interior_max_cm": 0.0002133134995,
+       "u_rms_cm": 9.367437241e-05,
+       "edge_length_change_max": 3.556960751e-05,
+       "u_corrected_max_cm": 6.524e-18
+      }
+     ]
+    }
+   },
+   "clo_converted": {
+    "E": 130000.0,
+    "SE": 65000.0,
+    "BE": 3.5
+   }
+  }
+ ]
+}

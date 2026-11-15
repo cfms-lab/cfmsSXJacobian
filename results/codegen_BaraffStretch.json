@@ -1,0 +1,92 @@
+{
+  "spec": "baraff_stretch.py",
+  "spec_sha256": "1ab1d5d6a35f66e4",
+  "sympy": "1.14.0",
+  "variants": {
+    "exact": {
+      "cse_seconds": 0.03,
+      "temporaries": 149,
+      "ops": 396,
+      "diff_seconds": 0.19,
+      "body_sha256": "4b209e1f1045c04bd3fee1ad6fe0c678fe45dd2e559ac0a7fe75d630822b248a"
+    },
+    "frozen": {
+      "cse_seconds": 0.01,
+      "temporaries": 149,
+      "ops": 396,
+      "diff_seconds": 0.02,
+      "body_sha256": "96b66c0107e92bd47c8c4054c4c2ff141f8c8d0088fce444f852453d84a1096a"
+    },
+    "staged": {
+      "cse_seconds": 0.01,
+      "temporaries": 137,
+      "ops": 315,
+      "stages": 6,
+      "diff_seconds": 0.03,
+      "body_sha256": "724037d06502e6f1fa36c6b9f3d192466a15fa55087b4d9bb3c8b7a1214dd753"
+    },
+    "implicit": {
+      "cse_seconds": 0.0,
+      "temporaries": 233,
+      "ops": 671,
+      "stages": 6,
+      "diff_seconds": 0.03,
+      "body_sha256": "2620b675ee6e2746ed1a4d0dc0798a41f51fa902e15dfcef11df74324d1207c6"
+    },
+    "implicit_gn": {
+      "cse_seconds": 0.0,
+      "temporaries": 105,
+      "ops": 388,
+      "stages": 6,
+      "body_sha256": "7b23bd49126d645d1c95304da7e918c4a2ef739a70f13a35bcdb94e5f7ba1380"
+    },
+    "implicit_tension": {
+      "cse_seconds": 0.0,
+      "temporaries": 235,
+      "ops": 674,
+      "stages": 6,
+      "body_sha256": "b4aad762fae93b6af31493f71477d6d2a4b222573baf1200549b8714da7828cd"
+    },
+    "engine": {
+      "cse_seconds": 0.0,
+      "temporaries": 192,
+      "ops": 539,
+      "stages": 6,
+      "body_sha256": "f8d14be46e5b9338436beb19e1e7517fee69de7c538834dd7560914e25ae832c"
+    },
+    "engine_gn": {
+      "cse_seconds": 0.0,
+      "temporaries": 112,
+      "ops": 333,
+      "stages": 6,
+      "body_sha256": "e59d239bb734663b46c9beb06ca52f07d897fd1c1725e87c06d71ac5c4369265"
+    },
+    "engine_tension": {
+      "cse_seconds": 0.0,
+      "temporaries": 196,
+      "ops": 543,
+      "stages": 6,
+      "body_sha256": "7b8ce8396919feb6d3823018ca80820fe8ce9dde00dfd06a17f4c636577c8cf2"
+    },
+    "engine_gn_undamped": {
+      "cse_seconds": 0.0,
+      "temporaries": 109,
+      "ops": 267,
+      "stages": 6,
+      "body_sha256": "823748844a1be1e24a0599579924bcb782ad94207ed341b37474714d5aff0537"
+    },
+    "engine_tension_rate": {
+      "cse_seconds": 0.0,
+      "temporaries": 198,
+      "ops": 549,
+      "stages": 6,
+      "body_sha256": "8da09e0a622152fed8277200d6e557ecdfea11812305ca577607f28f777482f7"
+    }
+  },
+  "header": "generated/BaraffStretch.h",
+  "header_bytes": 59630,
+  "header_lines": 1749,
+  "engine_header": "generated/BaraffStretch_Engine.h",
+  "engine_header_bytes": 48422,
+  "engine_header_lines": 1316
+}

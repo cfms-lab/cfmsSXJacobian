@@ -1,0 +1,6 @@
+{
+  "ms_per_sim_second": {"EE_bridsonG_stiff": 374.719, "TE_bridsonG_stiff": 375.356, "EE_bridsonG": 59.322, "TE_bridsonG": 352.173},
+  "asm_ms_per_sim_second": {"EE_bridsonG_stiff": 22.949, "TE_bridsonG_stiff": 22.711, "EE_bridsonG": 23.337, "TE_bridsonG": 22.954},
+  "pcg_iters": {"EE_bridsonG_stiff": 58920.000, "TE_bridsonG_stiff": 59101.000, "EE_bridsonG": 5860.000, "TE_bridsonG": 55112.000},
+  "usable": {"EE_bridsonG_stiff": 1.000, "TE_bridsonG_stiff": 1.000, "EE_bridsonG": 0.000, "TE_bridsonG": 1.000}
+}

@@ -1,0 +1,13 @@
+{
+  "engine_commit": "378d20c",
+  "samples": 1000,
+  "E2_theta": {"hinges": 200, "abs_max": 4.441e-16, "abs_max_1000_vs_eval": 8.882e-16},
+  "E3_class": "neither",
+  "E3_vs_mathematica": {"grad_rel_median": 1.000e+00, "grad_rel_max": 1.000e+00, "hess_rel_median": 1.000e+00, "hess_rel_max": 1.000e+00},
+  "E3_vs_frozen": {"grad_rel_median": 1.000e+00, "grad_rel_max": 1.000e+00, "hess_rel_median": 1.000e+00, "hess_rel_max": 1.000e+00},
+  "E3_by_branch": {"cos_ge_sin": {"hinges": 86, "grad_rel_median": 1.000e+00, "grad_rel_max": 1.000e+00, "hess_rel_median": 1.000e+00, "hess_rel_max": 1.000e+00}, "sin_gt_cos": {"hinges": 114, "grad_rel_median": 1.000e+00, "grad_rel_max": 1.000e+00, "hess_rel_median": 1.000e+00, "hess_rel_max": 1.000e+00}},
+  "report_1000_vs_eval": {"grad_rel_max": 1.000e+00, "hess_rel_max": 1.000e+00, "engine_hess_asym_rel_max": 1.996e+00, "grad_scale_median_cos_ge_sin": 9.958e-11, "grad_scale_median_sin_gt_cos": 4.167e-08},
+  "E4_time": {"hinges": 118405, "gen_store_over_engine": 0.261, "engine_sbv_bytes": 888629525, "small_hinges": 10325, "small_gen_store_over_engine": 0.319},
+  "ns_per_hinge": {"engine_macri": 1441.7, "gen_staged_store": 376.8, "gen_staged": 391.4, "gen_frozen": 293.0, "compact_staged_store": 150.7, "gen_implicit": 507.4, "small_engine_macri": 1184.8, "small_gen_staged_store": 377.7},
+  "gates_failed": 0
+}

@@ -1,0 +1,20 @@
+{
+  "samples": 1000, "k": 1, "kd": 0.1, "h": 0.01,
+  "V1_mathematica": {"triangles": 200, "eval": {"C_abs_over_sqrt_a": 5.942e-16, "grad_rel": 5.355e-16, "hess_rel": 6.453e-16, "grad_rel_median": 1.937e-16, "hess_rel_median": 2.444e-16}, "staged": {"C_abs_over_sqrt_a": 5.942e-16, "grad_rel": 5.355e-16, "hess_rel": 6.989e-16, "grad_rel_median": 1.895e-16, "hess_rel_median": 2.461e-16}},
+  "V1b_engine_form_force": {"triangles": 200, "abs_over_sqrt_a_grad": 6.354e-16, "median": 1.900e-16},
+  "V2_finite_difference": {"eval": {"grad_rel_max": 2.330e-10, "hess_rel_max": 2.197e-10}, "staged": {"grad_rel_max": 2.330e-10, "hess_rel_max": 2.188e-10}},
+  "V3_staged_vs_flat": {"C_abs_over_sqrt_a": 0.000e+00, "grad_rel": 4.366e-16, "hess_rel": 4.848e-16, "grad_rel_median": 1.190e-16, "hess_rel_median": 1.759e-16},
+  "V4_implicit": {"A_rel": 9.485e-16, "b_rel": 8.762e-15, "f_rel": 1.231e-14, "A_rel_median": 2.298e-16, "b_rel_median": 3.442e-16, "f_rel_median": 1.974e-16},
+  "V5_stencil_loop": {"nodes": 40000, "triangles": 79202, "mismatch": 0},
+  "V6": {
+    "tension_vs_reference": {"samples": 1000, "C_abs_over_sqrt_a": 0.000e+00, "A_rel": 8.839e-16, "b_rel": 9.427e-15, "f_rel": 1.231e-14, "A_rel_median": 2.227e-16, "b_rel_median": 3.400e-16, "f_rel_median": 1.974e-16},
+    "components_C_pos": 1261, "components_C_nonpos": 739, "min_branch": 100
+  },
+  "V6b": {
+    "all_pos_v0_vs_implicit": {"samples": 360, "C_abs_over_sqrt_a": 0.000e+00, "A_rel": 0.000e+00, "b_rel": 0.000e+00, "f_rel": 0.000e+00, "A_rel_median": 0.000e+00, "b_rel_median": 0.000e+00, "f_rel_median": 0.000e+00},
+    "all_nonpos_vs_gn": {"samples": 99, "C_abs_over_sqrt_a": 0.000e+00, "A_rel": 6.406e-16, "b_rel": 5.245e-15, "f_rel": 7.324e-16, "A_rel_median": 2.003e-16, "b_rel_median": 3.323e-16, "f_rel_median": 0.000e+00}
+  },
+  "V7": {"min_eig_ratio": -2.847e-16, "limit": -1e-12, "indefinite": 0},
+  "report": {"sum_grad_rel_max": 8.027e-16, "torque_grad_rel_max": 6.335e-16, "rest_C_over_sqrt_a": 2.665e-15, "frozen_differs": 0, "diag_len_min": 0.942073, "diag_len_max": 2.081280, "indefinite_A_exact": 712, "indefinite_A_exact_eig_ratio_median": 5.616e-02, "gn_min_eig_ratio": -3.167e-16, "A_T_vs_A_E_rel_median": 1.225e-01, "A_T_vs_A_E_rel_max": 1.136e+00, "A_GN_vs_A_E_rel_median": 1.255e-01, "A_GN_vs_A_E_rel_max": 1.136e+00},
+  "gates_failed": 0
+}

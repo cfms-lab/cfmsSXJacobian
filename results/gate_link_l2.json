@@ -1,0 +1,205 @@
+{
+  "engine_dir": "D:/__CFMS_Projects/cfmsDrape_dev_base378d20c",
+  "link_dir": "D:/__CFMS_Projects/cfmsDrape_dev_sxjacobian-link",
+  "base": "378d20c",
+  "build_info_main": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "378d20c",
+    "dirty": false,
+    "build_utc": "2026-11-13T12:16:41Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "f5466b2bf8fc23056ec18785eaec19c2e36363ca4f9cfdc953947ccf05f1213f",
+    "capabilities": {
+      "schema": 1,
+      "absent": [],
+      "no_op": []
+    }
+  },
+  "build_info_branch": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+      "schema": 1,
+      "absent": [],
+      "no_op": []
+    }
+  },
+  "branch": {
+    "head": "441b685",
+    "descends_from_base": true,
+    "changed_files": [
+      "CLAUDE.md",
+      "drape/CMakeLists.txt",
+      "drape/scripts/py_membrane_nonlinear_test.py",
+      "drape/src/sde_core/SDECore.cpp",
+      "drape/src/sde_core/SDECore.h",
+      "drape/src/sde_core/SDECore_SXJBend.cpp",
+      "drape/src/sde_core/SDECore_SXJMembrane.cpp",
+      "drape/src/sde_core/SDESparseMatrix.cpp",
+      "drape/src/sde_core/SDESparseMatrix.h",
+      "drape/src/sde_core/sxgen/BaraffStretch_Engine.h",
+      "drape/src/sde_core/sxgen/BridsonBend_Engine.h",
+      "drape/src/sde_core/sxgen/ProvotShear_Engine.h"
+    ],
+    "outside_allowed": [],
+    "uncommitted": false,
+    "diff_sha256": "1396adb9c6fba2fd6cffcf37684b1282566982aee33434d1b73721a388d42bf3"
+  },
+  "header_sha256": {
+    "generated": "3bc0dcd8de2535c93d95ce796d982656b1c2d97003504647e07396319a483187",
+    "engine_copy": "3bc0dcd8de2535c93d95ce796d982656b1c2d97003504647e07396319a483187"
+  },
+  "dll_sha256": {
+    "main": "f5466b2bf8fc23056ec18785eaec19c2e36363ca4f9cfdc953947ccf05f1213f",
+    "branch": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc"
+  },
+  "threads": {
+    "main": 32,
+    "off": 32,
+    "default": 32,
+    "gn_rest": 32,
+    "gn_rest_t1": 1,
+    "gn_state": 32,
+    "gn_state_t1": 1
+  },
+  "scene": {
+    "nodes": 25,
+    "hinges": 40,
+    "hang_steps": 40,
+    "hang_pins": [
+      0,
+      4
+    ],
+    "hang_gravity": 980.0,
+    "materials": {
+      "stretch": {
+        "E": 100000.0,
+        "SE": 0.0,
+        "BE_U": 0.0
+      },
+      "shear": {
+        "E": 0.0,
+        "SE": 100000.0,
+        "BE_U": 0.0
+      },
+      "bend": {
+        "E": 0.0,
+        "SE": 0.0,
+        "BE_U": 1.0
+      },
+      "all": {
+        "E": 100000.0,
+        "SE": 100000.0,
+        "BE_U": 1.0
+      }
+    }
+  },
+  "limit": 1e-12,
+  "L2_0": {
+    "main_ok": true,
+    "branch_ok": true,
+    "engine_main_clean": true,
+    "header_same": true
+  },
+  "L2_1": {
+    "stretch": true,
+    "shear": true,
+    "bend": true,
+    "all": true,
+    "hang": true
+  },
+  "L2_2": {
+    "gn_state_vs_engine_oh": 2.7971497228502856e-16,
+    "gn_state_vs_ref_state_w": 4.3033072659235173e-16,
+    "gn_rest_vs_ref_rest_w": 3.561840283870828e-16
+  },
+  "L2_3": {
+    "gn_rest": {
+      "J_vs_ref_gn": 3.4523992278602497e-16,
+      "product_consistency": 3.457976671687184e-16
+    },
+    "gn_state": {
+      "J_vs_ref_gn": 3.2874884450830904e-16,
+      "product_consistency": 4.507714134183477e-16
+    }
+  },
+  "L2_4": {
+    "gn_rest": {
+      "J": 3.4997002228414107e-16,
+      "f": 2.2182568017038199e-16
+    },
+    "gn_state": {
+      "J": 5.249550334262116e-16,
+      "f": 6.932052505324437e-18
+    }
+  },
+  "L2_5": {
+    "gn_rest_bend": {
+      "same_process": true,
+      "threads_1_vs_default": true
+    },
+    "gn_rest_all": {
+      "same_process": true,
+      "threads_1_vs_default": true
+    },
+    "gn_state_bend": {
+      "same_process": true,
+      "threads_1_vs_default": true
+    },
+    "gn_state_all": {
+      "same_process": true,
+      "threads_1_vs_default": true
+    }
+  },
+  "L2_6": {
+    "stretch": true,
+    "shear": true,
+    "bend": true,
+    "all": true,
+    "hang": true
+  },
+  "report": {
+    "gn_rest_f_vs_engine_oh": 0.04316591567560877,
+    "w_rest_over_state": {
+      "min": 0.8668270995449496,
+      "median": 1.0161600755287217,
+      "max": 1.195245978724552
+    },
+    "gn_rest": {
+      "J_vs_engine_oh_J": 0.5222314940786706,
+      "J_vs_fd_of_own_force": 0.0885720691840351,
+      "hang_steps_done": 40,
+      "hang_error": "",
+      "hang_finite": true,
+      "stderr": "",
+      "hang_end_max_diff_cm": 3.552713678800501e-15,
+      "hang_end_diff_over_motion": 5.964872421767148e-13
+    },
+    "gn_state": {
+      "J_vs_engine_oh_J": 0.49826511986506655,
+      "J_vs_fd_of_own_force": 0.12344664921805815,
+      "hang_steps_done": 40,
+      "hang_error": "",
+      "hang_finite": true,
+      "stderr": "",
+      "hang_end_max_diff_cm": 4.440892098500626e-15,
+      "hang_end_diff_over_motion": 7.456090527208935e-13
+    },
+    "engine_oh_J_vs_fd": 1.0623044685564096
+  },
+  "gates_failed": 0
+}

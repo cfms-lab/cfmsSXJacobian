@@ -1,0 +1,10 @@
+{
+  "samples": 1000,
+  "G1_mathematica": {"hinges": 200, "C_abs": 4.441e-16, "grad_rel": 6.442e-16, "hess_rel": 1.322e-14},
+  "G2_finite_difference": {"grad_rel_max": 5.567e-10, "hess_rel_max": 4.505e-10, "grad_rel_median": 8.028e-11, "hess_rel_median": 1.176e-10},
+  "frozen_vs_exact": {"C_abs_max": 0.000e+00, "grad_rel_median": 1.680e-01, "grad_rel_max": 5.673e-01, "hess_rel_median": 3.208e-01, "hess_rel_max": 1.012e+00, "grad_vs_fd_rel_max": 5.673e-01},
+  "G3_damping": {"dx_rel_max": 6.874e-10, "dv_rel_max": 0.000e+00, "dropped_asym_rel_median": 7.228e-01, "dropped_asym_rel_max": 1.357e+00},
+  "G4_stencil_loop": {"nodes": 40000, "hinges": 118405, "mismatch": 0},
+  "ns_per_hinge": {"eval": 1764.3, "eval_frozen": 190.5, "eval_assemble": 2071.4, "eval_frozen_assemble": 571.7},
+  "gates_failed": 0
+}

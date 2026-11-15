@@ -1,0 +1,802 @@
+{
+ "branch_commit": "3a35c64",
+ "base": {
+  "E": 100000.0,
+  "SE": 40000.0,
+  "V": 1000.0,
+  "SV": 500.0
+ },
+ "k_mul": 4.0,
+ "kd_mul": 3.0,
+ "law": [
+  0.3,
+  0.02,
+  200000.0
+ ],
+ "step": {
+  "h": 0.001,
+  "mass": 1.0,
+  "pcg_rel": 1e-22,
+  "pcg_cap": 500,
+  "pcg_abs": 1e-40,
+  "lim": 1e-09
+ },
+ "lim_same": 1e-10,
+ "kill": {
+  "CFMS_CPU_SXJ_BEND": "off",
+  "CFMS_CPU_SXJ_MEMBRANE": "off"
+ },
+ "arms": {
+  "before": {
+   "dll_sha256": "7407854805928134d5d34bad4011279a7fb1c4457cd57758cfbe0b8c697e9403",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "3a35c64",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:03:48Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "7407854805928134d5d34bad4011279a7fb1c4457cd57758cfbe0b8c697e9403",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 32,
+   "static": {
+    "p1_E": {
+     "per_panel": {
+      "f_rel": 0.6571178754712361,
+      "J_rel": 0.6323517168069319
+     },
+     "uniform_base": {
+      "f_rel": 3.0991198986520317e-16,
+      "J_rel": 2.3202298242427155e-16
+     },
+     "uniform_override": {
+      "f_rel": 0.660611115798779,
+      "J_rel": 0.6396431179859928
+     }
+    },
+    "p1_SE": {
+     "per_panel": {
+      "f_rel": 0.6891051244418928,
+      "J_rel": 0.5811402459858637
+     },
+     "uniform_base": {
+      "f_rel": 3.0991198986520317e-16,
+      "J_rel": 2.3202298242427155e-16
+     },
+     "uniform_override": {
+      "f_rel": 0.5782958893907195,
+      "J_rel": 0.5856857256852105
+     }
+    },
+    "p1_E_SE": {
+     "per_panel": {
+      "f_rel": 0.75,
+      "J_rel": 0.75
+     },
+     "uniform_base": {
+      "f_rel": 3.0991198986520317e-16,
+      "J_rel": 2.3202298242427155e-16
+     },
+     "uniform_override": {
+      "f_rel": 0.7500000000000001,
+      "J_rel": 0.75
+     }
+    },
+    "p0_E_SE": {
+     "per_panel": {
+      "f_rel": 0.5366689239724641,
+      "J_rel": 0.7395562857579036
+     },
+     "uniform_base": {
+      "f_rel": 3.0000000000000004,
+      "J_rel": 3.0
+     },
+     "uniform_override": {
+      "f_rel": 3.0991198986520317e-16,
+      "J_rel": 2.3202298242427155e-16
+     }
+    }
+   },
+   "velocity": {
+    "per_panel": {
+     "f_rel": 0.7428593849468074,
+     "J_rel": 0.7496850164599224
+    },
+    "uniform_base": {
+     "f_rel": 3.198467227903198e-16,
+     "J_rel": 3.0810320915131103e-16
+    },
+    "damping_share_of_f": 0.3769556304809886
+   },
+   "step": {
+    "uniform": {
+     "v_rel": 2.040426084116197e-11,
+     "v_sha": "43b677e94105954182bfbc3ab241825808a27713a1a0962a66437f73e4b0b372",
+     "pcg_exit": [
+      "relative"
+     ],
+     "pcg_iterations": [
+      24
+     ],
+     "pcg_ok": true,
+     "A_min_eig": 0.9999999999999988,
+     "A_max_eig": 9.253038807639962,
+     "max_hV": 4.162537983064056,
+     "max_h2J": 0.3778452102060471
+    },
+    "per_panel": {
+     "v_rel": 0.5093046741276634,
+     "v_sha": "43b677e94105954182bfbc3ab241825808a27713a1a0962a66437f73e4b0b372",
+     "pcg_exit": [
+      "relative"
+     ],
+     "pcg_iterations": [
+      24
+     ],
+     "pcg_ok": true,
+     "A_min_eig": 0.9999999999999987,
+     "A_max_eig": 26.4268941201765,
+     "max_hV": 12.290231168593836,
+     "max_h2J": 1.489892794185705
+    }
+   },
+   "nonlinear": {
+    "per_panel": {
+     "f_rel": 0.7344275132623331,
+     "J_rel": 0.7345414213566096
+    },
+    "uniform_base": {
+     "f_rel": 7.527156835660028e-16,
+     "J_rel": 2.606494149491315e-16
+    }
+   },
+   "polynomial_sv": {
+    "per_panel": {
+     "f_rel": 0.45077677906769525,
+     "J_rel": 0.04227680197757275
+    },
+    "uniform_base": {
+     "f_rel": 2.450739996395049e-16,
+     "J_rel": 3.708342907474117e-16
+    }
+   },
+   "uniform": {
+    "f_sha": "8aa1213a7c056e5f6fbd7a733de262739a9a0f93a3025da216b1172c8e00364d",
+    "J_sha": "06a3e8ab650c5b0205b910f8cd55f936fc7ee11167ffec2ac74b51d5862b65b1",
+    "f_vel_sha": "c4d92bdc805174a28162bd9a9cd6c8742a063d6f40b95f2f17e03b2b6777ec11",
+    "J_vel_sha": "492693687fa894193d8eb25b1e510152684f0a614238b4f79e08ff450e0e5a95",
+    "free": {
+     "grid 5x5": {
+      "sha": "be8b8571d428c3c65cd98bd18d2824c25b7299af844cab58f6c3a0f4cf29ea01",
+      "finite": true,
+      "moved": 20.26495896165077
+     },
+     "grid 17x17": {
+      "sha": "b695a80e96500e71c25c0d24067a5a7c3fd1d312c7a536d37441e235ee345b9b",
+      "finite": true,
+      "moved": 21.040378770184017
+     }
+    }
+   },
+   "straddle": {
+    "first_node": {
+     "f_rel": 0.6768740544267997,
+     "J_rel": 0.6913148554718581
+    },
+    "element_range": {
+     "f_rel": 0.7499999999999999,
+     "J_rel": 0.75
+    },
+    "uniform_base": {
+     "f_rel": 1.1452503305167705e-16,
+     "J_rel": 3.0228022602029875e-16
+    },
+    "elements_where_rules_differ": 6
+   }
+  },
+  "before_kill": {
+   "dll_sha256": "7407854805928134d5d34bad4011279a7fb1c4457cd57758cfbe0b8c697e9403",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "3a35c64",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:03:48Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "7407854805928134d5d34bad4011279a7fb1c4457cd57758cfbe0b8c697e9403",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 32,
+   "static": {
+    "p1_E": {
+     "per_panel": {
+      "f_rel": 0.6571178754712361,
+      "J_rel": 0.632351716806932
+     },
+     "uniform_base": {
+      "f_rel": 2.9535236618026073e-16,
+      "J_rel": 3.093639765656954e-16
+     },
+     "uniform_override": {
+      "f_rel": 0.660611115798779,
+      "J_rel": 0.6396431179859928
+     }
+    },
+    "p1_SE": {
+     "per_panel": {
+      "f_rel": 0.6891051244418928,
+      "J_rel": 0.5811402459858637
+     },
+     "uniform_base": {
+      "f_rel": 2.9535236618026073e-16,
+      "J_rel": 3.093639765656954e-16
+     },
+     "uniform_override": {
+      "f_rel": 0.5782958893907195,
+      "J_rel": 0.5856857256852105
+     }
+    },
+    "p1_E_SE": {
+     "per_panel": {
+      "f_rel": 0.75,
+      "J_rel": 0.75
+     },
+     "uniform_base": {
+      "f_rel": 2.9535236618026073e-16,
+      "J_rel": 3.093639765656954e-16
+     },
+     "uniform_override": {
+      "f_rel": 0.7500000000000001,
+      "J_rel": 0.75
+     }
+    },
+    "p0_E_SE": {
+     "per_panel": {
+      "f_rel": 0.536668923972464,
+      "J_rel": 0.7395562857579036
+     },
+     "uniform_base": {
+      "f_rel": 3.0000000000000004,
+      "J_rel": 3.0
+     },
+     "uniform_override": {
+      "f_rel": 2.9535236618026073e-16,
+      "J_rel": 3.093639765656954e-16
+     }
+    }
+   },
+   "velocity": {
+    "per_panel": {
+     "f_rel": 0.7428593849468074,
+     "J_rel": 0.7496850164599224
+    },
+    "uniform_base": {
+     "f_rel": 2.1323114852687987e-16,
+     "J_rel": 3.0810320915131103e-16
+    },
+    "damping_share_of_f": 0.3769556304809886
+   },
+   "step": {
+    "uniform": {
+     "v_rel": 2.0404233509536717e-11,
+     "v_sha": "47c25e9492bb2da7802a3d5bbba5856807fb17138306f758a18bcb1c6530c834",
+     "pcg_exit": [
+      "relative"
+     ],
+     "pcg_iterations": [
+      24
+     ],
+     "pcg_ok": true,
+     "A_min_eig": 0.9999999999999988,
+     "A_max_eig": 9.253038807639962,
+     "max_hV": 4.162537983064056,
+     "max_h2J": 0.3778452102060471
+    },
+    "per_panel": {
+     "v_rel": 0.5093046741276636,
+     "v_sha": "47c25e9492bb2da7802a3d5bbba5856807fb17138306f758a18bcb1c6530c834",
+     "pcg_exit": [
+      "relative"
+     ],
+     "pcg_iterations": [
+      24
+     ],
+     "pcg_ok": true,
+     "A_min_eig": 0.9999999999999987,
+     "A_max_eig": 26.4268941201765,
+     "max_hV": 12.290231168593836,
+     "max_h2J": 1.489892794185705
+    }
+   },
+   "nonlinear": {
+    "per_panel": {
+     "f_rel": 0.7344275132623331,
+     "J_rel": 0.7345414213566096
+    },
+    "uniform_base": {
+     "f_rel": 7.527156835660028e-16,
+     "J_rel": 2.606494149491315e-16
+    }
+   },
+   "polynomial_sv": {
+    "per_panel": {
+     "f_rel": 0.45077677906769525,
+     "J_rel": 0.04227680197757275
+    },
+    "uniform_base": {
+     "f_rel": 2.450739996395049e-16,
+     "J_rel": 3.708342907474117e-16
+    }
+   },
+   "uniform": {
+    "f_sha": "f1764ba2bcf6f5f6ca245a4f083ff3242480ca58d7bf285ea3273baa5e9f6b1b",
+    "J_sha": "be9b7d6d7a30e2279fff8ce4806747d0a8e2e6b360191e06766311a22b0ef6c3",
+    "f_vel_sha": "63d07feceb2f6cc6abc62b60b426f3aa95ce2ef430ed00d2b96d8165cef056b4",
+    "J_vel_sha": "cc6c3d89012b22c95c76887b0bde0641d709f4cd947fc46fc41c3417be675ef5",
+    "free": {
+     "grid 5x5": {
+      "sha": "2b0969fe1bdeb863f7301fbd482233787c918afd84660dceba0d98b7723f6a95",
+      "finite": true,
+      "moved": 20.264959903285526
+     },
+     "grid 17x17": {
+      "sha": "03ba2fb5c4bab67a2eb9315f9947282dfcff465aab7f64d1dff9821f93587235",
+      "finite": true,
+      "moved": 21.040378709119363
+     }
+    }
+   },
+   "straddle": {
+    "first_node": {
+     "f_rel": 0.6768740544267997,
+     "J_rel": 0.6913148554718582
+    },
+    "element_range": {
+     "f_rel": 0.7500000000000001,
+     "J_rel": 0.75
+    },
+    "uniform_base": {
+     "f_rel": 3.4357509915503116e-16,
+     "J_rel": 3.0228022602029875e-16
+    },
+    "elements_where_rules_differ": 6
+   }
+  },
+  "after": {
+   "dll_sha256": "1c90b6857fad3afb2aa89b538de2f121a71663cbf766b37ac05d56d427698bd0",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:30:40Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "1c90b6857fad3afb2aa89b538de2f121a71663cbf766b37ac05d56d427698bd0",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 32,
+   "static": {
+    "p1_E": {
+     "per_panel": {
+      "f_rel": 1.9136080921576216e-16,
+      "J_rel": 1.7696928828112346e-16
+     },
+     "uniform_base": {
+      "f_rel": 1.3713351923760464,
+      "J_rel": 1.6581422991494583
+     },
+     "uniform_override": {
+      "f_rel": 0.660611115798779,
+      "J_rel": 0.6396431179859928
+     }
+    },
+    "p1_SE": {
+     "per_panel": {
+      "f_rel": 1.66094016614281e-16,
+      "J_rel": 1.3140999706906765e-16
+     },
+     "uniform_base": {
+      "f_rel": 1.2857894865535635,
+      "J_rel": 1.3681140054060026
+     },
+     "uniform_override": {
+      "f_rel": 0.5751105502374505,
+      "J_rel": 0.5856857256852105
+     }
+    },
+    "p1_E_SE": {
+     "per_panel": {
+      "f_rel": 1.860316763170985e-16,
+      "J_rel": 1.5686634465319462e-16
+     },
+     "uniform_base": {
+      "f_rel": 2.1466756958898565,
+      "J_rel": 2.958225143031614
+     },
+     "uniform_override": {
+      "f_rel": 0.7500000000000001,
+      "J_rel": 0.75
+     }
+    },
+    "p0_E_SE": {
+     "per_panel": {
+      "f_rel": 3.0991198986520317e-16,
+      "J_rel": 2.3202298242427155e-16
+     },
+     "uniform_base": {
+      "f_rel": 3.0000000000000004,
+      "J_rel": 3.0
+     },
+     "uniform_override": {
+      "f_rel": 0.536668923972464,
+      "J_rel": 0.7395562857579036
+     }
+    }
+   },
+   "velocity": {
+    "per_panel": {
+     "f_rel": 1.5373488115203885e-16,
+     "J_rel": 1.562734208545e-16
+    },
+    "uniform_base": {
+     "f_rel": 1.5455252444257532,
+     "J_rel": 2.9561054997191394
+    },
+    "damping_share_of_f": 0.3769556304809886
+   },
+   "step": {
+    "uniform": {
+     "v_rel": 2.040426084116197e-11,
+     "v_sha": "43b677e94105954182bfbc3ab241825808a27713a1a0962a66437f73e4b0b372",
+     "pcg_exit": [
+      "relative"
+     ],
+     "pcg_iterations": [
+      24
+     ],
+     "pcg_ok": true,
+     "A_min_eig": 0.9999999999999988,
+     "A_max_eig": 9.253038807639962,
+     "max_hV": 4.162537983064056,
+     "max_h2J": 0.3778452102060471
+    },
+    "per_panel": {
+     "v_rel": 6.827447537555187e-12,
+     "v_sha": "297b0dcd2932fbf7ac4e90c32cb3a27381cbb2f638f2b1ab26283ac996d04788",
+     "pcg_exit": [
+      "relative"
+     ],
+     "pcg_iterations": [
+      30
+     ],
+     "pcg_ok": true,
+     "A_min_eig": 0.9999999999999987,
+     "A_max_eig": 26.4268941201765,
+     "max_hV": 12.290231168593836,
+     "max_h2J": 1.489892794185705
+    }
+   },
+   "nonlinear": {
+    "per_panel": {
+     "f_rel": 7.423525623533923e-16,
+     "J_rel": 2.304681866559384e-16
+    },
+    "uniform_base": {
+     "f_rel": 1.9858133388710881,
+     "J_rel": 2.4922024316309765
+    }
+   },
+   "polynomial_sv": {
+    "per_panel": {
+     "f_rel": 2.8591966624608905e-16,
+     "J_rel": 3.6949973820616924e-16
+    },
+    "uniform_base": {
+     "f_rel": 0.45077677906769503,
+     "J_rel": 0.04242949657429591
+    }
+   },
+   "uniform": {
+    "f_sha": "8aa1213a7c056e5f6fbd7a733de262739a9a0f93a3025da216b1172c8e00364d",
+    "J_sha": "06a3e8ab650c5b0205b910f8cd55f936fc7ee11167ffec2ac74b51d5862b65b1",
+    "f_vel_sha": "c4d92bdc805174a28162bd9a9cd6c8742a063d6f40b95f2f17e03b2b6777ec11",
+    "J_vel_sha": "492693687fa894193d8eb25b1e510152684f0a614238b4f79e08ff450e0e5a95",
+    "free": {
+     "grid 5x5": {
+      "sha": "be8b8571d428c3c65cd98bd18d2824c25b7299af844cab58f6c3a0f4cf29ea01",
+      "finite": true,
+      "moved": 20.26495896165077
+     },
+     "grid 17x17": {
+      "sha": "b695a80e96500e71c25c0d24067a5a7c3fd1d312c7a536d37441e235ee345b9b",
+      "finite": true,
+      "moved": 21.040378770184017
+     }
+    }
+   },
+   "straddle": {
+    "first_node": {
+     "f_rel": 1.850490882683204e-16,
+     "J_rel": 1.9399727453535234e-16
+    },
+    "element_range": {
+     "f_rel": 0.46977202795377393,
+     "J_rel": 0.3846774763373394
+    },
+    "uniform_base": {
+     "f_rel": 1.6756423753387997,
+     "J_rel": 2.1543685215551056
+    },
+    "elements_where_rules_differ": 6
+   }
+  },
+  "after_kill": {
+   "dll_sha256": "1c90b6857fad3afb2aa89b538de2f121a71663cbf766b37ac05d56d427698bd0",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:30:40Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "1c90b6857fad3afb2aa89b538de2f121a71663cbf766b37ac05d56d427698bd0",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 32,
+   "static": {
+    "p1_E": {
+     "per_panel": {
+      "f_rel": 2.551477456210162e-16,
+      "J_rel": 2.3595905104149796e-16
+     },
+     "uniform_base": {
+      "f_rel": 1.3713351923760464,
+      "J_rel": 1.658142299149458
+     },
+     "uniform_override": {
+      "f_rel": 0.660611115798779,
+      "J_rel": 0.6396431179859928
+     }
+    },
+    "p1_SE": {
+     "per_panel": {
+      "f_rel": 4.280543783884825e-16,
+      "J_rel": 2.628199941381353e-16
+     },
+     "uniform_base": {
+      "f_rel": 1.285789486553563,
+      "J_rel": 1.3681140054060026
+     },
+     "uniform_override": {
+      "f_rel": 0.5751105502374504,
+      "J_rel": 0.5856857256852105
+     }
+    },
+    "p1_E_SE": {
+     "per_panel": {
+      "f_rel": 2.7904751447564773e-16,
+      "J_rel": 3.1373268930638925e-16
+     },
+     "uniform_base": {
+      "f_rel": 2.146675695889856,
+      "J_rel": 2.958225143031614
+     },
+     "uniform_override": {
+      "f_rel": 0.7500000000000001,
+      "J_rel": 0.75
+     }
+    },
+    "p0_E_SE": {
+     "per_panel": {
+      "f_rel": 2.9535236618026073e-16,
+      "J_rel": 1.546819882828477e-16
+     },
+     "uniform_base": {
+      "f_rel": 3.0000000000000004,
+      "J_rel": 3.0
+     },
+     "uniform_override": {
+      "f_rel": 0.536668923972464,
+      "J_rel": 0.7395562857579036
+     }
+    }
+   },
+   "velocity": {
+    "per_panel": {
+     "f_rel": 2.0497984153605182e-16,
+     "J_rel": 3.12546841709e-16
+    },
+    "uniform_base": {
+     "f_rel": 1.5455252444257528,
+     "J_rel": 2.9561054997191394
+    },
+    "damping_share_of_f": 0.3769556304809886
+   },
+   "step": {
+    "uniform": {
+     "v_rel": 2.0404233509536717e-11,
+     "v_sha": "47c25e9492bb2da7802a3d5bbba5856807fb17138306f758a18bcb1c6530c834",
+     "pcg_exit": [
+      "relative"
+     ],
+     "pcg_iterations": [
+      24
+     ],
+     "pcg_ok": true,
+     "A_min_eig": 0.9999999999999988,
+     "A_max_eig": 9.253038807639962,
+     "max_hV": 4.162537983064056,
+     "max_h2J": 0.3778452102060471
+    },
+    "per_panel": {
+     "v_rel": 7.383884202287285e-12,
+     "v_sha": "2dbb1f5bd71af89fbe0a582eb5079ac7408a7fb3aff62ea020643d30c5b8fc51",
+     "pcg_exit": [
+      "relative"
+     ],
+     "pcg_iterations": [
+      30
+     ],
+     "pcg_ok": true,
+     "A_min_eig": 0.9999999999999987,
+     "A_max_eig": 26.4268941201765,
+     "max_hV": 12.290231168593836,
+     "max_h2J": 1.489892794185705
+    }
+   },
+   "nonlinear": {
+    "per_panel": {
+     "f_rel": 7.423525623533923e-16,
+     "J_rel": 2.304681866559384e-16
+    },
+    "uniform_base": {
+     "f_rel": 1.9858133388710881,
+     "J_rel": 2.4922024316309765
+    }
+   },
+   "polynomial_sv": {
+    "per_panel": {
+     "f_rel": 2.8591966624608905e-16,
+     "J_rel": 3.6949973820616924e-16
+    },
+    "uniform_base": {
+     "f_rel": 0.45077677906769503,
+     "J_rel": 0.04242949657429591
+    }
+   },
+   "uniform": {
+    "f_sha": "f1764ba2bcf6f5f6ca245a4f083ff3242480ca58d7bf285ea3273baa5e9f6b1b",
+    "J_sha": "be9b7d6d7a30e2279fff8ce4806747d0a8e2e6b360191e06766311a22b0ef6c3",
+    "f_vel_sha": "63d07feceb2f6cc6abc62b60b426f3aa95ce2ef430ed00d2b96d8165cef056b4",
+    "J_vel_sha": "cc6c3d89012b22c95c76887b0bde0641d709f4cd947fc46fc41c3417be675ef5",
+    "free": {
+     "grid 5x5": {
+      "sha": "2b0969fe1bdeb863f7301fbd482233787c918afd84660dceba0d98b7723f6a95",
+      "finite": true,
+      "moved": 20.264959903285526
+     },
+     "grid 17x17": {
+      "sha": "03ba2fb5c4bab67a2eb9315f9947282dfcff465aab7f64d1dff9821f93587235",
+      "finite": true,
+      "moved": 21.040378709119363
+     }
+    }
+   },
+   "straddle": {
+    "first_node": {
+     "f_rel": 1.850490882683204e-16,
+     "J_rel": 1.9399727453535234e-16
+    },
+    "element_range": {
+     "f_rel": 0.46977202795377393,
+     "J_rel": 0.3846774763373394
+    },
+    "uniform_base": {
+     "f_rel": 1.6756423753387997,
+     "J_rel": 2.1543685215551043
+    },
+    "elements_where_rules_differ": 6
+   }
+  }
+ },
+ "M7": {
+  "python": "D:/__CFMS_Projects/cfmsDrape_dev/drape/.venv/Scripts/python.exe",
+  "before": {
+   "returncode": 0,
+   "hashes": {
+    "default_sphere": "25dcbb11ddb6d8c3",
+    "bend_damping_l2": "106ae646c1de3c0c",
+    "shear_poly": "7b44f28dab3bcc35",
+    "self_penalty": "38816ac90782a849",
+    "static_mode": "5402155b7b67b659"
+   },
+   "stdout_tail": [
+    "PASS: parallel PCG (operator, vector updates, contact search) is bit-identical in every operator branch."
+   ],
+   "pass": true
+  },
+  "after": {
+   "returncode": 0,
+   "hashes": {
+    "default_sphere": "25dcbb11ddb6d8c3",
+    "bend_damping_l2": "106ae646c1de3c0c",
+    "shear_poly": "7b44f28dab3bcc35",
+    "self_penalty": "38816ac90782a849",
+    "static_mode": "5402155b7b67b659"
+   },
+   "stdout_tail": [
+    "PASS: parallel PCG (operator, vector updates, contact search) is bit-identical in every operator branch."
+   ],
+   "pass": true
+  }
+ },
+ "engine_branch": {
+  "head": "441b685",
+  "worktree_dirty": false,
+  "changed_since_3a35c64": [
+   "CLAUDE.md",
+   "drape/src/sde_core/SDECore.cpp",
+   "drape/src/sde_core/SDECore_SXJMembrane.cpp"
+  ],
+  "diff_sha256": "356bd0c7ca8a8f2630ea915af52f625cda49e2fceeb1331518d5596876916796"
+ },
+ "judge": {
+  "M0": true,
+  "M1": {
+   "before": true,
+   "before_kill": true
+  },
+  "M4_premise_a": true,
+  "after": {
+   "M2": true,
+   "M3": true,
+   "M4": true,
+   "M4_judged": true,
+   "M5": true,
+   "M6": true
+  },
+  "after_kill": {
+   "M2": true,
+   "M3": true,
+   "M4": true,
+   "M4_judged": true,
+   "M5": true,
+   "M6": true
+  },
+  "M7": true,
+  "pass": true
+ }
+}

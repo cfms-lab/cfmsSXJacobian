@@ -1,0 +1,92 @@
+{
+  "spec": "provot_shear.py",
+  "spec_sha256": "c98a0e93263b99c8",
+  "sympy": "1.14.0",
+  "variants": {
+    "exact": {
+      "cse_seconds": 0.03,
+      "temporaries": 141,
+      "ops": 399,
+      "diff_seconds": 0.29,
+      "body_sha256": "5a955aea26b75ff18b3ef883d0554f80859cd417d6aa37513884cb330c431d32"
+    },
+    "frozen": {
+      "cse_seconds": 0.02,
+      "temporaries": 141,
+      "ops": 399,
+      "diff_seconds": 0.05,
+      "body_sha256": "0f28784d939a4bbd29a1c4011d9e8d61ed06a55505b11396e2b8f1c907c159f9"
+    },
+    "staged": {
+      "cse_seconds": 0.01,
+      "temporaries": 147,
+      "ops": 333,
+      "stages": 6,
+      "diff_seconds": 0.03,
+      "body_sha256": "b9e6876aee71b2147abfd02294323b98546d515202f3136460c0db0b4f287b20"
+    },
+    "implicit": {
+      "cse_seconds": 0.0,
+      "temporaries": 243,
+      "ops": 689,
+      "stages": 6,
+      "diff_seconds": 0.03,
+      "body_sha256": "1a74848ea81d5a990708dd67374861e21a4e504117582ea732e1003a0bb0cea4"
+    },
+    "implicit_gn": {
+      "cse_seconds": 0.0,
+      "temporaries": 115,
+      "ops": 406,
+      "stages": 6,
+      "body_sha256": "f39f8eef9fcc6990f9c2aa7fe6551d09dd972956d2000340fe0dda086e92e0cc"
+    },
+    "implicit_tension": {
+      "cse_seconds": 0.0,
+      "temporaries": 245,
+      "ops": 692,
+      "stages": 6,
+      "body_sha256": "6cb3dacdbeba2c1250390086e83101d510b07d635290a7eba047920da48ec1f2"
+    },
+    "engine": {
+      "cse_seconds": 0.01,
+      "temporaries": 202,
+      "ops": 557,
+      "stages": 6,
+      "body_sha256": "2c16db4a0fe1a32f93412c5a1567fec1fada82f247260ea780e2905da838a70b"
+    },
+    "engine_gn": {
+      "cse_seconds": 0.0,
+      "temporaries": 122,
+      "ops": 351,
+      "stages": 6,
+      "body_sha256": "38e8723b3a6f3686045a985fca3fc7e31ac369458ef6bee40c8cc37d5ffedef4"
+    },
+    "engine_tension": {
+      "cse_seconds": 0.0,
+      "temporaries": 206,
+      "ops": 561,
+      "stages": 6,
+      "body_sha256": "bfff0cdee344c5a42f99b268ed8032564c23035978f46f6cf3bce1a1ba909449"
+    },
+    "engine_gn_undamped": {
+      "cse_seconds": 0.0,
+      "temporaries": 119,
+      "ops": 285,
+      "stages": 6,
+      "body_sha256": "d8f229a32242e67bef39796f7faded89f0079dbf64262e84ee279b02f2ac2bee"
+    },
+    "engine_tension_rate": {
+      "cse_seconds": 0.0,
+      "temporaries": 208,
+      "ops": 567,
+      "stages": 6,
+      "body_sha256": "178b7823bbb8e45a76c14d5ed2671a29064418f167765650c8e29378e94c1fe9"
+    }
+  },
+  "header": "generated/ProvotShear.h",
+  "header_bytes": 61072,
+  "header_lines": 1785,
+  "engine_header": "generated/ProvotShear_Engine.h",
+  "engine_header_bytes": 50541,
+  "engine_header_lines": 1376
+}

@@ -1,0 +1,11 @@
+{
+  "samples": 1000, "k": 1, "kd": 0.1, "h": 0.01,
+  "R1p_implicit_vs_dense": {"A_rel_max": 9.774e-16, "b_rel_max": 3.941e-14, "f_rel_max": 1.737e-13, "C_abs_max": 0.000e+00},
+  "R1_first_attempt_vs_dense": {"A_rel_max": 4.363e-16, "b_rel_max": 5.560e-15, "f_rel_max": 2.938e-14, "ref_asym_rel_max": 0.000e+00},
+  "compact_implicit_vs_dense": {"A_rel_max": 2.143e-15, "b_rel_max": 3.639e-14, "f_rel_max": 1.746e-13},
+  "R2_K_vs_fd": {"rel_max": 4.563e-10, "rel_median": 1.172e-10},
+  "R3p_time": {"hinges": 118405, "assembly_old_ns": 318.2, "implicit_increment_ns": 131.1, "implicit_over_old": 0.412, "end_to_end_speedup": 8.45},
+  "R3_first_attempt": {"assembly_new_ns": 143.6, "new_over_old": 0.451},
+  "ns_per_hinge": {"staged_eval": 369.5, "staged_old_assembly": 687.7, "staged_new_assembly": 513.1, "eval_implicit": 500.6, "compact_staged_new_assembly": 326.6, "compact_eval_implicit": 249.9, "flat_old_assembly": 2111.1},
+  "gates_failed": 1
+}

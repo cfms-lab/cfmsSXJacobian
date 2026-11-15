@@ -1,0 +1,407 @@
+{
+ "archive": "봉제연b83(A)_NBS_neckfix.zip",
+ "testbed": "D:/__CFMS_Projects/cfmsMiindo_drape_improve_dev/drape",
+ "dll_sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+ "steps": 2000,
+ "timestep": 0.005,
+ "collar_name": "Collar_UP",
+ "be_cases": [
+  10.0,
+  1000.0,
+  10000.0
+ ],
+ "drape": {
+  "build_info": {
+   "schema": 1,
+   "product": "cfmsDrape",
+   "product_version": "0.2.2",
+   "abi_version": 1,
+   "backend": "cpu",
+   "git_commit": "441b685",
+   "dirty": false,
+   "build_utc": "2026-11-14T01:56:36Z",
+   "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+   "sha256_scope": "loaded-dll-file",
+   "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+   "capabilities": {
+    "schema": 1,
+    "absent": [],
+    "no_op": []
+   }
+  },
+  "threads": 1,
+  "panel_names": [
+   "BodiceF_R_0",
+   "BodiceF_L_0",
+   "BodiceB_L_0",
+   "ArmR_UP",
+   "ArmL_UP",
+   "CuffR_UP",
+   "CuffL_UP",
+   "Collar_UP"
+  ],
+  "panel_node_counts": [
+   218,
+   234,
+   420,
+   242,
+   246,
+   32,
+   30,
+   110
+  ],
+  "collar_panel": 7,
+  "global_material": [
+   0.1,
+   1000000.0,
+   100000.0,
+   0.5,
+   1.0,
+   0.01,
+   50000.0,
+   10000.0,
+   1.0,
+   0.0,
+   0.1,
+   0.1
+  ],
+  "collar_BE_U": 10.0,
+  "body": true,
+  "verts": 1532,
+  "collar_nodes": 110,
+  "collar_pinned": 24,
+  "seconds": 90.93187339999713,
+  "max_speed_all_collar_per_block": [
+   [
+    49.9999222280558,
+    13.623007869671595
+   ],
+   [
+    49.99999999999941,
+    12.126598829190566
+   ],
+   [
+    50.0,
+    11.209968566894531
+   ],
+   [
+    50.0,
+    11.232479095458984
+   ],
+   [
+    50.0,
+    8.497759819030762
+   ],
+   [
+    50.0,
+    12.730656623840332
+   ],
+   [
+    50.0,
+    11.98952579498291
+   ],
+   [
+    50.0,
+    7.693205833435059
+   ],
+   [
+    50.0,
+    7.655085563659668
+   ],
+   [
+    50.0,
+    8.084549903869629
+   ],
+   [
+    50.0,
+    10.061410903930664
+   ],
+   [
+    50.0,
+    7.583629131317139
+   ],
+   [
+    50.0,
+    8.009960174560547
+   ],
+   [
+    50.0,
+    6.595832347869873
+   ],
+   [
+    50.0,
+    5.012264728546143
+   ],
+   [
+    50.0,
+    6.801877021789551
+   ],
+   [
+    50.0,
+    8.586301803588867
+   ],
+   [
+    50.0,
+    7.804189366862445
+   ],
+   [
+    50.0,
+    5.988635063171387
+   ],
+   [
+    50.0,
+    6.69080842723949
+   ]
+  ],
+  "exports": [
+   {
+    "step": 1000,
+    "y_min": -210.8232729715901,
+    "y_max": 66.44541106324614,
+    "collar_y_mean": 63.53589450134479
+   },
+   {
+    "step": 1500,
+    "y_min": -348.07327297158463,
+    "y_max": 65.89127390900036,
+    "collar_y_mean": 63.26237408543808
+   },
+   {
+    "step": 2000,
+    "y_min": -485.3232729715792,
+    "y_max": 65.99430887909116,
+    "collar_y_mean": 63.16287781046827
+   }
+  ]
+ },
+ "snapshots": [
+  {
+   "step": 1000,
+   "y_min": -210.8232729715901,
+   "y_max": 66.44541106324614,
+   "collar_y_mean": 63.53589450134479,
+   "collar": {
+    "nodes": 110,
+    "triangles": 155,
+    "hinges": 201,
+    "boundary_edges": 63,
+    "boundary_nodes": 63,
+    "pinned_nodes": 24,
+    "E": 1000000.0,
+    "SE": 50000,
+    "theta_max_deg": 178.892207,
+    "theta_rms_deg": 66.139323,
+    "hinges_over_10deg": 141,
+    "hinges_over_30deg": 62,
+    "stretch_strain_max": 0.5638351,
+    "stretch_strain_rms": 0.09996357,
+    "hinge_identity_err": 5.701e-16,
+    "cases": [
+     {
+      "BE": 10,
+      "solved": true,
+      "f_exact_bend_max": 368.0654787,
+      "df_max": 23.67198628,
+      "df_boundary_max": 23.67198628,
+      "df_interior_max": 16.67232996,
+      "df_rms": 6.637083966,
+      "u_max_cm": 8.379204677e-05,
+      "u_max_node": 4,
+      "u_max_on_boundary": true,
+      "u_boundary_max_cm": 8.379204677e-05,
+      "u_interior_max_cm": 5.81172191e-05,
+      "u_rms_cm": 2.328204832e-05,
+      "edge_length_change_max": 6.637610296e-05,
+      "u_corrected_max_cm": 8.238e-18
+     },
+     {
+      "BE": 1000,
+      "solved": true,
+      "f_exact_bend_max": 36806.54787,
+      "df_max": 2367.198628,
+      "df_boundary_max": 2367.198628,
+      "df_interior_max": 1667.232996,
+      "df_rms": 663.7083966,
+      "u_max_cm": 0.007605961053,
+      "u_max_node": 4,
+      "u_max_on_boundary": true,
+      "u_boundary_max_cm": 0.007605961053,
+      "u_interior_max_cm": 0.003920114925,
+      "u_rms_cm": 0.002050425142,
+      "edge_length_change_max": 0.006548308303,
+      "u_corrected_max_cm": 1.724e-16
+     },
+     {
+      "BE": 10000,
+      "solved": true,
+      "f_exact_bend_max": 368065.4787,
+      "df_max": 23671.98628,
+      "df_boundary_max": 23671.98628,
+      "df_interior_max": 16672.32996,
+      "df_rms": 6637.083966,
+      "u_max_cm": 0.06615262327,
+      "u_max_node": 4,
+      "u_max_on_boundary": true,
+      "u_boundary_max_cm": 0.06615262327,
+      "u_interior_max_cm": 0.03358006402,
+      "u_rms_cm": 0.01813180849,
+      "edge_length_change_max": 0.06513138215,
+      "u_corrected_max_cm": 6.644e-16
+     }
+    ]
+   }
+  },
+  {
+   "step": 1500,
+   "y_min": -348.07327297158463,
+   "y_max": 65.89127390900036,
+   "collar_y_mean": 63.26237408543808,
+   "collar": {
+    "nodes": 110,
+    "triangles": 155,
+    "hinges": 201,
+    "boundary_edges": 63,
+    "boundary_nodes": 63,
+    "pinned_nodes": 24,
+    "E": 1000000.0,
+    "SE": 50000,
+    "theta_max_deg": 178.840975,
+    "theta_rms_deg": 68.140623,
+    "hinges_over_10deg": 134,
+    "hinges_over_30deg": 71,
+    "stretch_strain_max": 0.6292852,
+    "stretch_strain_rms": 0.1154022,
+    "hinge_identity_err": 2.04e-16,
+    "cases": [
+     {
+      "BE": 10,
+      "solved": true,
+      "f_exact_bend_max": 268.0876828,
+      "df_max": 33.35824704,
+      "df_boundary_max": 26.59714827,
+      "df_interior_max": 33.35824704,
+      "df_rms": 8.818114614,
+      "u_max_cm": 0.0002179696684,
+      "u_max_node": 5,
+      "u_max_on_boundary": true,
+      "u_boundary_max_cm": 0.0002179696684,
+      "u_interior_max_cm": 4.841851374e-05,
+      "u_rms_cm": 3.84221457e-05,
+      "edge_length_change_max": 6.656914613e-05,
+      "u_corrected_max_cm": 4.939e-17
+     },
+     {
+      "BE": 1000,
+      "solved": true,
+      "f_exact_bend_max": 26808.76828,
+      "df_max": 3335.824704,
+      "df_boundary_max": 2659.714827,
+      "df_interior_max": 3335.824704,
+      "df_rms": 881.8114614,
+      "u_max_cm": 0.008737934977,
+      "u_max_node": 4,
+      "u_max_on_boundary": true,
+      "u_boundary_max_cm": 0.008737934977,
+      "u_interior_max_cm": 0.004666505015,
+      "u_rms_cm": 0.002722391547,
+      "edge_length_change_max": 0.006583444268,
+      "u_corrected_max_cm": 2.246e-16
+     },
+     {
+      "BE": 10000,
+      "solved": true,
+      "f_exact_bend_max": 268087.6828,
+      "df_max": 33358.24704,
+      "df_boundary_max": 26597.14827,
+      "df_interior_max": 33358.24704,
+      "df_rms": 8818.114614,
+      "u_max_cm": 0.07364729935,
+      "u_max_node": 4,
+      "u_max_on_boundary": true,
+      "u_boundary_max_cm": 0.07364729935,
+      "u_interior_max_cm": 0.04394420611,
+      "u_rms_cm": 0.02247935132,
+      "edge_length_change_max": 0.06493611637,
+      "u_corrected_max_cm": 1.398e-15
+     }
+    ]
+   }
+  },
+  {
+   "step": 2000,
+   "y_min": -485.3232729715792,
+   "y_max": 65.99430887909116,
+   "collar_y_mean": 63.16287781046827,
+   "collar": {
+    "nodes": 110,
+    "triangles": 155,
+    "hinges": 201,
+    "boundary_edges": 63,
+    "boundary_nodes": 63,
+    "pinned_nodes": 24,
+    "E": 1000000.0,
+    "SE": 50000,
+    "theta_max_deg": 178.07613,
+    "theta_rms_deg": 66.193431,
+    "hinges_over_10deg": 142,
+    "hinges_over_30deg": 62,
+    "stretch_strain_max": 0.6918161,
+    "stretch_strain_rms": 0.1224268,
+    "hinge_identity_err": 3.806e-16,
+    "cases": [
+     {
+      "BE": 10,
+      "solved": true,
+      "f_exact_bend_max": 218.9079103,
+      "df_max": 31.71463737,
+      "df_boundary_max": 24.20596802,
+      "df_interior_max": 31.71463737,
+      "df_rms": 7.209303287,
+      "u_max_cm": 7.116779544e-05,
+      "u_max_node": 4,
+      "u_max_on_boundary": true,
+      "u_boundary_max_cm": 7.116779544e-05,
+      "u_interior_max_cm": 4.7809028e-05,
+      "u_rms_cm": 2.591820785e-05,
+      "edge_length_change_max": 6.902897823e-05,
+      "u_corrected_max_cm": 1.396e-16
+     },
+     {
+      "BE": 1000,
+      "solved": true,
+      "f_exact_bend_max": 21890.79103,
+      "df_max": 3171.463737,
+      "df_boundary_max": 2420.596802,
+      "df_interior_max": 3171.463737,
+      "df_rms": 720.9303287,
+      "u_max_cm": 0.007117539092,
+      "u_max_node": 6,
+      "u_max_on_boundary": true,
+      "u_boundary_max_cm": 0.007117539092,
+      "u_interior_max_cm": 0.004775738131,
+      "u_rms_cm": 0.002479458814,
+      "edge_length_change_max": 0.006890599615,
+      "u_corrected_max_cm": 1.743e-16
+     },
+     {
+      "BE": 10000,
+      "solved": true,
+      "f_exact_bend_max": 218907.9103,
+      "df_max": 31714.63737,
+      "df_boundary_max": 24205.96802,
+      "df_interior_max": 31714.63737,
+      "df_rms": 7209.303287,
+      "u_max_cm": 0.0664711418,
+      "u_max_node": 4,
+      "u_max_on_boundary": true,
+      "u_boundary_max_cm": 0.0664711418,
+      "u_interior_max_cm": 0.04494651535,
+      "u_rms_cm": 0.02175093454,
+      "edge_length_change_max": 0.06881093202,
+      "u_corrected_max_cm": 7.719e-16
+     }
+    ]
+   }
+  }
+ ]
+}

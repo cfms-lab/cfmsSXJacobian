@@ -1,0 +1,71 @@
+{
+  "spec": "baraff_bend_compact.py",
+  "spec_sha256": "86103caa8d3a2590",
+  "sympy": "1.14.0",
+  "variants": {
+    "exact": {
+      "cse_seconds": 0.11,
+      "temporaries": 440,
+      "ops": 2707,
+      "diff_seconds": 1.4,
+      "body_sha256": "85896718da8de26b609fa6c1617a41dbd0b078d68ab74270a839479c5f630bda"
+    },
+    "frozen": {
+      "cse_seconds": 0.12,
+      "temporaries": 440,
+      "ops": 2707,
+      "diff_seconds": 0.2,
+      "body_sha256": "ed2265f0f3d2e9cd5ad0e88dc2fe99f6ae86b1bd3a9370736096529b646bfef3"
+    },
+    "staged": {
+      "cse_seconds": 0.03,
+      "temporaries": 336,
+      "ops": 1713,
+      "stages": 9,
+      "diff_seconds": 0.17,
+      "body_sha256": "c0ffd2416f6bc59c30bf5b8c7895c53e2ae8512e7099825acfb79422590f9d3f"
+    },
+    "implicit": {
+      "cse_seconds": 0.03,
+      "temporaries": 495,
+      "ops": 2211,
+      "stages": 9,
+      "diff_seconds": 0.17,
+      "body_sha256": "18968af737a630195796cd0bce310178739f18c123ce91706470e1abacc29552"
+    },
+    "implicit_gn": {
+      "cse_seconds": 0.01,
+      "temporaries": 132,
+      "ops": 355,
+      "stages": 9,
+      "body_sha256": "eb21b93d84e7785d88eabc16233bdda0da7702375836135bf98eb114bdae914d"
+    },
+    "engine": {
+      "cse_seconds": 0.02,
+      "temporaries": 437,
+      "ops": 1753,
+      "stages": 9,
+      "body_sha256": "0d16dd3bdc2ee43e6329bbd6446b73247034ac594bff29be5577ba98c55afb15"
+    },
+    "engine_gn": {
+      "cse_seconds": 0.0,
+      "temporaries": 173,
+      "ops": 408,
+      "stages": 9,
+      "body_sha256": "391158ff6669e98a385ca790c206396ed02009a813f4cb52de92e495d07d6187"
+    },
+    "engine_gn_undamped": {
+      "cse_seconds": 0.0,
+      "temporaries": 171,
+      "ops": 328,
+      "stages": 9,
+      "body_sha256": "e2b42f5dddf0105a6131d5b8d9987dd230ca643d75c9c805a7b4bea2f8e6589b"
+    }
+  },
+  "header": "generated/BaraffBendCompact.h",
+  "header_bytes": 121788,
+  "header_lines": 2480,
+  "engine_header": "generated/BaraffBendCompact_Engine.h",
+  "engine_header_bytes": 47115,
+  "engine_header_lines": 1211
+}

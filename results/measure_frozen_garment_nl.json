@@ -1,0 +1,823 @@
+{
+ "data": "data/garments",
+ "density_g_cm2": 0.02,
+ "gravity_cm_s2": 980.0,
+ "premise": {
+  "matches_m4b": true,
+  "different": []
+ },
+ "valid": true,
+ "garments": [
+  {
+   "garment": "kofoti_024_classic_dress_shirt",
+   "pattern": "10",
+   "pattern_index": 14,
+   "nodes": 176,
+   "triangles": 292,
+   "pinned": 23,
+   "collar_material": {
+    "E": 1000000.0,
+    "SE": 50000.0,
+    "BE": [
+     10.0,
+     100.0,
+     1000.0,
+     10000.0
+    ]
+   },
+   "seconds": 7.549108899998828,
+   "result": {
+    "nodes": 176,
+    "triangles": 292,
+    "hinges": 409,
+    "pinned_nodes": 23,
+    "half_bandwidth": 56,
+    "E": 1000000.0,
+    "SE": 50000,
+    "density": 0.02,
+    "gravity": 980,
+    "tolerance_dyn": 6.692948e-08,
+    "max_node_weight_dyn": 66.92948,
+    "cases": [
+     {
+      "BE": 10,
+      "A": {
+       "exact": {
+        "converged": true,
+        "iterations": 189,
+        "true_tangent_steps": 164,
+        "psd_steps": 25,
+        "factorizations": 393,
+        "residual_dyn": 1.032447e-08,
+        "tolerance_dyn": 5.238382e-07
+       },
+       "moved_from_clo_max_cm": 4.51409564,
+       "theta_rms_deg": 21.94527,
+       "theta_max_deg": 148.871911,
+       "strain_rms": 0.006183858,
+       "strain_max": 0.03696157,
+       "true_tangent_pd_at_xE": true,
+       "df_max_dyn": 72.85386011,
+       "df_corrected_max_dyn": 3.635e-13,
+       "frozen": {
+        "converged": true,
+        "iterations": 4,
+        "residual_dyn": 1.240853e-07,
+        "tolerance_dyn": 5.240426e-07
+       },
+       "u_nl_max_cm": 0.001477860819,
+       "u_nl_rms_cm": 0.0003432559026,
+       "u_nl_max_node": 28,
+       "edge_length_change_max": 8.549162166e-05,
+       "u_true_tangent_max_cm": 0.001475032438,
+       "u_true_tangent_rms_cm": 0.0003429102529,
+       "u_psd_max_cm": 0.0004903981632,
+       "u_psd_rms_cm": 0.0001307701529,
+       "cos_nl_true": 0.99999685,
+       "cos_nl_psd": 0.463237438,
+       "corrected": {
+        "converged": true,
+        "iterations": 0,
+        "u_max_cm": 0.0
+       }
+      },
+      "B": {
+       "true_tangent_pd_at_x0": false,
+       "u_psd_at_x0_max_cm": 0.0001229924187,
+       "frozen": {
+        "converged": false,
+        "iterations": 4,
+        "residual_dyn": 4.718758,
+        "tolerance_dyn": 2.197176e-06,
+        "u_max_cm": 0.000130137004,
+        "u_rms_cm": 7.866554182e-05
+       }
+      },
+      "check_vs_m4b": {
+       "u_max_cm_m4b": 0.0001229924187,
+       "relative_difference": 0.0
+      }
+     },
+     {
+      "BE": 100,
+      "A": {
+       "exact": {
+        "converged": true,
+        "iterations": 55,
+        "true_tangent_steps": 43,
+        "psd_steps": 12,
+        "factorizations": 128,
+        "residual_dyn": 8.328364e-09,
+        "tolerance_dyn": 5.211106e-07
+       },
+       "moved_from_clo_max_cm": 5.254155449,
+       "theta_rms_deg": 9.827927,
+       "theta_max_deg": 40.204704,
+       "strain_rms": 0.006711186,
+       "strain_max": 0.03477556,
+       "true_tangent_pd_at_xE": true,
+       "df_max_dyn": 44.65621165,
+       "df_corrected_max_dyn": 9.025e-13,
+       "frozen": {
+        "converged": true,
+        "iterations": 4,
+        "residual_dyn": 3.028633e-08,
+        "tolerance_dyn": 5.211486e-07
+       },
+       "u_nl_max_cm": 0.00120450381,
+       "u_nl_rms_cm": 0.0002862205386,
+       "u_nl_max_node": 29,
+       "edge_length_change_max": 8.472479141e-05,
+       "u_true_tangent_max_cm": 0.001206768801,
+       "u_true_tangent_rms_cm": 0.0002870192215,
+       "u_psd_max_cm": 0.0008569598544,
+       "u_psd_rms_cm": 0.0002247170061,
+       "cos_nl_true": 0.999998604,
+       "cos_nl_psd": 0.991268457,
+       "corrected": {
+        "converged": true,
+        "iterations": 0,
+        "u_max_cm": 0.0
+       }
+      },
+      "B": {
+       "true_tangent_pd_at_x0": false,
+       "u_psd_at_x0_max_cm": 0.00115255614,
+       "frozen": {
+        "converged": false,
+        "iterations": 500,
+        "residual_dyn": 54.5798,
+        "tolerance_dyn": 2.199729e-06,
+        "u_max_cm": 0.001403646798,
+        "u_rms_cm": 0.0008110266449
+       }
+      },
+      "check_vs_m4b": {
+       "u_max_cm_m4b": 0.00115255614,
+       "relative_difference": 0.0
+      }
+     },
+     {
+      "BE": 1000,
+      "A": {
+       "exact": {
+        "converged": true,
+        "iterations": 32,
+        "true_tangent_steps": 32,
+        "psd_steps": 0,
+        "factorizations": 73,
+        "residual_dyn": 1.371274e-08,
+        "tolerance_dyn": 5.536672e-07
+       },
+       "moved_from_clo_max_cm": 5.367995117,
+       "theta_rms_deg": 8.896367,
+       "theta_max_deg": 31.248762,
+       "strain_rms": 0.007676523,
+       "strain_max": 0.03640606,
+       "true_tangent_pd_at_xE": true,
+       "df_max_dyn": 292.3925398,
+       "df_corrected_max_dyn": 2.085e-12,
+       "frozen": {
+        "converged": true,
+        "iterations": 5,
+        "residual_dyn": 1.775679e-08,
+        "tolerance_dyn": 5.535097e-07
+       },
+       "u_nl_max_cm": 0.003005441012,
+       "u_nl_rms_cm": 0.0008746209997,
+       "u_nl_max_node": 35,
+       "edge_length_change_max": 0.0004774604176,
+       "u_true_tangent_max_cm": 0.003012002589,
+       "u_true_tangent_rms_cm": 0.0008767651974,
+       "u_psd_max_cm": 0.002607202285,
+       "u_psd_rms_cm": 0.0007835666183,
+       "cos_nl_true": 0.999997228,
+       "cos_nl_psd": 0.99654012,
+       "corrected": {
+        "converged": true,
+        "iterations": 0,
+        "u_max_cm": 0.0
+       }
+      },
+      "B": {
+       "true_tangent_pd_at_x0": false,
+       "u_psd_at_x0_max_cm": 0.009799285822,
+       "frozen": {
+        "converged": false,
+        "iterations": 500,
+        "residual_dyn": 430.3006,
+        "tolerance_dyn": 1.375812e-05,
+        "u_max_cm": 0.02096717289,
+        "u_rms_cm": 0.01121524257
+       }
+      },
+      "check_vs_m4b": {
+       "u_max_cm_m4b": 0.009799285822,
+       "relative_difference": 0.0
+      }
+     },
+     {
+      "BE": 10000,
+      "A": {
+       "exact": {
+        "converged": true,
+        "iterations": 13,
+        "true_tangent_steps": 11,
+        "psd_steps": 2,
+        "factorizations": 39,
+        "residual_dyn": 2.202199e-07,
+        "tolerance_dyn": 1.28041e-06
+       },
+       "moved_from_clo_max_cm": 5.360526068,
+       "theta_rms_deg": 8.230455,
+       "theta_max_deg": 24.788562,
+       "strain_rms": 0.008865031,
+       "strain_max": 0.03772526,
+       "true_tangent_pd_at_xE": true,
+       "df_max_dyn": 1529.272236,
+       "df_corrected_max_dyn": 1.478e-11,
+       "frozen": {
+        "converged": true,
+        "iterations": 6,
+        "residual_dyn": 2.440513e-07,
+        "tolerance_dyn": 1.272777e-06
+       },
+       "u_nl_max_cm": 0.01259657989,
+       "u_nl_rms_cm": 0.005505143354,
+       "u_nl_max_node": 23,
+       "edge_length_change_max": 0.002315662718,
+       "u_true_tangent_max_cm": 0.01262961502,
+       "u_true_tangent_rms_cm": 0.005518447026,
+       "u_psd_max_cm": 0.01086825579,
+       "u_psd_rms_cm": 0.004721315382,
+       "cos_nl_true": 0.999993218,
+       "cos_nl_psd": 0.997050466,
+       "corrected": {
+        "converged": true,
+        "iterations": 0,
+        "u_max_cm": 0.0
+       }
+      },
+      "B": {
+       "true_tangent_pd_at_x0": false,
+       "u_psd_at_x0_max_cm": 0.058396381,
+       "frozen": {
+        "converged": false,
+        "iterations": 16,
+        "residual_dyn": 30441.46,
+        "tolerance_dyn": 0.0001335184,
+        "u_max_cm": 0.01101307624,
+        "u_rms_cm": 0.002707702226
+       }
+      },
+      "check_vs_m4b": {
+       "u_max_cm_m4b": 0.058396381,
+       "relative_difference": 0.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "garment": "kofoti_244_wide_fit_open_collar_shirt",
+   "pattern": "6",
+   "pattern_index": 10,
+   "nodes": 2768,
+   "triangles": 5306,
+   "pinned": 101,
+   "collar_material": {
+    "E": 1000000.0,
+    "SE": 50000.0,
+    "BE": [
+     10.0,
+     100.0,
+     1000.0,
+     10000.0
+    ]
+   },
+   "seconds": 815.3191626000043,
+   "result": {
+    "nodes": 2768,
+    "triangles": 5306,
+    "hinges": 7845,
+    "pinned_nodes": 101,
+    "half_bandwidth": 209,
+    "E": 1000000.0,
+    "SE": 50000,
+    "density": 0.02,
+    "gravity": 980,
+    "tolerance_dyn": 4.892704e-09,
+    "max_node_weight_dyn": 4.892704,
+    "cases": [
+     {
+      "BE": 10,
+      "A": {
+       "exact": {
+        "converged": true,
+        "iterations": 300,
+        "true_tangent_steps": 72,
+        "psd_steps": 228,
+        "factorizations": 682,
+        "residual_dyn": 3.52109e-09,
+        "tolerance_dyn": 6.553977e-07
+       },
+       "moved_from_clo_max_cm": 4.614324314,
+       "theta_rms_deg": 15.673468,
+       "theta_max_deg": 169.636967,
+       "strain_rms": 0.01000071,
+       "strain_max": 0.134171,
+       "true_tangent_pd_at_xE": true,
+       "df_max_dyn": 124.9456673,
+       "df_corrected_max_dyn": 1.202e-13,
+       "frozen": {
+        "converged": true,
+        "iterations": 27,
+        "residual_dyn": 6.145235e-07,
+        "tolerance_dyn": 6.554441e-07
+       },
+       "u_nl_max_cm": 0.003995585578,
+       "u_nl_rms_cm": 0.001113785859,
+       "u_nl_max_node": 134,
+       "edge_length_change_max": 0.0003649903278,
+       "u_true_tangent_max_cm": 0.00399231956,
+       "u_true_tangent_rms_cm": 0.001114960347,
+       "u_psd_max_cm": 0.0009085740977,
+       "u_psd_rms_cm": 0.0003029086151,
+       "cos_nl_true": 0.999988305,
+       "cos_nl_psd": 0.484831382,
+       "corrected": {
+        "converged": true,
+        "iterations": 0,
+        "u_max_cm": 0.0
+       }
+      },
+      "B": {
+       "true_tangent_pd_at_x0": false,
+       "u_psd_at_x0_max_cm": 0.0005083347598,
+       "frozen": {
+        "converged": false,
+        "iterations": 500,
+        "residual_dyn": 6.338243,
+        "tolerance_dyn": 9.49962e-07,
+        "u_max_cm": 0.0001932356305,
+        "u_rms_cm": 4.757292592e-05
+       }
+      },
+      "check_vs_m4b": {
+       "u_max_cm_m4b": 0.0005083347598,
+       "relative_difference": 0.0
+      }
+     },
+     {
+      "BE": 100,
+      "A": {
+       "exact": {
+        "converged": true,
+        "iterations": 98,
+        "true_tangent_steps": 30,
+        "psd_steps": 68,
+        "factorizations": 212,
+        "residual_dyn": 4.384213e-09,
+        "tolerance_dyn": 6.44402e-07
+       },
+       "moved_from_clo_max_cm": 3.714169456,
+       "theta_rms_deg": 10.61316,
+       "theta_max_deg": 143.178955,
+       "strain_rms": 0.0104082,
+       "strain_max": 0.1341722,
+       "true_tangent_pd_at_xE": true,
+       "df_max_dyn": 1114.601639,
+       "df_corrected_max_dyn": 8.514e-13,
+       "frozen": {
+        "converged": true,
+        "iterations": 138,
+        "residual_dyn": 5.956452e-07,
+        "tolerance_dyn": 6.448292e-07
+       },
+       "u_nl_max_cm": 0.06712626726,
+       "u_nl_rms_cm": 0.01566748134,
+       "u_nl_max_node": 79,
+       "edge_length_change_max": 0.004102769117,
+       "u_true_tangent_max_cm": 0.06909798132,
+       "u_true_tangent_rms_cm": 0.01572106395,
+       "u_psd_max_cm": 0.008816357567,
+       "u_psd_rms_cm": 0.002758395076,
+       "cos_nl_true": 0.999729431,
+       "cos_nl_psd": 0.73177065,
+       "corrected": {
+        "converged": true,
+        "iterations": 0,
+        "u_max_cm": 0.0
+       }
+      },
+      "B": {
+       "true_tangent_pd_at_x0": false,
+       "u_psd_at_x0_max_cm": 0.004785432908,
+       "frozen": {
+        "converged": false,
+        "iterations": 500,
+        "residual_dyn": 33.80984,
+        "tolerance_dyn": 9.522029e-07,
+        "u_max_cm": 0.004889467676,
+        "u_rms_cm": 0.002165266762
+       }
+      },
+      "check_vs_m4b": {
+       "u_max_cm_m4b": 0.004785432908,
+       "relative_difference": 0.0
+      }
+     },
+     {
+      "BE": 1000,
+      "A": {
+       "exact": {
+        "converged": true,
+        "iterations": 55,
+        "true_tangent_steps": 14,
+        "psd_steps": 41,
+        "factorizations": 109,
+        "residual_dyn": 3.820785e-09,
+        "tolerance_dyn": 1.220807e-06
+       },
+       "moved_from_clo_max_cm": 2.246637109,
+       "theta_rms_deg": 7.602752,
+       "theta_max_deg": 85.077568,
+       "strain_rms": 0.01348454,
+       "strain_max": 0.1341736,
+       "true_tangent_pd_at_xE": true,
+       "df_max_dyn": 4876.80374,
+       "df_corrected_max_dyn": 7.526e-12,
+       "frozen": {
+        "converged": false,
+        "iterations": 2000,
+        "residual_dyn": 5.572783,
+        "tolerance_dyn": 1.345245e-06
+       },
+       "u_nl_max_cm": 0.1860452021,
+       "u_nl_rms_cm": 0.08478779503,
+       "u_nl_max_node": 128,
+       "edge_length_change_max": 0.06327646434,
+       "u_true_tangent_max_cm": 0.2968236795,
+       "u_true_tangent_rms_cm": 0.1101722802,
+       "u_psd_max_cm": 0.03887548144,
+       "u_psd_rms_cm": 0.01744749941,
+       "cos_nl_true": 0.878208528,
+       "cos_nl_psd": 0.424196507,
+       "corrected": {
+        "converged": true,
+        "iterations": 0,
+        "u_max_cm": 0.0
+       }
+      },
+      "B": {
+       "true_tangent_pd_at_x0": false,
+       "u_psd_at_x0_max_cm": 0.04412155172,
+       "frozen": {
+        "converged": false,
+        "iterations": 500,
+        "residual_dyn": 182.5946,
+        "tolerance_dyn": 9.882246e-07,
+        "u_max_cm": 0.0579503401,
+        "u_rms_cm": 0.02223596286
+       }
+      },
+      "check_vs_m4b": {
+       "u_max_cm_m4b": 0.04412155172,
+       "relative_difference": 0.0
+      }
+     },
+     {
+      "BE": 10000,
+      "A": {
+       "exact": {
+        "converged": true,
+        "iterations": 35,
+        "true_tangent_steps": 34,
+        "psd_steps": 1,
+        "factorizations": 66,
+        "residual_dyn": 6.988701e-09,
+        "tolerance_dyn": 1.845046e-06
+       },
+       "moved_from_clo_max_cm": 7.491689747,
+       "theta_rms_deg": 2.895388,
+       "theta_max_deg": 22.941081,
+       "strain_rms": 0.01796168,
+       "strain_max": 0.2351795,
+       "true_tangent_pd_at_xE": true,
+       "df_max_dyn": 6471.892986,
+       "df_corrected_max_dyn": 3.451e-11,
+       "frozen": {
+        "converged": true,
+        "iterations": 13,
+        "residual_dyn": 7.897966e-07,
+        "tolerance_dyn": 1.851614e-06
+       },
+       "u_nl_max_cm": 0.06222272654,
+       "u_nl_rms_cm": 0.02656276683,
+       "u_nl_max_node": 903,
+       "edge_length_change_max": 0.02493813046,
+       "u_true_tangent_max_cm": 0.06083505243,
+       "u_true_tangent_rms_cm": 0.02592593821,
+       "u_psd_max_cm": 0.0402328309,
+       "u_psd_rms_cm": 0.01902107741,
+       "cos_nl_true": 0.9989187,
+       "cos_nl_psd": 0.849773533,
+       "corrected": {
+        "converged": true,
+        "iterations": 0,
+        "u_max_cm": 0.0
+       }
+      },
+      "B": {
+       "true_tangent_pd_at_x0": false,
+       "u_psd_at_x0_max_cm": 0.381513151,
+       "frozen": {
+        "converged": false,
+        "iterations": 500,
+        "residual_dyn": 667.1866,
+        "tolerance_dyn": 5.161431e-06,
+        "u_max_cm": 0.1329141063,
+        "u_rms_cm": 0.03996662687
+       }
+      },
+      "check_vs_m4b": {
+       "u_max_cm_m4b": 0.381513151,
+       "relative_difference": 0.0
+      }
+     }
+    ]
+   }
+  },
+  {
+   "garment": "kofoti_370_button_down_shirt",
+   "pattern": "8",
+   "pattern_index": 11,
+   "nodes": 273,
+   "triangles": 422,
+   "pinned": 85,
+   "collar_material": {
+    "E": 1000000.0,
+    "SE": 50000.0,
+    "BE": [
+     10.0,
+     100.0,
+     1000.0,
+     10000.0
+    ]
+   },
+   "seconds": 10.896749399995315,
+   "result": {
+    "nodes": 273,
+    "triangles": 422,
+    "hinges": 572,
+    "pinned_nodes": 85,
+    "half_bandwidth": 80,
+    "E": 1000000.0,
+    "SE": 50000,
+    "density": 0.02,
+    "gravity": 980,
+    "tolerance_dyn": 6.786074e-08,
+    "max_node_weight_dyn": 67.86074,
+    "cases": [
+     {
+      "BE": 10,
+      "A": {
+       "exact": {
+        "converged": true,
+        "iterations": 34,
+        "true_tangent_steps": 12,
+        "psd_steps": 22,
+        "factorizations": 66,
+        "residual_dyn": 5.886635e-09,
+        "tolerance_dyn": 8.249748e-07
+       },
+       "moved_from_clo_max_cm": 1.419780642,
+       "theta_rms_deg": 28.541343,
+       "theta_max_deg": 175.661762,
+       "strain_rms": 0.01009986,
+       "strain_max": 0.0551776,
+       "true_tangent_pd_at_xE": true,
+       "df_max_dyn": 59.70750882,
+       "df_corrected_max_dyn": 1.865e-13,
+       "frozen": {
+        "converged": true,
+        "iterations": 5,
+        "residual_dyn": 2.821919e-08,
+        "tolerance_dyn": 8.241064e-07
+       },
+       "u_nl_max_cm": 0.003422529147,
+       "u_nl_rms_cm": 0.0006491897684,
+       "u_nl_max_node": 52,
+       "edge_length_change_max": 0.0001044336968,
+       "u_true_tangent_max_cm": 0.003433186139,
+       "u_true_tangent_rms_cm": 0.0006499089012,
+       "u_psd_max_cm": 0.0005754545596,
+       "u_psd_rms_cm": 0.0001800563164,
+       "cos_nl_true": 0.999984439,
+       "cos_nl_psd": -0.103742372,
+       "corrected": {
+        "converged": true,
+        "iterations": 0,
+        "u_max_cm": 0.0
+       }
+      },
+      "B": {
+       "true_tangent_pd_at_x0": false,
+       "u_psd_at_x0_max_cm": 0.0001451843931,
+       "frozen": {
+        "converged": false,
+        "iterations": 500,
+        "residual_dyn": 4.155346,
+        "tolerance_dyn": 1.810821e-06,
+        "u_max_cm": 0.0002182162002,
+        "u_rms_cm": 8.906394016e-05
+       }
+      },
+      "check_vs_m4b": {
+       "u_max_cm_m4b": 0.0001451843931,
+       "relative_difference": 0.0
+      }
+     },
+     {
+      "BE": 100,
+      "A": {
+       "exact": {
+        "converged": true,
+        "iterations": 27,
+        "true_tangent_steps": 22,
+        "psd_steps": 5,
+        "factorizations": 52,
+        "residual_dyn": 4.524285e-09,
+        "tolerance_dyn": 1.123606e-06
+       },
+       "moved_from_clo_max_cm": 1.844386026,
+       "theta_rms_deg": 26.16701,
+       "theta_max_deg": 173.906192,
+       "strain_rms": 0.01051742,
+       "strain_max": 0.04269338,
+       "true_tangent_pd_at_xE": true,
+       "df_max_dyn": 364.317506,
+       "df_corrected_max_dyn": 1.576e-12,
+       "frozen": {
+        "converged": true,
+        "iterations": 8,
+        "residual_dyn": 4.569819e-08,
+        "tolerance_dyn": 1.11775e-06
+       },
+       "u_nl_max_cm": 0.03056989693,
+       "u_nl_rms_cm": 0.0070061937,
+       "u_nl_max_node": 73,
+       "edge_length_change_max": 0.001053464878,
+       "u_true_tangent_max_cm": 0.03040125209,
+       "u_true_tangent_rms_cm": 0.007000890948,
+       "u_psd_max_cm": 0.002338718185,
+       "u_psd_rms_cm": 0.000874360089,
+       "cos_nl_true": 0.999950529,
+       "cos_nl_psd": 0.629331621,
+       "corrected": {
+        "converged": true,
+        "iterations": 0,
+        "u_max_cm": 0.0
+       }
+      },
+      "B": {
+       "true_tangent_pd_at_x0": false,
+       "u_psd_at_x0_max_cm": 0.001423535015,
+       "frozen": {
+        "converged": false,
+        "iterations": 500,
+        "residual_dyn": 40.79064,
+        "tolerance_dyn": 1.864377e-06,
+        "u_max_cm": 0.001922497455,
+        "u_rms_cm": 0.0009033114925
+       }
+      },
+      "check_vs_m4b": {
+       "u_max_cm_m4b": 0.001423535015,
+       "relative_difference": 0.0
+      }
+     },
+     {
+      "BE": 1000,
+      "A": {
+       "exact": {
+        "converged": true,
+        "iterations": 83,
+        "true_tangent_steps": 40,
+        "psd_steps": 43,
+        "factorizations": 171,
+        "residual_dyn": 5.607556e-09,
+        "tolerance_dyn": 2.736724e-06
+       },
+       "moved_from_clo_max_cm": 2.570879977,
+       "theta_rms_deg": 8.962274,
+       "theta_max_deg": 31.324937,
+       "strain_rms": 0.02276249,
+       "strain_max": 0.2498262,
+       "true_tangent_pd_at_xE": true,
+       "df_max_dyn": 736.9621762,
+       "df_corrected_max_dyn": 5.787e-12,
+       "frozen": {
+        "converged": true,
+        "iterations": 4,
+        "residual_dyn": 1.633023e-06,
+        "tolerance_dyn": 2.734284e-06
+       },
+       "u_nl_max_cm": 0.001583281557,
+       "u_nl_rms_cm": 0.0004971969308,
+       "u_nl_max_node": 185,
+       "edge_length_change_max": 0.002290808267,
+       "u_true_tangent_max_cm": 0.001584856611,
+       "u_true_tangent_rms_cm": 0.0004970370486,
+       "u_psd_max_cm": 0.001435300385,
+       "u_psd_rms_cm": 0.0004016154137,
+       "cos_nl_true": 0.999995769,
+       "cos_nl_psd": 0.940784539,
+       "corrected": {
+        "converged": true,
+        "iterations": 0,
+        "u_max_cm": 0.0
+       }
+      },
+      "B": {
+       "true_tangent_pd_at_x0": false,
+       "u_psd_at_x0_max_cm": 0.01233077918,
+       "frozen": {
+        "converged": false,
+        "iterations": 17,
+        "residual_dyn": 162.7368,
+        "tolerance_dyn": 2.426626e-06,
+        "u_max_cm": 0.02305926703,
+        "u_rms_cm": 0.01123554176
+       }
+      },
+      "check_vs_m4b": {
+       "u_max_cm_m4b": 0.01233077918,
+       "relative_difference": 0.0
+      }
+     },
+     {
+      "BE": 10000,
+      "A": {
+       "exact": {
+        "converged": true,
+        "iterations": 19,
+        "true_tangent_steps": 19,
+        "psd_steps": 0,
+        "factorizations": 49,
+        "residual_dyn": 1.232705e-06,
+        "tolerance_dyn": 4.654999e-06
+       },
+       "moved_from_clo_max_cm": 2.56763178,
+       "theta_rms_deg": 8.23679,
+       "theta_max_deg": 24.317425,
+       "strain_rms": 0.02384193,
+       "strain_max": 0.2547791,
+       "true_tangent_pd_at_xE": true,
+       "df_max_dyn": 6272.711916,
+       "df_corrected_max_dyn": 3.186e-11,
+       "frozen": {
+        "converged": true,
+        "iterations": 6,
+        "residual_dyn": 7.779322e-07,
+        "tolerance_dyn": 4.649536e-06
+       },
+       "u_nl_max_cm": 0.009560255447,
+       "u_nl_rms_cm": 0.003223286115,
+       "u_nl_max_node": 49,
+       "edge_length_change_max": 0.01306307736,
+       "u_true_tangent_max_cm": 0.009518981058,
+       "u_true_tangent_rms_cm": 0.003209811859,
+       "u_psd_max_cm": 0.007737903218,
+       "u_psd_rms_cm": 0.002785707191,
+       "cos_nl_true": 0.999978248,
+       "cos_nl_psd": 0.993564608,
+       "corrected": {
+        "converged": true,
+        "iterations": 0,
+        "u_max_cm": 0.0
+       }
+      },
+      "B": {
+       "true_tangent_pd_at_x0": false,
+       "u_psd_at_x0_max_cm": 0.1190706606,
+       "frozen": {
+        "converged": false,
+        "iterations": 15,
+        "residual_dyn": 1422.416,
+        "tolerance_dyn": 1.447054e-05,
+        "u_max_cm": 0.4385253489,
+        "u_rms_cm": 0.1140988584
+       }
+      },
+      "check_vs_m4b": {
+       "u_max_cm_m4b": 0.1190706606,
+       "relative_difference": 0.0
+      }
+     }
+    ]
+   }
+  }
+ ],
+ "seconds": 815.3417889999982
+}

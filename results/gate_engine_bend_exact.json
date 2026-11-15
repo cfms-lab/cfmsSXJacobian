@@ -1,0 +1,139 @@
+{
+ "dll": {
+  "base": "C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsDrape_build_sxjlink\\Release\\cfmsDrape.dll",
+  "new": "C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsDrape_build_sxjexact\\Release\\cfmsDrape.dll"
+ },
+ "build_info": {
+  "base": {
+   "schema": 1,
+   "product": "cfmsDrape",
+   "product_version": "0.2.2",
+   "abi_version": 1,
+   "backend": "cpu",
+   "git_commit": "441b685",
+   "dirty": false,
+   "build_utc": "2026-11-14T01:56:36Z",
+   "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+   "sha256_scope": "loaded-dll-file",
+   "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+   "capabilities": {
+    "schema": 1,
+    "absent": [],
+    "no_op": []
+   }
+  },
+  "new": {
+   "schema": 1,
+   "product": "cfmsDrape",
+   "product_version": "0.2.2",
+   "abi_version": 1,
+   "backend": "cpu",
+   "git_commit": "277425b",
+   "dirty": false,
+   "build_utc": "2026-11-14T13:02:49Z",
+   "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+   "sha256_scope": "loaded-dll-file",
+   "sha256": "f153c5c1d0c34120c6a8d0dc558df1fb6840387d7b91c34cbd234782dfa7c7cf",
+   "capabilities": {
+    "schema": 1,
+    "absent": [],
+    "no_op": []
+   }
+  }
+ },
+ "branch": {
+  "head": "277425b",
+  "descends_from_base": true,
+  "changed_files": [
+   "CLAUDE.md",
+   "drape/CMakeLists.txt",
+   "drape/scripts/py_membrane_nonlinear_test.py",
+   "drape/src/sde_core/SDECore.cpp",
+   "drape/src/sde_core/SDECore.h",
+   "drape/src/sde_core/SDECore_SXJBend.cpp",
+   "drape/src/sde_core/SDECore_SXJMembrane.cpp",
+   "drape/src/sde_core/SDESparseMatrix.cpp",
+   "drape/src/sde_core/SDESparseMatrix.h",
+   "drape/src/sde_core/sxgen/BaraffStretch_Engine.h",
+   "drape/src/sde_core/sxgen/BridsonBend_Engine.h",
+   "drape/src/sde_core/sxgen/ProvotShear_Engine.h"
+  ],
+  "outside_allowed": [],
+  "uncommitted": false,
+  "diff_sha256": "2203d1bd76b6138898fbe43e5ac18c3bf2f0f19a10c0f274864f75083225d072"
+ },
+ "dirty_files": [
+  "CLAUDE.md",
+  "drape/src/sde_core/SDECore.h",
+  "drape/src/sde_core/SDECore_SXJBend.cpp"
+ ],
+ "limits": {
+  "J": 1e-12,
+  "J_psd": 1e-10,
+  "min_eig_ratio": -1e-12
+ },
+ "E1": {
+  "off": {
+   "f_J_P": true,
+   "hang": true
+  },
+  "gn_rest": {
+   "f_J_P": true,
+   "hang": true
+  },
+  "gn_state": {
+   "f_J_P": true,
+   "hang": true
+  }
+ },
+ "E2": {
+  "exact_state": true,
+  "psd_state": true
+ },
+ "E3": {
+  "J_vs_ref": 5.073382080866693e-16,
+  "product_consistency": 3.5225449871344905e-16
+ },
+ "E4": {
+  "J_vs_ref": 3.922799412831405e-15,
+  "min_eig_ratio": -2.98166539784472e-17,
+  "product_consistency": 4.3310608140838213e-16
+ },
+ "E5": {
+  "exact_state": {
+   "J": 3.4997002228414107e-16,
+   "f": 6.932052505324437e-18
+  },
+  "psd_state": {
+   "J": 3.4997002228414107e-16,
+   "f": 6.932052505324437e-18
+  }
+ },
+ "report": {
+  "hinges": 40,
+  "indefinite_exact_element": 40,
+  "exact_global_min_eig_ratio": -0.029080198554676872,
+  "gn_global_min_eig_ratio": -1.76719889332117e-16,
+  "psd_vs_exact_rel": 0.0969597229086965,
+  "psd_vs_gn_rel": 0.08655777815086114,
+  "J_vs_fd_of_own_force": {
+   "off": 1.0623044685564096,
+   "gn_state": 0.12344664921805815,
+   "exact_state": 0.04891500582458461,
+   "psd_state": 0.11891129449187195
+  },
+  "hang": {
+   "exact_state": {
+    "steps_done": 40,
+    "error": "",
+    "finite": true
+   },
+   "psd_state": {
+    "steps_done": 40,
+    "error": "",
+    "finite": true
+   }
+  }
+ },
+ "gates_failed": 0
+}

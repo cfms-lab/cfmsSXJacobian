@@ -1,0 +1,4349 @@
+{
+ "be_u": 50.0,
+ "dll_source": "C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsDrape_build_sxjlink\\Release\\cfmsDrape.dll",
+ "dll_sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+ "engine": "D:\\__CFMS_Projects\\cfmsDrape_dev",
+ "dt0": 0.005,
+ "dyn_seconds": 10.0,
+ "settle_rule": {
+  "block": 50,
+  "max_blocks": 80,
+  "min_blocks": 6,
+  "delta_cm": 0.002
+ },
+ "extra_static_steps": 2000,
+ "arms": {
+  "N": {},
+  "K": {
+   "CFMS_CPU_SXJ_BEND": "off",
+   "CFMS_CPU_SXJ_MEMBRANE": "off"
+  },
+  "bend_off": {
+   "CFMS_CPU_SXJ_BEND": "off"
+  },
+  "membrane_off": {
+   "CFMS_CPU_SXJ_MEMBRANE": "off"
+  }
+ },
+ "runs": [
+  {
+   "id": "base_N",
+   "arm": "N",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5854160794768989,
+    "nodes": 8,
+    "area": 519.3050000000001,
+    "y_min": -5.781703748326211,
+    "y_edge_mean": -4.621432135978076,
+    "v_max": 6.0389488680812065e-06
+   },
+   "static_delta": [
+    2.0210823414856804e-07,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5854160794768989,
+    "nodes": 8,
+    "area": 519.3050000000001,
+    "y_min": -5.781703665087749,
+    "y_edge_mean": -4.621432056405933
+   },
+   "extra": [
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5854160794768989,
+    "nodes": 8,
+    "area": 519.3050000000001,
+    "y_min": -5.781703665087749,
+    "y_edge_mean": -4.621432056405933
+   },
+   "residual_over_weight": {
+    "max": 1.2914470547432467e-06,
+    "rms": 3.3272102126138137e-07,
+    "median": 2.1858198880664051e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1146.0258786102986,
+   "seconds": 45.49540849999903
+  },
+  {
+   "id": "base_K",
+   "arm": "K",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5061646545157577,
+    "nodes": 8,
+    "area": 483.4525000000001,
+    "y_min": -5.889042958318381,
+    "y_edge_mean": -4.9298069260516275,
+    "v_max": 2.1804396510560764e-06
+   },
+   "static_delta": [
+    5.883811660112315e-09,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5061646545157577,
+    "nodes": 8,
+    "area": 483.4525000000001,
+    "y_min": -5.889042958312572,
+    "y_edge_mean": -4.929806926088696
+   },
+   "extra": [
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5061646545157577,
+    "nodes": 8,
+    "area": 483.4525000000001,
+    "y_min": -5.889042958312572,
+    "y_edge_mean": -4.929806926088696
+   },
+   "residual_over_weight": {
+    "max": 2.032484616296537e-06,
+    "rms": 3.525881057727266e-07,
+    "median": 1.8218229877722209e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1220.7477768924139,
+   "seconds": 48.912303600001906
+  },
+  {
+   "id": "base_bend_off",
+   "arm": "bend_off",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5062309690753792,
+    "nodes": 8,
+    "area": 483.4825000000001,
+    "y_min": -5.889590612547837,
+    "y_edge_mean": -4.930563414392769,
+    "v_max": 4.303767582314322e-06
+   },
+   "static_delta": [
+    1.1913691366771673e-08,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5062309690753792,
+    "nodes": 8,
+    "area": 483.4825000000001,
+    "y_min": -5.889590609340296,
+    "y_edge_mean": -4.930563413758252
+   },
+   "extra": [
+    {
+     "dc": 0.5062309690753792,
+     "nodes": 8,
+     "area": 483.4825000000001,
+     "y_min": -5.889590609340296,
+     "y_edge_mean": -4.930563413758252,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5062309690753792,
+     "nodes": 8,
+     "area": 483.4825000000001,
+     "y_min": -5.889590609340296,
+     "y_edge_mean": -4.930563413758252,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5062309690753792,
+     "nodes": 8,
+     "area": 483.4825000000001,
+     "y_min": -5.889590609340296,
+     "y_edge_mean": -4.930563413758252,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5062309690753792,
+     "nodes": 8,
+     "area": 483.4825000000001,
+     "y_min": -5.889590609340296,
+     "y_edge_mean": -4.930563413758252,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5062309690753792,
+     "nodes": 8,
+     "area": 483.4825000000001,
+     "y_min": -5.889590609340296,
+     "y_edge_mean": -4.930563413758252,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5062309690753792,
+     "nodes": 8,
+     "area": 483.4825000000001,
+     "y_min": -5.889590609340296,
+     "y_edge_mean": -4.930563413758252,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5062309690753792,
+     "nodes": 8,
+     "area": 483.4825000000001,
+     "y_min": -5.889590609340296,
+     "y_edge_mean": -4.930563413758252,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5062309690753792,
+     "nodes": 8,
+     "area": 483.4825000000001,
+     "y_min": -5.889590609340296,
+     "y_edge_mean": -4.930563413758252,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5062309690753792,
+    "nodes": 8,
+    "area": 483.4825000000001,
+    "y_min": -5.889590609340296,
+    "y_edge_mean": -4.930563413758252
+   },
+   "residual_over_weight": {
+    "max": 2.260668497769091e-06,
+    "rms": 3.9167571887285e-07,
+    "median": 1.952936417042925e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1221.179787600691,
+   "seconds": 42.81440960000327
+  },
+  {
+   "id": "base_membrane_off",
+   "arm": "membrane_off",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5854160794768989,
+    "nodes": 8,
+    "area": 519.3050000000001,
+    "y_min": -5.781703411612514,
+    "y_edge_mean": -4.621431794993828,
+    "v_max": 6.151897650852334e-06
+   },
+   "static_delta": [
+    1.219614507164124e-07,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5854160794768989,
+    "nodes": 8,
+    "area": 519.3050000000001,
+    "y_min": -5.781703459071474,
+    "y_edge_mean": -4.621431862839256
+   },
+   "extra": [
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703459071474,
+     "y_edge_mean": -4.621431862839256,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703459071474,
+     "y_edge_mean": -4.621431862839256,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703459071474,
+     "y_edge_mean": -4.621431862839256,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703459071474,
+     "y_edge_mean": -4.621431862839256,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703459071474,
+     "y_edge_mean": -4.621431862839256,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703459071474,
+     "y_edge_mean": -4.621431862839256,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703459071474,
+     "y_edge_mean": -4.621431862839256,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703459071474,
+     "y_edge_mean": -4.621431862839256,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5854160794768989,
+    "nodes": 8,
+    "area": 519.3050000000001,
+    "y_min": -5.781703459071474,
+    "y_edge_mean": -4.621431862839256
+   },
+   "residual_over_weight": {
+    "max": 1.3737143106322306e-06,
+    "rms": 3.844587247935491e-07,
+    "median": 2.7924762732995987e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1146.0258292496824,
+   "seconds": 51.2985966999986
+  },
+  {
+   "id": "perturb_N_1e-10_s1",
+   "arm": "N",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5321157521810195,
+    "nodes": 9,
+    "area": 495.1925000000001,
+    "y_min": -5.760170126905209,
+    "y_edge_mean": -4.846007233842333,
+    "v_max": 0.00047407319652847946
+   },
+   "static_delta": [
+    0.00017014460470399229,
+    5.092824973296217e-05,
+    1.522980740453761e-05,
+    4.5795573466733686e-06,
+    2.436560944119037e-07,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5321212783943213,
+    "nodes": 9,
+    "area": 495.1950000000001,
+    "y_min": -5.760179416603733,
+    "y_edge_mean": -4.846007441898872
+   },
+   "extra": [
+    {
+     "dc": 0.5321212783943213,
+     "nodes": 9,
+     "area": 495.1950000000001,
+     "y_min": -5.760179416603733,
+     "y_edge_mean": -4.846007441898872,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5321212783943213,
+     "nodes": 9,
+     "area": 495.1950000000001,
+     "y_min": -5.760179416603733,
+     "y_edge_mean": -4.846007441898872,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5321212783943213,
+     "nodes": 9,
+     "area": 495.1950000000001,
+     "y_min": -5.760179416603733,
+     "y_edge_mean": -4.846007441898872,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5321212783943213,
+     "nodes": 9,
+     "area": 495.1950000000001,
+     "y_min": -5.760179416603733,
+     "y_edge_mean": -4.846007441898872,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5321212783943213,
+     "nodes": 9,
+     "area": 495.1950000000001,
+     "y_min": -5.760179416603733,
+     "y_edge_mean": -4.846007441898872,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5321212783943213,
+     "nodes": 9,
+     "area": 495.1950000000001,
+     "y_min": -5.760179416603733,
+     "y_edge_mean": -4.846007441898872,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5321212783943213,
+     "nodes": 9,
+     "area": 495.1950000000001,
+     "y_min": -5.760179416603733,
+     "y_edge_mean": -4.846007441898872,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5321212783943213,
+     "nodes": 9,
+     "area": 495.1950000000001,
+     "y_min": -5.760179416603733,
+     "y_edge_mean": -4.846007441898872,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5321212783943213,
+    "nodes": 9,
+    "area": 495.1950000000001,
+    "y_min": -5.760179416603733,
+    "y_edge_mean": -4.846007441898872
+   },
+   "residual_over_weight": {
+    "max": 1.6730497994722533e-06,
+    "rms": 3.8503215035758625e-07,
+    "median": 1.5780189342206263e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1198.2367943179672,
+   "seconds": 51.863649999999325
+  },
+  {
+   "id": "perturb_N_1e-10_s2",
+   "arm": "N",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5575639644358173,
+    "nodes": 11,
+    "area": 506.7050000000001,
+    "y_min": -5.727132859312663,
+    "y_edge_mean": -4.7611271914854525,
+    "v_max": 7.372975233010948e-06
+   },
+   "static_delta": [
+    1.282604937813403e-07,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5575639644358173,
+    "nodes": 11,
+    "area": 506.7050000000001,
+    "y_min": -5.727132892231865,
+    "y_edge_mean": -4.761127182058612
+   },
+   "extra": [
+    {
+     "dc": 0.5575639644358173,
+     "nodes": 11,
+     "area": 506.7050000000001,
+     "y_min": -5.727132892231865,
+     "y_edge_mean": -4.761127182058612,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5575639644358173,
+     "nodes": 11,
+     "area": 506.7050000000001,
+     "y_min": -5.727132892231865,
+     "y_edge_mean": -4.761127182058612,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5575639644358173,
+     "nodes": 11,
+     "area": 506.7050000000001,
+     "y_min": -5.727132892231865,
+     "y_edge_mean": -4.761127182058612,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5575639644358173,
+     "nodes": 11,
+     "area": 506.7050000000001,
+     "y_min": -5.727132892231865,
+     "y_edge_mean": -4.761127182058612,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5575639644358173,
+     "nodes": 11,
+     "area": 506.7050000000001,
+     "y_min": -5.727132892231865,
+     "y_edge_mean": -4.761127182058612,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5575639644358173,
+     "nodes": 11,
+     "area": 506.7050000000001,
+     "y_min": -5.727132892231865,
+     "y_edge_mean": -4.761127182058612,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5575639644358173,
+     "nodes": 11,
+     "area": 506.7050000000001,
+     "y_min": -5.727132892231865,
+     "y_edge_mean": -4.761127182058612,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5575639644358173,
+     "nodes": 11,
+     "area": 506.7050000000001,
+     "y_min": -5.727132892231865,
+     "y_edge_mean": -4.761127182058612,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5575639644358173,
+    "nodes": 11,
+    "area": 506.7050000000001,
+    "y_min": -5.727132892231865,
+    "y_edge_mean": -4.761127182058612
+   },
+   "residual_over_weight": {
+    "max": 1.3550645903718204e-06,
+    "rms": 2.899902337591421e-07,
+    "median": 1.7284622136810312e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1181.215825480284,
+   "seconds": 45.49146499999915
+  },
+  {
+   "id": "perturb_N_1e-10_s3",
+   "arm": "N",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5233788089508706,
+    "nodes": 8,
+    "area": 491.2400000000001,
+    "y_min": -5.75492146397422,
+    "y_edge_mean": -4.865637153416761,
+    "v_max": 4.255503426975338e-06
+   },
+   "static_delta": [
+    5.7129588171278556e-08,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5233788089508706,
+    "nodes": 8,
+    "area": 491.2400000000001,
+    "y_min": -5.754921456980377,
+    "y_edge_mean": -4.8656371537578
+   },
+   "extra": [
+    {
+     "dc": 0.5233788089508706,
+     "nodes": 8,
+     "area": 491.2400000000001,
+     "y_min": -5.754921456980377,
+     "y_edge_mean": -4.8656371537578,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5233788089508706,
+     "nodes": 8,
+     "area": 491.2400000000001,
+     "y_min": -5.754921456980377,
+     "y_edge_mean": -4.8656371537578,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5233788089508706,
+     "nodes": 8,
+     "area": 491.2400000000001,
+     "y_min": -5.754921456980377,
+     "y_edge_mean": -4.8656371537578,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5233788089508706,
+     "nodes": 8,
+     "area": 491.2400000000001,
+     "y_min": -5.754921456980377,
+     "y_edge_mean": -4.8656371537578,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5233788089508706,
+     "nodes": 8,
+     "area": 491.2400000000001,
+     "y_min": -5.754921456980377,
+     "y_edge_mean": -4.8656371537578,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5233788089508706,
+     "nodes": 8,
+     "area": 491.2400000000001,
+     "y_min": -5.754921456980377,
+     "y_edge_mean": -4.8656371537578,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5233788089508706,
+     "nodes": 8,
+     "area": 491.2400000000001,
+     "y_min": -5.754921456980377,
+     "y_edge_mean": -4.8656371537578,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5233788089508706,
+     "nodes": 8,
+     "area": 491.2400000000001,
+     "y_min": -5.754921456980377,
+     "y_edge_mean": -4.8656371537578,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5233788089508706,
+    "nodes": 8,
+    "area": 491.2400000000001,
+    "y_min": -5.754921456980377,
+    "y_edge_mean": -4.8656371537578
+   },
+   "residual_over_weight": {
+    "max": 1.9087679903130346e-06,
+    "rms": 3.9870556824245976e-07,
+    "median": 1.9293609580102437e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1205.2885381730614,
+   "seconds": 44.43827749999764
+  },
+  {
+   "id": "perturb_N_1e-06_s1",
+   "arm": "N",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5484015027814297,
+    "nodes": 9,
+    "area": 502.5600000000001,
+    "y_min": -5.831509852150843,
+    "y_edge_mean": -4.763979773075261,
+    "v_max": 9.411007340531796e-05
+   },
+   "static_delta": [
+    7.17588028233962e-05,
+    1.410587182881784e-05,
+    2.584843676878279e-06,
+    9.130621592134958e-09,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5484070289947316,
+    "nodes": 9,
+    "area": 502.5625000000001,
+    "y_min": -5.831517138442909,
+    "y_edge_mean": -4.763976244564361
+   },
+   "extra": [
+    {
+     "dc": 0.5484070289947316,
+     "nodes": 9,
+     "area": 502.5625000000001,
+     "y_min": -5.831517138442909,
+     "y_edge_mean": -4.763976244564361,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5484070289947316,
+     "nodes": 9,
+     "area": 502.5625000000001,
+     "y_min": -5.831517138442909,
+     "y_edge_mean": -4.763976244564361,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5484070289947316,
+     "nodes": 9,
+     "area": 502.5625000000001,
+     "y_min": -5.831517138442909,
+     "y_edge_mean": -4.763976244564361,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5484070289947316,
+     "nodes": 9,
+     "area": 502.5625000000001,
+     "y_min": -5.831517138442909,
+     "y_edge_mean": -4.763976244564361,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5484070289947316,
+     "nodes": 9,
+     "area": 502.5625000000001,
+     "y_min": -5.831517138442909,
+     "y_edge_mean": -4.763976244564361,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5484070289947316,
+     "nodes": 9,
+     "area": 502.5625000000001,
+     "y_min": -5.831517138442909,
+     "y_edge_mean": -4.763976244564361,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5484070289947316,
+     "nodes": 9,
+     "area": 502.5625000000001,
+     "y_min": -5.831517138442909,
+     "y_edge_mean": -4.763976244564361,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5484070289947316,
+     "nodes": 9,
+     "area": 502.5625000000001,
+     "y_min": -5.831517138442909,
+     "y_edge_mean": -4.763976244564361,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5484070289947316,
+    "nodes": 9,
+    "area": 502.5625000000001,
+    "y_min": -5.831517138442909,
+    "y_edge_mean": -4.763976244564361
+   },
+   "residual_over_weight": {
+    "max": 2.9527097258912495e-06,
+    "rms": 3.6703589658036736e-07,
+    "median": 6.428276491821873e-08,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1177.5683820196361,
+   "seconds": 46.72047300000122
+  },
+  {
+   "id": "perturb_N_1e-06_s2",
+   "arm": "N",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5747449615911194,
+    "nodes": 10,
+    "area": 514.4775000000001,
+    "y_min": -5.836453610363231,
+    "y_edge_mean": -4.662352542684982,
+    "v_max": 3.269367653047084e-06
+   },
+   "static_delta": [
+    4.98317144881355e-07,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5747449615911194,
+    "nodes": 10,
+    "area": 514.4775000000001,
+    "y_min": -5.836453458453375,
+    "y_edge_mean": -4.662352348315589
+   },
+   "extra": [
+    {
+     "dc": 0.5747449615911194,
+     "nodes": 10,
+     "area": 514.4775000000001,
+     "y_min": -5.836453458453375,
+     "y_edge_mean": -4.662352348315589,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5747449615911194,
+     "nodes": 10,
+     "area": 514.4775000000001,
+     "y_min": -5.836453458453375,
+     "y_edge_mean": -4.662352348315589,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5747449615911194,
+     "nodes": 10,
+     "area": 514.4775000000001,
+     "y_min": -5.836453458453375,
+     "y_edge_mean": -4.662352348315589,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5747449615911194,
+     "nodes": 10,
+     "area": 514.4775000000001,
+     "y_min": -5.836453458453375,
+     "y_edge_mean": -4.662352348315589,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5747449615911194,
+     "nodes": 10,
+     "area": 514.4775000000001,
+     "y_min": -5.836453458453375,
+     "y_edge_mean": -4.662352348315589,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5747449615911194,
+     "nodes": 10,
+     "area": 514.4775000000001,
+     "y_min": -5.836453458453375,
+     "y_edge_mean": -4.662352348315589,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5747449615911194,
+     "nodes": 10,
+     "area": 514.4775000000001,
+     "y_min": -5.836453458453375,
+     "y_edge_mean": -4.662352348315589,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5747449615911194,
+     "nodes": 10,
+     "area": 514.4775000000001,
+     "y_min": -5.836453458453375,
+     "y_edge_mean": -4.662352348315589,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5747449615911194,
+    "nodes": 10,
+    "area": 514.4775000000001,
+    "y_min": -5.836453458453375,
+    "y_edge_mean": -4.662352348315589
+   },
+   "residual_over_weight": {
+    "max": 1.8043203071920079e-06,
+    "rms": 4.2930085357783543e-07,
+    "median": 2.3764946349252395e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1157.0299905230952,
+   "seconds": 76.57136119999632
+  },
+  {
+   "id": "perturb_N_1e-06_s3",
+   "arm": "N",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.551159083219029,
+    "nodes": 9,
+    "area": 503.8075000000001,
+    "y_min": -5.952103964446809,
+    "y_edge_mean": -4.763189417871703,
+    "v_max": 6.600613687623991e-06
+   },
+   "static_delta": [
+    5.903297761733484e-07,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.551159083219029,
+    "nodes": 9,
+    "area": 503.8075000000001,
+    "y_min": -5.952103963295357,
+    "y_edge_mean": -4.763189438506753
+   },
+   "extra": [
+    {
+     "dc": 0.551159083219029,
+     "nodes": 9,
+     "area": 503.8075000000001,
+     "y_min": -5.952103963295357,
+     "y_edge_mean": -4.763189438506753,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.551159083219029,
+     "nodes": 9,
+     "area": 503.8075000000001,
+     "y_min": -5.952103963295357,
+     "y_edge_mean": -4.763189438506753,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.551159083219029,
+     "nodes": 9,
+     "area": 503.8075000000001,
+     "y_min": -5.952103963295357,
+     "y_edge_mean": -4.763189438506753,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.551159083219029,
+     "nodes": 9,
+     "area": 503.8075000000001,
+     "y_min": -5.952103963295357,
+     "y_edge_mean": -4.763189438506753,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.551159083219029,
+     "nodes": 9,
+     "area": 503.8075000000001,
+     "y_min": -5.952103963295357,
+     "y_edge_mean": -4.763189438506753,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.551159083219029,
+     "nodes": 9,
+     "area": 503.8075000000001,
+     "y_min": -5.952103963295357,
+     "y_edge_mean": -4.763189438506753,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.551159083219029,
+     "nodes": 9,
+     "area": 503.8075000000001,
+     "y_min": -5.952103963295357,
+     "y_edge_mean": -4.763189438506753,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.551159083219029,
+     "nodes": 9,
+     "area": 503.8075000000001,
+     "y_min": -5.952103963295357,
+     "y_edge_mean": -4.763189438506753,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.551159083219029,
+    "nodes": 9,
+    "area": 503.8075000000001,
+    "y_min": -5.952103963295357,
+    "y_edge_mean": -4.763189438506753
+   },
+   "residual_over_weight": {
+    "max": 2.4509916449945917e-06,
+    "rms": 3.983268263555995e-07,
+    "median": 1.0336931539408863e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1180.864775974862,
+   "seconds": 79.25768579999567
+  },
+  {
+   "id": "dt_N_div2",
+   "arm": "N",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5758502042514798,
+    "nodes": 12,
+    "area": 514.9775000000001,
+    "y_min": -5.578017719452134,
+    "y_edge_mean": -4.708250851737541,
+    "v_max": 4.821072252525482e-06
+   },
+   "static_delta": [
+    3.7801073560217446e-07,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5758502042514798,
+    "nodes": 12,
+    "area": 514.9775000000001,
+    "y_min": -5.578017909210488,
+    "y_edge_mean": -4.708251061150309
+   },
+   "extra": [
+    {
+     "dc": 0.5758502042514798,
+     "nodes": 12,
+     "area": 514.9775000000001,
+     "y_min": -5.578017909210488,
+     "y_edge_mean": -4.708251061150309,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5758502042514798,
+     "nodes": 12,
+     "area": 514.9775000000001,
+     "y_min": -5.578017909210488,
+     "y_edge_mean": -4.708251061150309,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5758502042514798,
+     "nodes": 12,
+     "area": 514.9775000000001,
+     "y_min": -5.578017909210488,
+     "y_edge_mean": -4.708251061150309,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5758502042514798,
+     "nodes": 12,
+     "area": 514.9775000000001,
+     "y_min": -5.578017909210488,
+     "y_edge_mean": -4.708251061150309,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5758502042514798,
+     "nodes": 12,
+     "area": 514.9775000000001,
+     "y_min": -5.578017909210488,
+     "y_edge_mean": -4.708251061150309,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5758502042514798,
+     "nodes": 12,
+     "area": 514.9775000000001,
+     "y_min": -5.578017909210488,
+     "y_edge_mean": -4.708251061150309,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5758502042514798,
+     "nodes": 12,
+     "area": 514.9775000000001,
+     "y_min": -5.578017909210488,
+     "y_edge_mean": -4.708251061150309,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5758502042514798,
+     "nodes": 12,
+     "area": 514.9775000000001,
+     "y_min": -5.578017909210488,
+     "y_edge_mean": -4.708251061150309,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5758502042514798,
+    "nodes": 12,
+    "area": 514.9775000000001,
+    "y_min": -5.578017909210488,
+    "y_edge_mean": -4.708251061150309
+   },
+   "residual_over_weight": {
+    "max": 1.15879184802314e-06,
+    "rms": 3.5164379367687487e-07,
+    "median": 2.7013850710615757e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1168.7444054211333,
+   "seconds": 67.25807340000028
+  },
+  {
+   "id": "dt_N_div4",
+   "arm": "N",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.6237514211514991,
+    "nodes": 16,
+    "area": 536.6475000000002,
+    "y_min": -5.411207214730815,
+    "y_edge_mean": -4.511132653573139,
+    "v_max": 1.3399882845988031e-05
+   },
+   "static_delta": [
+    1.261174862321468e-07,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.6237514211514991,
+    "nodes": 16,
+    "area": 536.6475000000002,
+    "y_min": -5.411207219928901,
+    "y_edge_mean": -4.511132653761489
+   },
+   "extra": [
+    {
+     "dc": 0.6237514211514991,
+     "nodes": 16,
+     "area": 536.6475000000002,
+     "y_min": -5.411207219928901,
+     "y_edge_mean": -4.511132653761489,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6237514211514991,
+     "nodes": 16,
+     "area": 536.6475000000002,
+     "y_min": -5.411207219928901,
+     "y_edge_mean": -4.511132653761489,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6237514211514991,
+     "nodes": 16,
+     "area": 536.6475000000002,
+     "y_min": -5.411207219928901,
+     "y_edge_mean": -4.511132653761489,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6237514211514991,
+     "nodes": 16,
+     "area": 536.6475000000002,
+     "y_min": -5.411207219928901,
+     "y_edge_mean": -4.511132653761489,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6237514211514991,
+     "nodes": 16,
+     "area": 536.6475000000002,
+     "y_min": -5.411207219928901,
+     "y_edge_mean": -4.511132653761489,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6237514211514991,
+     "nodes": 16,
+     "area": 536.6475000000002,
+     "y_min": -5.411207219928901,
+     "y_edge_mean": -4.511132653761489,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6237514211514991,
+     "nodes": 16,
+     "area": 536.6475000000002,
+     "y_min": -5.411207219928901,
+     "y_edge_mean": -4.511132653761489,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6237514211514991,
+     "nodes": 16,
+     "area": 536.6475000000002,
+     "y_min": -5.411207219928901,
+     "y_edge_mean": -4.511132653761489,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.6237514211514991,
+    "nodes": 16,
+    "area": 536.6475000000002,
+    "y_min": -5.411207219928901,
+    "y_edge_mean": -4.511132653761489
+   },
+   "residual_over_weight": {
+    "max": 1.98360827213533e-06,
+    "rms": 3.5921139209681705e-07,
+    "median": 1.7725787940496579e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1129.5872611496216,
+   "seconds": 109.4339517000044
+  },
+  {
+   "id": "dt_N_div8",
+   "arm": "N",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5852613455044486,
+    "nodes": 8,
+    "area": 519.2350000000001,
+    "y_min": -5.6408497667882,
+    "y_edge_mean": -4.630034299556202,
+    "v_max": 3.4521672205301e-05
+   },
+   "static_delta": [
+    1.244311889081473e-07,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5852613455044486,
+    "nodes": 8,
+    "area": 519.2350000000001,
+    "y_min": -5.640849750238276,
+    "y_edge_mean": -4.6300342944289
+   },
+   "extra": [
+    {
+     "dc": 0.5852613455044486,
+     "nodes": 8,
+     "area": 519.2350000000001,
+     "y_min": -5.640849750238276,
+     "y_edge_mean": -4.6300342944289,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5852613455044486,
+     "nodes": 8,
+     "area": 519.2350000000001,
+     "y_min": -5.640849750238276,
+     "y_edge_mean": -4.6300342944289,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5852613455044486,
+     "nodes": 8,
+     "area": 519.2350000000001,
+     "y_min": -5.640849750238276,
+     "y_edge_mean": -4.6300342944289,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5852613455044486,
+     "nodes": 8,
+     "area": 519.2350000000001,
+     "y_min": -5.640849750238276,
+     "y_edge_mean": -4.6300342944289,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5852613455044486,
+     "nodes": 8,
+     "area": 519.2350000000001,
+     "y_min": -5.640849750238276,
+     "y_edge_mean": -4.6300342944289,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5852613455044486,
+     "nodes": 8,
+     "area": 519.2350000000001,
+     "y_min": -5.640849750238276,
+     "y_edge_mean": -4.6300342944289,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5852613455044486,
+     "nodes": 8,
+     "area": 519.2350000000001,
+     "y_min": -5.640849750238276,
+     "y_edge_mean": -4.6300342944289,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5852613455044486,
+     "nodes": 8,
+     "area": 519.2350000000001,
+     "y_min": -5.640849750238276,
+     "y_edge_mean": -4.6300342944289,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5852613455044486,
+    "nodes": 8,
+    "area": 519.2350000000001,
+    "y_min": -5.640849750238276,
+    "y_edge_mean": -4.6300342944289
+   },
+   "residual_over_weight": {
+    "max": 2.2676944272708122e-06,
+    "rms": 4.0626029208835934e-07,
+    "median": 2.205815803813782e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1150.1052169567567,
+   "seconds": 182.51024250000046
+  },
+  {
+   "id": "perturb_dt4_N_1e-10_s1",
+   "arm": "N",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.6244366716009223,
+    "nodes": 16,
+    "area": 536.9575000000001,
+    "y_min": -5.517955247113937,
+    "y_edge_mean": -4.502685411718401,
+    "v_max": 0.002828827127814293
+   },
+   "static_delta": [
+    0.002716039691248895,
+    0.003467897414122234,
+    0.0051892697298168144,
+    0.010214878641132685,
+    0.03604311733500687,
+    0.5726476384756873,
+    0.1504864922163094,
+    0.604370329362343,
+    0.09391661121268768,
+    0.024381448491849866,
+    0.08179184033662645,
+    0.9694398852264801,
+    0.29211432447470687,
+    0.08899262641784222,
+    0.00473489399417959,
+    0.00022248819386661012
+   ],
+   "settled_blocks": 16,
+   "at_settle": {
+    "dc": 0.6135002954766564,
+    "nodes": 7,
+    "area": 532.0100000000001,
+    "y_min": -5.65601485732347,
+    "y_edge_mean": -4.475517672402436
+   },
+   "extra": [
+    {
+     "dc": 0.6135002954766564,
+     "nodes": 7,
+     "area": 532.0100000000001,
+     "y_min": -5.656015163561575,
+     "y_edge_mean": -4.475517829076703,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6135002954766564,
+     "nodes": 7,
+     "area": 532.0100000000001,
+     "y_min": -5.656015163561575,
+     "y_edge_mean": -4.475517829076703,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6135002954766564,
+     "nodes": 7,
+     "area": 532.0100000000001,
+     "y_min": -5.656015163561575,
+     "y_edge_mean": -4.475517829076703,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6135002954766564,
+     "nodes": 7,
+     "area": 532.0100000000001,
+     "y_min": -5.656015163561575,
+     "y_edge_mean": -4.475517829076703,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6135002954766564,
+     "nodes": 7,
+     "area": 532.0100000000001,
+     "y_min": -5.656015163561575,
+     "y_edge_mean": -4.475517829076703,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6135002954766564,
+     "nodes": 7,
+     "area": 532.0100000000001,
+     "y_min": -5.656015163561575,
+     "y_edge_mean": -4.475517829076703,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6135002954766564,
+     "nodes": 7,
+     "area": 532.0100000000001,
+     "y_min": -5.656015163561575,
+     "y_edge_mean": -4.475517829076703,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6135002954766564,
+     "nodes": 7,
+     "area": 532.0100000000001,
+     "y_min": -5.656015163561575,
+     "y_edge_mean": -4.475517829076703,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.6135002954766564,
+    "nodes": 7,
+    "area": 532.0100000000001,
+    "y_min": -5.656015163561575,
+    "y_edge_mean": -4.475517829076703
+   },
+   "residual_over_weight": {
+    "max": 3.329297374848974e-06,
+    "rms": 3.651056214459828e-07,
+    "median": 1.2499498651187772e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1116.5315107769159,
+   "seconds": 123.58606690000306
+  },
+  {
+   "id": "perturb_dt4_N_1e-10_s2",
+   "arm": "N",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.6237514211514991,
+    "nodes": 16,
+    "area": 536.6475000000002,
+    "y_min": -5.411207186686339,
+    "y_edge_mean": -4.511132646912332,
+    "v_max": 2.199333357566502e-05
+   },
+   "static_delta": [
+    1.9542128981697715e-07,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.6237514211514991,
+    "nodes": 16,
+    "area": 536.6475000000002,
+    "y_min": -5.4112071944528335,
+    "y_edge_mean": -4.511132647282435
+   },
+   "extra": [
+    {
+     "dc": 0.6237514211514991,
+     "nodes": 16,
+     "area": 536.6475000000002,
+     "y_min": -5.4112071944528335,
+     "y_edge_mean": -4.511132647282435,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6237514211514991,
+     "nodes": 16,
+     "area": 536.6475000000002,
+     "y_min": -5.4112071944528335,
+     "y_edge_mean": -4.511132647282435,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6237514211514991,
+     "nodes": 16,
+     "area": 536.6475000000002,
+     "y_min": -5.4112071944528335,
+     "y_edge_mean": -4.511132647282435,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6237514211514991,
+     "nodes": 16,
+     "area": 536.6475000000002,
+     "y_min": -5.4112071944528335,
+     "y_edge_mean": -4.511132647282435,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6237514211514991,
+     "nodes": 16,
+     "area": 536.6475000000002,
+     "y_min": -5.4112071944528335,
+     "y_edge_mean": -4.511132647282435,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6237514211514991,
+     "nodes": 16,
+     "area": 536.6475000000002,
+     "y_min": -5.4112071944528335,
+     "y_edge_mean": -4.511132647282435,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6237514211514991,
+     "nodes": 16,
+     "area": 536.6475000000002,
+     "y_min": -5.4112071944528335,
+     "y_edge_mean": -4.511132647282435,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6237514211514991,
+     "nodes": 16,
+     "area": 536.6475000000002,
+     "y_min": -5.4112071944528335,
+     "y_edge_mean": -4.511132647282435,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.6237514211514991,
+    "nodes": 16,
+    "area": 536.6475000000002,
+    "y_min": -5.4112071944528335,
+    "y_edge_mean": -4.511132647282435
+   },
+   "residual_over_weight": {
+    "max": 1.5829558173547152e-06,
+    "rms": 3.8358015072933996e-07,
+    "median": 2.411144011890449e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1129.587259514441,
+   "seconds": 109.28027540000039
+  },
+  {
+   "id": "perturb_K_1e-10_s1",
+   "arm": "K",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5060320253965144,
+    "nodes": 8,
+    "area": 483.3925000000001,
+    "y_min": -5.889585290148324,
+    "y_edge_mean": -4.929807037122817,
+    "v_max": 3.580338670872152e-06
+   },
+   "static_delta": [
+    8.424061448408793e-09,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5060320253965144,
+    "nodes": 8,
+    "area": 483.3925000000001,
+    "y_min": -5.889585290332989,
+    "y_edge_mean": -4.929807036449172
+   },
+   "extra": [
+    {
+     "dc": 0.5060320253965144,
+     "nodes": 8,
+     "area": 483.3925000000001,
+     "y_min": -5.889585290332989,
+     "y_edge_mean": -4.929807036449172,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060320253965144,
+     "nodes": 8,
+     "area": 483.3925000000001,
+     "y_min": -5.889585290332989,
+     "y_edge_mean": -4.929807036449172,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060320253965144,
+     "nodes": 8,
+     "area": 483.3925000000001,
+     "y_min": -5.889585290332989,
+     "y_edge_mean": -4.929807036449172,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060320253965144,
+     "nodes": 8,
+     "area": 483.3925000000001,
+     "y_min": -5.889585290332989,
+     "y_edge_mean": -4.929807036449172,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060320253965144,
+     "nodes": 8,
+     "area": 483.3925000000001,
+     "y_min": -5.889585290332989,
+     "y_edge_mean": -4.929807036449172,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060320253965144,
+     "nodes": 8,
+     "area": 483.3925000000001,
+     "y_min": -5.889585290332989,
+     "y_edge_mean": -4.929807036449172,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060320253965144,
+     "nodes": 8,
+     "area": 483.3925000000001,
+     "y_min": -5.889585290332989,
+     "y_edge_mean": -4.929807036449172,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060320253965144,
+     "nodes": 8,
+     "area": 483.3925000000001,
+     "y_min": -5.889585290332989,
+     "y_edge_mean": -4.929807036449172,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5060320253965144,
+    "nodes": 8,
+    "area": 483.3925000000001,
+    "y_min": -5.889585290332989,
+    "y_edge_mean": -4.929807036449172
+   },
+   "residual_over_weight": {
+    "max": 2.249379786511219e-06,
+    "rms": 4.079890453920455e-07,
+    "median": 2.1308100139878764e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1220.747760618639,
+   "seconds": 50.21526790000644
+  },
+  {
+   "id": "perturb_K_1e-10_s2",
+   "arm": "K",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5060264991832126,
+    "nodes": 8,
+    "area": 483.3900000000001,
+    "y_min": -5.88958531871819,
+    "y_edge_mean": -4.92980707490153,
+    "v_max": 4.767801783600589e-06
+   },
+   "static_delta": [
+    4.7430276595150644e-08,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5060264991832126,
+    "nodes": 8,
+    "area": 483.3900000000001,
+    "y_min": -5.88958531636554,
+    "y_edge_mean": -4.929807068714848
+   },
+   "extra": [
+    {
+     "dc": 0.5060264991832126,
+     "nodes": 8,
+     "area": 483.3900000000001,
+     "y_min": -5.88958531636554,
+     "y_edge_mean": -4.929807068714848,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060264991832126,
+     "nodes": 8,
+     "area": 483.3900000000001,
+     "y_min": -5.88958531636554,
+     "y_edge_mean": -4.929807068714848,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060264991832126,
+     "nodes": 8,
+     "area": 483.3900000000001,
+     "y_min": -5.88958531636554,
+     "y_edge_mean": -4.929807068714848,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060264991832126,
+     "nodes": 8,
+     "area": 483.3900000000001,
+     "y_min": -5.88958531636554,
+     "y_edge_mean": -4.929807068714848,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060264991832126,
+     "nodes": 8,
+     "area": 483.3900000000001,
+     "y_min": -5.88958531636554,
+     "y_edge_mean": -4.929807068714848,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060264991832126,
+     "nodes": 8,
+     "area": 483.3900000000001,
+     "y_min": -5.88958531636554,
+     "y_edge_mean": -4.929807068714848,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060264991832126,
+     "nodes": 8,
+     "area": 483.3900000000001,
+     "y_min": -5.88958531636554,
+     "y_edge_mean": -4.929807068714848,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060264991832126,
+     "nodes": 8,
+     "area": 483.3900000000001,
+     "y_min": -5.88958531636554,
+     "y_edge_mean": -4.929807068714848,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5060264991832126,
+    "nodes": 8,
+    "area": 483.3900000000001,
+    "y_min": -5.88958531636554,
+    "y_edge_mean": -4.929807068714848
+   },
+   "residual_over_weight": {
+    "max": 1.6406210831416497e-06,
+    "rms": 3.6580201732775714e-07,
+    "median": 2.246937899003349e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1220.7477686987709,
+   "seconds": 49.56680410000263
+  },
+  {
+   "id": "perturb_K_1e-10_s3",
+   "arm": "K",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5060596564630234,
+    "nodes": 8,
+    "area": 483.4050000000001,
+    "y_min": -5.8890268892650655,
+    "y_edge_mean": -4.929428845694794,
+    "v_max": 1.199031089527125e-06
+   },
+   "static_delta": [
+    3.903936729443558e-09,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5060596564630234,
+    "nodes": 8,
+    "area": 483.4050000000001,
+    "y_min": -5.889026888917633,
+    "y_edge_mean": -4.929428845720256
+   },
+   "extra": [
+    {
+     "dc": 0.5060596564630234,
+     "nodes": 8,
+     "area": 483.4050000000001,
+     "y_min": -5.889026888917633,
+     "y_edge_mean": -4.929428845720256,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060596564630234,
+     "nodes": 8,
+     "area": 483.4050000000001,
+     "y_min": -5.889026888917633,
+     "y_edge_mean": -4.929428845720256,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060596564630234,
+     "nodes": 8,
+     "area": 483.4050000000001,
+     "y_min": -5.889026888917633,
+     "y_edge_mean": -4.929428845720256,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060596564630234,
+     "nodes": 8,
+     "area": 483.4050000000001,
+     "y_min": -5.889026888917633,
+     "y_edge_mean": -4.929428845720256,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060596564630234,
+     "nodes": 8,
+     "area": 483.4050000000001,
+     "y_min": -5.889026888917633,
+     "y_edge_mean": -4.929428845720256,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060596564630234,
+     "nodes": 8,
+     "area": 483.4050000000001,
+     "y_min": -5.889026888917633,
+     "y_edge_mean": -4.929428845720256,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060596564630234,
+     "nodes": 8,
+     "area": 483.4050000000001,
+     "y_min": -5.889026888917633,
+     "y_edge_mean": -4.929428845720256,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5060596564630234,
+     "nodes": 8,
+     "area": 483.4050000000001,
+     "y_min": -5.889026888917633,
+     "y_edge_mean": -4.929428845720256,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5060596564630234,
+    "nodes": 8,
+    "area": 483.4050000000001,
+    "y_min": -5.889026888917633,
+    "y_edge_mean": -4.929428845720256
+   },
+   "residual_over_weight": {
+    "max": 1.90832350465345e-06,
+    "rms": 3.2623620002252813e-07,
+    "median": 1.979795962957927e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1220.5317259622088,
+   "seconds": 51.35431410000456
+  },
+  {
+   "id": "perturb_K_1e-06_s1",
+   "arm": "K",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5090217067927892,
+    "nodes": 8,
+    "area": 484.7450000000001,
+    "y_min": -5.9976403833077665,
+    "y_edge_mean": -4.907749176444692,
+    "v_max": 1.2813681678380817e-05
+   },
+   "static_delta": [
+    3.7303972693081278e-06,
+    2.5840142399147226e-06,
+    1.7593319210362779e-06,
+    1.1777059896189712e-06,
+    7.965487238692504e-07,
+    2.9556649394635315e-07
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5090217067927892,
+    "nodes": 8,
+    "area": 484.7450000000001,
+    "y_min": -5.997641647275151,
+    "y_edge_mean": -4.907749081696355
+   },
+   "extra": [
+    {
+     "dc": 0.5090217067927892,
+     "nodes": 8,
+     "area": 484.7450000000001,
+     "y_min": -5.997641647275151,
+     "y_edge_mean": -4.907749081696355,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5090217067927892,
+     "nodes": 8,
+     "area": 484.7450000000001,
+     "y_min": -5.997641647275151,
+     "y_edge_mean": -4.907749081696355,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5090217067927892,
+     "nodes": 8,
+     "area": 484.7450000000001,
+     "y_min": -5.997641647275151,
+     "y_edge_mean": -4.907749081696355,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5090217067927892,
+     "nodes": 8,
+     "area": 484.7450000000001,
+     "y_min": -5.997641647275151,
+     "y_edge_mean": -4.907749081696355,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5090217067927892,
+     "nodes": 8,
+     "area": 484.7450000000001,
+     "y_min": -5.997641647275151,
+     "y_edge_mean": -4.907749081696355,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5090217067927892,
+     "nodes": 8,
+     "area": 484.7450000000001,
+     "y_min": -5.997641647275151,
+     "y_edge_mean": -4.907749081696355,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5090217067927892,
+     "nodes": 8,
+     "area": 484.7450000000001,
+     "y_min": -5.997641647275151,
+     "y_edge_mean": -4.907749081696355,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5090217067927892,
+     "nodes": 8,
+     "area": 484.7450000000001,
+     "y_min": -5.997641647275151,
+     "y_edge_mean": -4.907749081696355,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5090217067927892,
+    "nodes": 8,
+    "area": 484.7450000000001,
+    "y_min": -5.997641647275151,
+    "y_edge_mean": -4.907749081696355
+   },
+   "residual_over_weight": {
+    "max": 1.510887685407989e-06,
+    "rms": 3.149148266370424e-07,
+    "median": 1.0379779875841284e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1214.7391579582645,
+   "seconds": 50.764521400000376
+  },
+  {
+   "id": "perturb_K_1e-06_s2",
+   "arm": "K",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5083088252768567,
+    "nodes": 8,
+    "area": 484.42250000000007,
+    "y_min": -5.947956826259957,
+    "y_edge_mean": -4.914386224951792,
+    "v_max": 0.008113022893667221
+   },
+   "static_delta": [
+    0.002258979199549316,
+    0.0019614003393009227,
+    0.0016663831864871526,
+    0.0014169084800048637,
+    0.0012049381811749527,
+    0.001024560579237388
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5082867204236495,
+    "nodes": 8,
+    "area": 484.4125000000001,
+    "y_min": -5.9480677477306205,
+    "y_edge_mean": -4.914407079569118
+   },
+   "extra": [
+    {
+     "dc": 0.5082977728502531,
+     "nodes": 8,
+     "area": 484.4175000000001,
+     "y_min": -5.948110345320198,
+     "y_edge_mean": -4.914413965083638,
+     "block": 5,
+     "delta": 0.0004541332903453821
+    },
+    {
+     "dc": 0.5083088252768567,
+     "nodes": 8,
+     "area": 484.42250000000007,
+     "y_min": -5.948129247823676,
+     "y_edge_mean": -4.914417042888151,
+     "block": 10,
+     "delta": 0.0002005854103366289
+    },
+    {
+     "dc": 0.5083143514901585,
+     "nodes": 8,
+     "area": 484.42500000000007,
+     "y_min": -5.948137599746326,
+     "y_edge_mean": -4.914418406845973,
+     "block": 15,
+     "delta": 8.843779511913397e-05
+    },
+    {
+     "dc": 0.5083198777034603,
+     "nodes": 8,
+     "area": 484.42750000000007,
+     "y_min": -5.948141282533451,
+     "y_edge_mean": -4.914419009932713,
+     "block": 20,
+     "delta": 3.8960848394609116e-05
+    },
+    {
+     "dc": 0.5083198777034603,
+     "nodes": 8,
+     "area": 484.42750000000007,
+     "y_min": -5.9481429044740395,
+     "y_edge_mean": -4.914419275404144,
+     "block": 25,
+     "delta": 1.715671523605522e-05
+    },
+    {
+     "dc": 0.5083198777034603,
+     "nodes": 8,
+     "area": 484.42750000000007,
+     "y_min": -5.948143605029011,
+     "y_edge_mean": -4.914419389556201,
+     "block": 30,
+     "delta": 7.554449309665756e-06
+    },
+    {
+     "dc": 0.5083198777034603,
+     "nodes": 8,
+     "area": 484.42750000000007,
+     "y_min": -5.948143910246057,
+     "y_edge_mean": -4.914419437137917,
+     "block": 35,
+     "delta": 3.3323266066531687e-06
+    },
+    {
+     "dc": 0.5083198777034603,
+     "nodes": 8,
+     "area": 484.42750000000007,
+     "y_min": -5.948144056634357,
+     "y_edge_mean": -4.914419462985509,
+     "block": 40,
+     "delta": 1.4639377319269897e-06
+    }
+   ],
+   "final": {
+    "dc": 0.5083198777034603,
+    "nodes": 8,
+    "area": 484.42750000000007,
+    "y_min": -5.948144056634357,
+    "y_edge_mean": -4.914419462985509
+   },
+   "residual_over_weight": {
+    "max": 7.772750664737031e-06,
+    "rms": 2.0940949970510354e-06,
+    "median": 1.370039659458302e-06,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1217.3253105078525,
+   "seconds": 61.91072510000231
+  },
+  {
+   "id": "perturb_K_1e-06_s3",
+   "arm": "K",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5089222349533568,
+    "nodes": 8,
+    "area": 484.7000000000001,
+    "y_min": -5.916590826977842,
+    "y_edge_mean": -4.91794711895326,
+    "v_max": 4.626754616765538e-06
+   },
+   "static_delta": [
+    1.1544315423606122e-06,
+    3.582311123295767e-07,
+    4.15820444743531e-08,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5089222349533568,
+    "nodes": 8,
+    "area": 484.7000000000001,
+    "y_min": -5.916590801031444,
+    "y_edge_mean": -4.917947122415601
+   },
+   "extra": [
+    {
+     "dc": 0.5089222349533568,
+     "nodes": 8,
+     "area": 484.7000000000001,
+     "y_min": -5.916590801031444,
+     "y_edge_mean": -4.917947122415601,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5089222349533568,
+     "nodes": 8,
+     "area": 484.7000000000001,
+     "y_min": -5.916590801031444,
+     "y_edge_mean": -4.917947122415601,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5089222349533568,
+     "nodes": 8,
+     "area": 484.7000000000001,
+     "y_min": -5.916590801031444,
+     "y_edge_mean": -4.917947122415601,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5089222349533568,
+     "nodes": 8,
+     "area": 484.7000000000001,
+     "y_min": -5.916590801031444,
+     "y_edge_mean": -4.917947122415601,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5089222349533568,
+     "nodes": 8,
+     "area": 484.7000000000001,
+     "y_min": -5.916590801031444,
+     "y_edge_mean": -4.917947122415601,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5089222349533568,
+     "nodes": 8,
+     "area": 484.7000000000001,
+     "y_min": -5.916590801031444,
+     "y_edge_mean": -4.917947122415601,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5089222349533568,
+     "nodes": 8,
+     "area": 484.7000000000001,
+     "y_min": -5.916590801031444,
+     "y_edge_mean": -4.917947122415601,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5089222349533568,
+     "nodes": 8,
+     "area": 484.7000000000001,
+     "y_min": -5.916590801031444,
+     "y_edge_mean": -4.917947122415601,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5089222349533568,
+    "nodes": 8,
+    "area": 484.7000000000001,
+    "y_min": -5.916590801031444,
+    "y_edge_mean": -4.917947122415601
+   },
+   "residual_over_weight": {
+    "max": 2.6869406216897854e-06,
+    "rms": 4.5665102549105053e-07,
+    "median": 4.033025763257566e-08,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1217.1178912527844,
+   "seconds": 48.75630669999373
+  },
+  {
+   "id": "dt_K_div2",
+   "arm": "K",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.6226185474246295,
+    "nodes": 16,
+    "area": 536.1350000000001,
+    "y_min": -5.174451174146565,
+    "y_edge_mean": -4.531560875808137,
+    "v_max": 2.4334838144568494e-06
+   },
+   "static_delta": [
+    1.6716953155082592e-08,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.6226185474246295,
+    "nodes": 16,
+    "area": 536.1350000000001,
+    "y_min": -5.174451173937501,
+    "y_edge_mean": -4.531560876044231
+   },
+   "extra": [
+    {
+     "dc": 0.6226185474246295,
+     "nodes": 16,
+     "area": 536.1350000000001,
+     "y_min": -5.174451173937501,
+     "y_edge_mean": -4.531560876044231,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6226185474246295,
+     "nodes": 16,
+     "area": 536.1350000000001,
+     "y_min": -5.174451173937501,
+     "y_edge_mean": -4.531560876044231,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6226185474246295,
+     "nodes": 16,
+     "area": 536.1350000000001,
+     "y_min": -5.174451173937501,
+     "y_edge_mean": -4.531560876044231,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6226185474246295,
+     "nodes": 16,
+     "area": 536.1350000000001,
+     "y_min": -5.174451173937501,
+     "y_edge_mean": -4.531560876044231,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6226185474246295,
+     "nodes": 16,
+     "area": 536.1350000000001,
+     "y_min": -5.174451173937501,
+     "y_edge_mean": -4.531560876044231,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6226185474246295,
+     "nodes": 16,
+     "area": 536.1350000000001,
+     "y_min": -5.174451173937501,
+     "y_edge_mean": -4.531560876044231,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6226185474246295,
+     "nodes": 16,
+     "area": 536.1350000000001,
+     "y_min": -5.174451173937501,
+     "y_edge_mean": -4.531560876044231,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6226185474246295,
+     "nodes": 16,
+     "area": 536.1350000000001,
+     "y_min": -5.174451173937501,
+     "y_edge_mean": -4.531560876044231,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.6226185474246295,
+    "nodes": 16,
+    "area": 536.1350000000001,
+    "y_min": -5.174451173937501,
+    "y_edge_mean": -4.531560876044231
+   },
+   "residual_over_weight": {
+    "max": 1.5692531686693431e-06,
+    "rms": 3.052220955962312e-07,
+    "median": 1.5566005616868587e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1133.1562602126799,
+   "seconds": 66.59997470000235
+  },
+  {
+   "id": "dt_K_div4",
+   "arm": "K",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.6250169239976117,
+    "nodes": 16,
+    "area": 537.2200000000001,
+    "y_min": -5.04561901309667,
+    "y_edge_mean": -4.519342878177668,
+    "v_max": 3.8115754250611644e-06
+   },
+   "static_delta": [
+    3.277540905344267e-08,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.6250169239976117,
+    "nodes": 16,
+    "area": 537.2200000000001,
+    "y_min": -5.045619015903822,
+    "y_edge_mean": -4.5193428787289465
+   },
+   "extra": [
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.045619015903822,
+     "y_edge_mean": -4.5193428787289465,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.045619015903822,
+     "y_edge_mean": -4.5193428787289465,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.045619015903822,
+     "y_edge_mean": -4.5193428787289465,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.045619015903822,
+     "y_edge_mean": -4.5193428787289465,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.045619015903822,
+     "y_edge_mean": -4.5193428787289465,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.045619015903822,
+     "y_edge_mean": -4.5193428787289465,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.045619015903822,
+     "y_edge_mean": -4.5193428787289465,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.045619015903822,
+     "y_edge_mean": -4.5193428787289465,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.6250169239976117,
+    "nodes": 16,
+    "area": 537.2200000000001,
+    "y_min": -5.045619015903822,
+    "y_edge_mean": -4.5193428787289465
+   },
+   "residual_over_weight": {
+    "max": 1.0430019465848033e-06,
+    "rms": 3.2190839829970346e-07,
+    "median": 2.0736990032685566e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1129.5780196408978,
+   "seconds": 107.40716039999825
+  },
+  {
+   "id": "dt_K_div8",
+   "arm": "K",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.5469094251899432,
+    "nodes": 8,
+    "area": 501.8850000000001,
+    "y_min": -5.712675507011969,
+    "y_edge_mean": -4.773749922475777,
+    "v_max": 1.4133957847661804e-05
+   },
+   "static_delta": [
+    2.4703620482569022e-08,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5469094251899432,
+    "nodes": 8,
+    "area": 501.8850000000001,
+    "y_min": -5.71267550539444,
+    "y_edge_mean": -4.773749922378781
+   },
+   "extra": [
+    {
+     "dc": 0.5469094251899432,
+     "nodes": 8,
+     "area": 501.8850000000001,
+     "y_min": -5.71267550539444,
+     "y_edge_mean": -4.773749922378781,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5469094251899432,
+     "nodes": 8,
+     "area": 501.8850000000001,
+     "y_min": -5.71267550539444,
+     "y_edge_mean": -4.773749922378781,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5469094251899432,
+     "nodes": 8,
+     "area": 501.8850000000001,
+     "y_min": -5.71267550539444,
+     "y_edge_mean": -4.773749922378781,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5469094251899432,
+     "nodes": 8,
+     "area": 501.8850000000001,
+     "y_min": -5.71267550539444,
+     "y_edge_mean": -4.773749922378781,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5469094251899432,
+     "nodes": 8,
+     "area": 501.8850000000001,
+     "y_min": -5.71267550539444,
+     "y_edge_mean": -4.773749922378781,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5469094251899432,
+     "nodes": 8,
+     "area": 501.8850000000001,
+     "y_min": -5.71267550539444,
+     "y_edge_mean": -4.773749922378781,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5469094251899432,
+     "nodes": 8,
+     "area": 501.8850000000001,
+     "y_min": -5.71267550539444,
+     "y_edge_mean": -4.773749922378781,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5469094251899432,
+     "nodes": 8,
+     "area": 501.8850000000001,
+     "y_min": -5.71267550539444,
+     "y_edge_mean": -4.773749922378781,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5469094251899432,
+    "nodes": 8,
+    "area": 501.8850000000001,
+    "y_min": -5.71267550539444,
+    "y_edge_mean": -4.773749922378781
+   },
+   "residual_over_weight": {
+    "max": 1.7670782075075485e-06,
+    "rms": 4.000227470612166e-07,
+    "median": 1.759753376645859e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1178.3414362494882,
+   "seconds": 168.22551810000004
+  },
+  {
+   "id": "perturb_dt4_K_1e-10_s1",
+   "arm": "K",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.6250169239976117,
+    "nodes": 16,
+    "area": 537.2200000000001,
+    "y_min": -5.045619019407149,
+    "y_edge_mean": -4.519342881379992,
+    "v_max": 3.1540507734462153e-06
+   },
+   "static_delta": [
+    2.41139854750827e-08,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.6250169239976117,
+    "nodes": 16,
+    "area": 537.2200000000001,
+    "y_min": -5.0456190198672495,
+    "y_edge_mean": -4.519342881241792
+   },
+   "extra": [
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.0456190198672495,
+     "y_edge_mean": -4.519342881241792,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.0456190198672495,
+     "y_edge_mean": -4.519342881241792,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.0456190198672495,
+     "y_edge_mean": -4.519342881241792,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.0456190198672495,
+     "y_edge_mean": -4.519342881241792,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.0456190198672495,
+     "y_edge_mean": -4.519342881241792,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.0456190198672495,
+     "y_edge_mean": -4.519342881241792,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.0456190198672495,
+     "y_edge_mean": -4.519342881241792,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.0456190198672495,
+     "y_edge_mean": -4.519342881241792,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.6250169239976117,
+    "nodes": 16,
+    "area": 537.2200000000001,
+    "y_min": -5.0456190198672495,
+    "y_edge_mean": -4.519342881241792
+   },
+   "residual_over_weight": {
+    "max": 1.9549735732411046e-06,
+    "rms": 3.937523158811145e-07,
+    "median": 2.0406432431784525e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1129.5780201751713,
+   "seconds": 104.62077110000246
+  },
+  {
+   "id": "perturb_dt4_K_1e-10_s2",
+   "arm": "K",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "after_dynamic": {
+    "dc": 0.6250169239976117,
+    "nodes": 16,
+    "area": 537.2200000000001,
+    "y_min": -5.045619125792311,
+    "y_edge_mean": -4.519342900780766,
+    "v_max": 3.3339190395054175e-06
+   },
+   "static_delta": [
+    1.7619541381463932e-08,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.6250169239976117,
+    "nodes": 16,
+    "area": 537.2200000000001,
+    "y_min": -5.045619119661435,
+    "y_edge_mean": -4.519342900707991
+   },
+   "extra": [
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.045619119661435,
+     "y_edge_mean": -4.519342900707991,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.045619119661435,
+     "y_edge_mean": -4.519342900707991,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.045619119661435,
+     "y_edge_mean": -4.519342900707991,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.045619119661435,
+     "y_edge_mean": -4.519342900707991,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.045619119661435,
+     "y_edge_mean": -4.519342900707991,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.045619119661435,
+     "y_edge_mean": -4.519342900707991,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.045619119661435,
+     "y_edge_mean": -4.519342900707991,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.6250169239976117,
+     "nodes": 16,
+     "area": 537.2200000000001,
+     "y_min": -5.045619119661435,
+     "y_edge_mean": -4.519342900707991,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.6250169239976117,
+    "nodes": 16,
+    "area": 537.2200000000001,
+    "y_min": -5.045619119661435,
+    "y_edge_mean": -4.519342900707991
+   },
+   "residual_over_weight": {
+    "max": 1.7998905414100165e-06,
+    "rms": 3.930460422316497e-07,
+    "median": 2.0438133557722125e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1129.5780251548836,
+   "seconds": 105.69199919999664
+  },
+  {
+   "id": "cross_N_from_N",
+   "arm": "N",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "start": {
+    "dc": 0.5854160794768989,
+    "nodes": 8,
+    "area": 519.3050000000001,
+    "y_min": -5.781703665087749,
+    "y_edge_mean": -4.621432056405933
+   },
+   "static_delta": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5854160794768989,
+    "nodes": 8,
+    "area": 519.3050000000001,
+    "y_min": -5.781703665087749,
+    "y_edge_mean": -4.621432056405933
+   },
+   "extra": [
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5854160794768989,
+    "nodes": 8,
+    "area": 519.3050000000001,
+    "y_min": -5.781703665087749,
+    "y_edge_mean": -4.621432056405933
+   },
+   "residual_over_weight": {
+    "max": 1.2914470547432467e-06,
+    "rms": 3.3272102126138137e-07,
+    "median": 2.1858198880664051e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1146.0258786102986,
+   "seconds": 17.768971099998453
+  },
+  {
+   "id": "cross_N_from_K",
+   "arm": "N",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "start": {
+    "dc": 0.5061646545157577,
+    "nodes": 8,
+    "area": 483.4525000000001,
+    "y_min": -5.889042958312572,
+    "y_edge_mean": -4.929806926088696
+   },
+   "static_delta": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5061646545157577,
+    "nodes": 8,
+    "area": 483.4525000000001,
+    "y_min": -5.889042958312572,
+    "y_edge_mean": -4.929806926088696
+   },
+   "extra": [
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5061646545157577,
+    "nodes": 8,
+    "area": 483.4525000000001,
+    "y_min": -5.889042958312572,
+    "y_edge_mean": -4.929806926088696
+   },
+   "residual_over_weight": {
+    "max": 2.0324903440600285e-06,
+    "rms": 3.5258766936394605e-07,
+    "median": 1.8218283204332043e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1220.7477768924139,
+   "seconds": 17.833578199999465
+  },
+  {
+   "id": "force_N",
+   "arm": "N",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "force_jobs": 2
+  },
+  {
+   "id": "cross_K_from_N",
+   "arm": "K",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "start": {
+    "dc": 0.5854160794768989,
+    "nodes": 8,
+    "area": 519.3050000000001,
+    "y_min": -5.781703665087749,
+    "y_edge_mean": -4.621432056405933
+   },
+   "static_delta": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5854160794768989,
+    "nodes": 8,
+    "area": 519.3050000000001,
+    "y_min": -5.781703665087749,
+    "y_edge_mean": -4.621432056405933
+   },
+   "extra": [
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5854160794768989,
+     "nodes": 8,
+     "area": 519.3050000000001,
+     "y_min": -5.781703665087749,
+     "y_edge_mean": -4.621432056405933,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5854160794768989,
+    "nodes": 8,
+    "area": 519.3050000000001,
+    "y_min": -5.781703665087749,
+    "y_edge_mean": -4.621432056405933
+   },
+   "residual_over_weight": {
+    "max": 1.2914546121709685e-06,
+    "rms": 3.327216761546161e-07,
+    "median": 2.1858730503020733e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1146.0258786102986,
+   "seconds": 19.934124999999767
+  },
+  {
+   "id": "cross_K_from_K",
+   "arm": "K",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "start": {
+    "dc": 0.5061646545157577,
+    "nodes": 8,
+    "area": 483.4525000000001,
+    "y_min": -5.889042958312572,
+    "y_edge_mean": -4.929806926088696
+   },
+   "static_delta": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "settled_blocks": 6,
+   "at_settle": {
+    "dc": 0.5061646545157577,
+    "nodes": 8,
+    "area": 483.4525000000001,
+    "y_min": -5.889042958312572,
+    "y_edge_mean": -4.929806926088696
+   },
+   "extra": [
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 5,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 10,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 15,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 20,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 25,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 30,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 35,
+     "delta": 0.0
+    },
+    {
+     "dc": 0.5061646545157577,
+     "nodes": 8,
+     "area": 483.4525000000001,
+     "y_min": -5.889042958312572,
+     "y_edge_mean": -4.929806926088696,
+     "block": 40,
+     "delta": 0.0
+    }
+   ],
+   "final": {
+    "dc": 0.5061646545157577,
+    "nodes": 8,
+    "area": 483.4525000000001,
+    "y_min": -5.889042958312572,
+    "y_edge_mean": -4.929806926088696
+   },
+   "residual_over_weight": {
+    "max": 2.032484616296537e-06,
+    "rms": 3.525881057727266e-07,
+    "median": 1.8218229877722209e-07,
+    "nodes_over_0.05": 0,
+    "nodes_over_1": 0
+   },
+   "gravity_pe_over_weight_cm": -1220.7477768924139,
+   "seconds": 19.956373499997426
+  },
+  {
+   "id": "force_K",
+   "arm": "K",
+   "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "441b685",
+    "dirty": false,
+    "build_utc": "2026-11-14T01:56:36Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "02ad3bae4fe6e2cefb390721bcb42d5fff802721e6a54354dac53abff6e431dc",
+    "capabilities": {
+     "schema": 1,
+     "absent": [],
+     "no_op": []
+    }
+   },
+   "threads": 1,
+   "nodes": 1009,
+   "free_nodes": 432,
+   "mass_per_node": 0.014011067335137831,
+   "force_jobs": 2
+  }
+ ],
+ "force": {
+  "at_N_end": {
+   "max_abs_force": 7405.404566823835,
+   "max_abs_diff_N_minus_K": 9.710254136137061e-10,
+   "relative": 1.311238845699118e-13
+  },
+  "at_K_end": {
+   "max_abs_force": 3587.806344544475,
+   "max_abs_diff_N_minus_K": 9.710254136137061e-10,
+   "relative": 2.7064599378119226e-13
+  }
+ },
+ "end_position_distance_cm": {
+  "base_N|base_K": {
+   "max": 1.202038212046448,
+   "rms": 0.4197704047472135
+  },
+  "base_N|base_membrane_off": {
+   "max": 3.139061721668668e-07,
+   "rms": 1.3370502712703806e-07
+  },
+  "base_K|base_bend_off": {
+   "max": 0.13267804895334212,
+   "rms": 0.011995765521409517
+  },
+  "dt_N_div4|dt_K_div4": {
+   "max": 0.6236034623744349,
+   "rms": 0.20270916088745644
+  },
+  "dt_N_div8|dt_K_div8": {
+   "max": 0.7772737958405909,
+   "rms": 0.288928790621967
+  },
+  "dt_N_div4|dt_N_div8": {
+   "max": 1.3608973833871763,
+   "rms": 0.38740316140342956
+  },
+  "dt_K_div4|dt_K_div8": {
+   "max": 1.2259307467858376,
+   "rms": 0.48278291975193943
+  },
+  "cross_K_from_N|base_N": {
+   "max": 0.0,
+   "rms": 0.0
+  },
+  "cross_N_from_K|base_K": {
+   "max": 0.0,
+   "rms": 0.0
+  },
+  "cross_N_from_N|base_N": {
+   "max": 0.0,
+   "rms": 0.0
+  },
+  "cross_K_from_K|base_K": {
+   "max": 0.0,
+   "rms": 0.0
+  }
+ },
+ "seconds": 364.0486271000045
+}

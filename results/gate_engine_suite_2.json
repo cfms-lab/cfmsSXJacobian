@@ -1,0 +1,1826 @@
+{
+  "gate": "engine_suite",
+  "run": "2",
+  "verdict": "PASS",
+  "gates_failed": 0,
+  "run_config": {
+    "changed_allowed": [
+      "drape/scripts/py_membrane_nonlinear_test.py"
+    ],
+    "changed_found": [
+      "drape/scripts/py_membrane_nonlinear_test.py"
+    ],
+    "known_timeout": [
+      "py_central_load_spin_test.py",
+      "py_open_shell_contact_test.py"
+    ],
+    "extra_dll": [
+      "build/Release"
+    ],
+    "suite_dir": "C:/Users/USER/AppData/Local/Temp/cfmsSXJ_engine_suite_2"
+  },
+  "engine_main": "D:/__CFMS_Projects/cfmsDrape_dev",
+  "new_commit": "961765d",
+  "base_commit": "378d20c",
+  "timeout_s": 900.0,
+  "python": "D:/__CFMS_Projects/cfmsDrape_dev/drape/.venv/Scripts/python.exe",
+  "arms": {
+    "N": "new DLL, no switch",
+    "K": "new DLL + CFMS_CPU_SXJ_BEND=off CFMS_CPU_SXJ_MEMBRANE=off",
+    "B": "base DLL"
+  },
+  "S0": {
+    "probes": {
+      "N": {
+        "wrapper": "C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\cfmsdrape\\__init__.py",
+        "dll": "C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\build\\0.2.2\\Release\\cfmsDrape.dll",
+        "build_info": {
+          "schema": 1,
+          "product": "cfmsDrape",
+          "product_version": "0.2.2",
+          "abi_version": 1,
+          "backend": "cpu",
+          "git_commit": "961765d",
+          "dirty": false,
+          "build_utc": "2026-11-13T22:54:05Z",
+          "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+          "sha256_scope": "loaded-dll-file",
+          "sha256": "15dc957b82da6e7e2bc6fd10d36b5983d93e051e9617d9c8e4d18d93c53f983a",
+          "capabilities": {
+            "schema": 1,
+            "absent": [],
+            "no_op": []
+          }
+        }
+      },
+      "K": {
+        "wrapper": "C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\cfmsdrape\\__init__.py",
+        "dll": "C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\build\\0.2.2\\Release\\cfmsDrape.dll",
+        "build_info": {
+          "schema": 1,
+          "product": "cfmsDrape",
+          "product_version": "0.2.2",
+          "abi_version": 1,
+          "backend": "cpu",
+          "git_commit": "961765d",
+          "dirty": false,
+          "build_utc": "2026-11-13T22:54:05Z",
+          "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+          "sha256_scope": "loaded-dll-file",
+          "sha256": "15dc957b82da6e7e2bc6fd10d36b5983d93e051e9617d9c8e4d18d93c53f983a",
+          "capabilities": {
+            "schema": 1,
+            "absent": [],
+            "no_op": []
+          }
+        }
+      },
+      "B": {
+        "wrapper": "C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\cfmsdrape\\__init__.py",
+        "dll": "C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\build\\0.2.2\\Release\\cfmsDrape.dll",
+        "build_info": {
+          "schema": 1,
+          "product": "cfmsDrape",
+          "product_version": "0.2.2",
+          "abi_version": 1,
+          "backend": "cpu",
+          "git_commit": "378d20c",
+          "dirty": false,
+          "build_utc": "2026-11-13T12:16:41Z",
+          "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+          "sha256_scope": "loaded-dll-file",
+          "sha256": "553b4a9c518415c3bf8eecf6b841169eeef9104ed3456073de7eda69b2ac3f71",
+          "capabilities": {
+            "schema": 1,
+            "absent": [],
+            "no_op": []
+          }
+        }
+      }
+    },
+    "a_ok": true,
+    "scripts_same": true,
+    "clean_before": {
+      "engine_main": true,
+      "link_worktree": true,
+      "base_worktree": true
+    },
+    "clean_after": {
+      "engine_main": true,
+      "link_worktree": true,
+      "base_worktree": true
+    }
+  },
+  "S1": {
+    "judged": 44,
+    "differ": []
+  },
+  "S2": {
+    "k_passed": 24,
+    "n_lost": []
+  },
+  "report": {
+    "all_fail": [
+      "py_body_contact_smooth_normal_test.py",
+      "py_body_friction_behavior_test.py",
+      "py_build_info_test.py",
+      "py_capability_audit_test.py",
+      "py_collider_partition_test.py",
+      "py_degenerate_test.py",
+      "py_gpu_determinism_test.py",
+      "py_gpu_set_positions_test.py",
+      "py_implicit_mass_damping_test.py",
+      "py_orthotropic_api_test.py",
+      "py_params_test.py",
+      "py_pcg_diagnostics_test.py",
+      "py_pftf_component_test.py",
+      "py_pftf_engine_test.py",
+      "py_pftf_pos_culling_test.py",
+      "py_seam_flat_test.py",
+      "py_selfcollision_test.py",
+      "py_three_layer_collision_test.py",
+      "py_two_sheet_lift_test.py",
+      "py_vertex_mass_sewing_weight_test.py"
+    ],
+    "n_only_pass": [],
+    "undecidable_time": [
+      "py_central_load_spin_test.py",
+      "py_open_shell_contact_test.py"
+    ],
+    "undecidable_machine": [],
+    "stdout_K_eq_B": 40,
+    "stdout_N_eq_K": 21,
+    "minutes": 64.9
+  },
+  "segments": [
+    {
+      "started": "2026-11-14T07:57:34",
+      "resumed": false,
+      "clean_at_start": {
+        "engine_main": true,
+        "link_worktree": true,
+        "base_worktree": true
+      }
+    }
+  ],
+  "interrupted": {},
+  "dll_sha256": {
+    "new": "15dc957b82da6e7e2bc6fd10d36b5983d93e051e9617d9c8e4d18d93c53f983a",
+    "base": "553b4a9c518415c3bf8eecf6b841169eeef9104ed3456073de7eda69b2ac3f71"
+  },
+  "only": null,
+  "tests": {
+    "py_analytic_material_test.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 93.6,
+          "stdout_sha256": "a2aa14a7a33cbff98d03fd3986c89dc42e96cd050da753e09a46796f64257b8a",
+          "stdout_bytes": 3106
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 136.6,
+          "stdout_sha256": "935801fe2e1a97a059bcc11f86705b6eff6c8de2e517b73fe4f1c1b8ced7f1ca",
+          "stdout_bytes": 3244
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 138.2,
+          "stdout_sha256": "935801fe2e1a97a059bcc11f86705b6eff6c8de2e517b73fe4f1c1b8ced7f1ca",
+          "stdout_bytes": 3244
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_bending_test.py": {
+      "first": {
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 2.6,
+          "stdout_sha256": "b05a7161f7c1422b40464a702753f924f505b3ff00e2ac58a214ddb93a7322d6",
+          "stdout_bytes": 185
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 2.6,
+          "stdout_sha256": "b05a7161f7c1422b40464a702753f924f505b3ff00e2ac58a214ddb93a7322d6",
+          "stdout_bytes": 185
+        },
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 7.8,
+          "stdout_sha256": "1db948459732d6b341d218fcbf2a8421a548d048fc8d0b8b1fa1080c59fe2375",
+          "stdout_bytes": 185
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_body_collision_test.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 11.8,
+          "stdout_sha256": "90ddd3a92e6e087a425601c1e002054b489da0cb1aa642fa9617752cdcb9851b",
+          "stdout_bytes": 437
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 11.8,
+          "stdout_sha256": "4846945b549381714914100341868db3e904678abf6df9fee98462275e58f405",
+          "stdout_bytes": 436
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 11.8,
+          "stdout_sha256": "4846945b549381714914100341868db3e904678abf6df9fee98462275e58f405",
+          "stdout_bytes": 436
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_body_contact_diagnostics_test.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "fd4c5f63db81b33e138f6b58e40d4d3e02527a08b7c841ab95cea1e52f68493a",
+          "stdout_bytes": 245
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "fd4c5f63db81b33e138f6b58e40d4d3e02527a08b7c841ab95cea1e52f68493a",
+          "stdout_bytes": 245
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "fd4c5f63db81b33e138f6b58e40d4d3e02527a08b7c841ab95cea1e52f68493a",
+          "stdout_bytes": 245
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_body_contact_reference_oracle_test.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "df03d61ea4c154560b57556db5f93077dcc0fc36bfa193c557adbf1f5df1f823",
+          "stdout_bytes": 1654
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "b463156b4a37aeffceedd89a92828dce162a9876a7b0b4c5c46a4c918ad9ff9b",
+          "stdout_bytes": 1651
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "b463156b4a37aeffceedd89a92828dce162a9876a7b0b4c5c46a4c918ad9ff9b",
+          "stdout_bytes": 1651
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_body_contact_smooth_normal_test.py": {
+      "first": {
+        "N": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 5.0,
+          "stdout_sha256": "ea4d948db746ef8cbb7a78883ca98df05eabb72261b0691f008d829d0e518d42",
+          "stdout_bytes": 331,
+          "stdout_tail": "engine: cfmsDrape 0.2.2 (real SDECore implicit solver)\r\nbuild: {\"git_commit\": \"961765d\", \"dirty\": false, \"sha256\": \"15dc957b82da6e7e2bc6fd10d36b5983d93e051e9617d9c8e4d18d93c53f983a\"}\r\ngetter default: (True, 1.5, 1)  after set(True, 2.0, 2): (True, 2.0, 2)\r\n  [ok] default state is (True, 1.5, 1)\r\n  [ok] setter reaches the engine\r\n",
+          "stderr_tail": "^^^^^^\r\n  File \"D:\\__CFMS_Projects\\cfmsDrape_dev\\drape\\.venv\\Lib\\site-packages\\numpy\\lib\\_function_base_impl.py\", line 4669, in _quantile_ureduce_func\r\n    result = _quantile(arr,\r\n             ^^^^^^^^^^^^^^\r\n  File \"D:\\__CFMS_Projects\\cfmsDrape_dev\\drape\\.venv\\Lib\\site-packages\\numpy\\lib\\_function_base_impl.py\", line 4793, in _quantile\r\n    slices_having_nans = np.isnan(arr[-1, ...])\r\n                                  ~~~^^^^^^^^^\r\nIndexError: index -1 is out of bounds for axis 0 with size 0\r\n"
+        },
+        "B": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 5.2,
+          "stdout_sha256": "3b7c13f122a6e84d77ef2460c1a20f6d52d79f23e0bd2f301153772ac5ada748",
+          "stdout_bytes": 331,
+          "stdout_tail": "engine: cfmsDrape 0.2.2 (real SDECore implicit solver)\r\nbuild: {\"git_commit\": \"378d20c\", \"dirty\": false, \"sha256\": \"553b4a9c518415c3bf8eecf6b841169eeef9104ed3456073de7eda69b2ac3f71\"}\r\ngetter default: (True, 1.5, 1)  after set(True, 2.0, 2): (True, 2.0, 2)\r\n  [ok] default state is (True, 1.5, 1)\r\n  [ok] setter reaches the engine\r\n",
+          "stderr_tail": "^^^^^^\r\n  File \"D:\\__CFMS_Projects\\cfmsDrape_dev\\drape\\.venv\\Lib\\site-packages\\numpy\\lib\\_function_base_impl.py\", line 4669, in _quantile_ureduce_func\r\n    result = _quantile(arr,\r\n             ^^^^^^^^^^^^^^\r\n  File \"D:\\__CFMS_Projects\\cfmsDrape_dev\\drape\\.venv\\Lib\\site-packages\\numpy\\lib\\_function_base_impl.py\", line 4793, in _quantile\r\n    slices_having_nans = np.isnan(arr[-1, ...])\r\n                                  ~~~^^^^^^^^^\r\nIndexError: index -1 is out of bounds for axis 0 with size 0\r\n"
+        },
+        "K": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 5.6,
+          "stdout_sha256": "ea4d948db746ef8cbb7a78883ca98df05eabb72261b0691f008d829d0e518d42",
+          "stdout_bytes": 331,
+          "stdout_tail": "engine: cfmsDrape 0.2.2 (real SDECore implicit solver)\r\nbuild: {\"git_commit\": \"961765d\", \"dirty\": false, \"sha256\": \"15dc957b82da6e7e2bc6fd10d36b5983d93e051e9617d9c8e4d18d93c53f983a\"}\r\ngetter default: (True, 1.5, 1)  after set(True, 2.0, 2): (True, 2.0, 2)\r\n  [ok] default state is (True, 1.5, 1)\r\n  [ok] setter reaches the engine\r\n",
+          "stderr_tail": "^^^^^^\r\n  File \"D:\\__CFMS_Projects\\cfmsDrape_dev\\drape\\.venv\\Lib\\site-packages\\numpy\\lib\\_function_base_impl.py\", line 4669, in _quantile_ureduce_func\r\n    result = _quantile(arr,\r\n             ^^^^^^^^^^^^^^\r\n  File \"D:\\__CFMS_Projects\\cfmsDrape_dev\\drape\\.venv\\Lib\\site-packages\\numpy\\lib\\_function_base_impl.py\", line 4793, in _quantile\r\n    slices_having_nans = np.isnan(arr[-1, ...])\r\n                                  ~~~^^^^^^^^^\r\nIndexError: index -1 is out of bounds for axis 0 with size 0\r\n"
+        }
+      },
+      "final": {
+        "N": 1,
+        "K": 1,
+        "B": 1
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": false,
+      "stdout_N_eq_K": true
+    },
+    "py_body_friction_api_test.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "497570cdac82bae4a4302ec5a221ef39d5e7f84baa2d8f8d3a87398465078cde",
+          "stdout_bytes": 55
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "497570cdac82bae4a4302ec5a221ef39d5e7f84baa2d8f8d3a87398465078cde",
+          "stdout_bytes": 55
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "497570cdac82bae4a4302ec5a221ef39d5e7f84baa2d8f8d3a87398465078cde",
+          "stdout_bytes": 55
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_body_friction_behavior_test.py": {
+      "first": {
+        "N": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.8,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "Traceback (most recent call last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\scripts\\py_body_friction_behavior_test.py\", line 114, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\scripts\\py_body_friction_behavior_test.py\", line 98, in main\r\n    assert abs(friction_slip) < 0.95 * abs(zero_slip)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nAssertionError\r\n"
+        },
+        "K": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 1.0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "Traceback (most recent call last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\scripts\\py_body_friction_behavior_test.py\", line 114, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\scripts\\py_body_friction_behavior_test.py\", line 98, in main\r\n    assert abs(friction_slip) < 0.95 * abs(zero_slip)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nAssertionError\r\n"
+        },
+        "B": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 1.0,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "Traceback (most recent call last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\scripts\\py_body_friction_behavior_test.py\", line 114, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\scripts\\py_body_friction_behavior_test.py\", line 98, in main\r\n    assert abs(friction_slip) < 0.95 * abs(zero_slip)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nAssertionError\r\n"
+        }
+      },
+      "final": {
+        "N": 1,
+        "K": 1,
+        "B": 1
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_body_post_contact_pass_test.py": {
+      "first": {
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 41.3,
+          "stdout_sha256": "8c12ef2b117718880b51cbba4a92f3d46a9000a7dafa97a803e4b4db64f80669",
+          "stdout_bytes": 1762
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 42.1,
+          "stdout_sha256": "8c12ef2b117718880b51cbba4a92f3d46a9000a7dafa97a803e4b4db64f80669",
+          "stdout_bytes": 1762
+        },
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 42.3,
+          "stdout_sha256": "3079ffe624bdd1d2c5c5ec42199cecd2f0bb20447d65d123a8f622238a1d987b",
+          "stdout_bytes": 1762
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_body_stick_slip_test.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 6.0,
+          "stdout_sha256": "ed3a713b89f541f0e76378f098624e2e21f2d5ff3335c8983412b86c95d7cb54",
+          "stdout_bytes": 1583
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 8.0,
+          "stdout_sha256": "6adea35662badab064c5efc0ff00584964169e79a9f6ab3a5de0bec62090a0ce",
+          "stdout_bytes": 1583
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 8.2,
+          "stdout_sha256": "98252ec7eae81815ee4d713cc5f5dfa075f37701849f0928eb585cd514baf4d8",
+          "stdout_bytes": 1583
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": false,
+      "stdout_N_eq_K": false
+    },
+    "py_build_info_test.py": {
+      "first": {
+        "N": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "SXJ_engine_suite_2\\N\\drape\\scripts\\py_build_info_test.py\", line 162, in main\r\n    gpu = validate(args.dir / \"cfmsDrape_gpu.dll\", \"gpu\")\r\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\scripts\\py_build_info_test.py\", line 104, in validate\r\n    assert path.exists(), path\r\n           ^^^^^^^^^^^^^\r\nAssertionError: C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\build\\0.2.2\\Release\\cfmsDrape_gpu.dll\r\n"
+        },
+        "K": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "SXJ_engine_suite_2\\K\\drape\\scripts\\py_build_info_test.py\", line 162, in main\r\n    gpu = validate(args.dir / \"cfmsDrape_gpu.dll\", \"gpu\")\r\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\scripts\\py_build_info_test.py\", line 104, in validate\r\n    assert path.exists(), path\r\n           ^^^^^^^^^^^^^\r\nAssertionError: C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\build\\0.2.2\\Release\\cfmsDrape_gpu.dll\r\n"
+        },
+        "B": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "SXJ_engine_suite_2\\B\\drape\\scripts\\py_build_info_test.py\", line 162, in main\r\n    gpu = validate(args.dir / \"cfmsDrape_gpu.dll\", \"gpu\")\r\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\scripts\\py_build_info_test.py\", line 104, in validate\r\n    assert path.exists(), path\r\n           ^^^^^^^^^^^^^\r\nAssertionError: C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\build\\0.2.2\\Release\\cfmsDrape_gpu.dll\r\n"
+        }
+      },
+      "final": {
+        "N": 1,
+        "K": 1,
+        "B": 1
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_bvtt_front_test.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 20.5,
+          "stdout_sha256": "e306e5633585aa2128fed7165758dc0445d9de456648fc9a56053179ef3db9e2",
+          "stdout_bytes": 421
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 20.8,
+          "stdout_sha256": "0434bda793de496885ed645defbd7c17f39ddadb3df511380e6ec85e679c17cb",
+          "stdout_bytes": 421
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 21.4,
+          "stdout_sha256": "214d06ceea16301cd7d2965efeb3e90889f102c1e2f7772580b900abaae5d7d8",
+          "stdout_bytes": 421
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": false,
+      "stdout_N_eq_K": false
+    },
+    "py_capability_audit_test.py": {
+      "first": {
+        "N": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "232c77897dc3086654cf953fc6e3d23b3a4aaa513a87c7e37f101bf82209bd22",
+          "stdout_bytes": 54,
+          "stdout_tail": "cpu: 선언 117 · absent 0 · no_op 0 · 표 일치\r\n",
+          "stderr_tail": "SKIP: C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\build\\0.2.2\\Release\\cfmsDrape_gpu.dll 없음 — 먼저 Release 빌드할 것.\r\n"
+        },
+        "K": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "232c77897dc3086654cf953fc6e3d23b3a4aaa513a87c7e37f101bf82209bd22",
+          "stdout_bytes": 54,
+          "stdout_tail": "cpu: 선언 117 · absent 0 · no_op 0 · 표 일치\r\n",
+          "stderr_tail": "SKIP: C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\build\\0.2.2\\Release\\cfmsDrape_gpu.dll 없음 — 먼저 Release 빌드할 것.\r\n"
+        },
+        "B": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "232c77897dc3086654cf953fc6e3d23b3a4aaa513a87c7e37f101bf82209bd22",
+          "stdout_bytes": 54,
+          "stdout_tail": "cpu: 선언 117 · absent 0 · no_op 0 · 표 일치\r\n",
+          "stderr_tail": "SKIP: C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\build\\0.2.2\\Release\\cfmsDrape_gpu.dll 없음 — 먼저 Release 빌드할 것.\r\n"
+        }
+      },
+      "final": {
+        "N": 1,
+        "K": 1,
+        "B": 1
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_central_load_spin_test.py": {
+      "first": {
+        "N": {
+          "exit": null,
+          "timeout": true,
+          "seconds": 900.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": ""
+        },
+        "K": {
+          "exit": null,
+          "timeout": true,
+          "seconds": 900.3,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": ""
+        },
+        "B": {
+          "exit": null,
+          "timeout": true,
+          "seconds": 900.4,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": ""
+        }
+      },
+      "rerun_skipped": true,
+      "final": {
+        "N": "timeout",
+        "K": "timeout",
+        "B": "timeout"
+      },
+      "undecidable_time": true,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_collider_partition_test.py": {
+      "first": {
+        "N": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 18.1,
+          "stdout_sha256": "f5c8d469a708676b1328121c181861da7ee36521d3d0c3e4b1f9ea4ce1c515d8",
+          "stdout_bytes": 210,
+          "stdout_tail": "sphere ON , floor ON  -> centre y = +2.370  (expect ~16, on sphere)\r\nsphere OFF, floor ON  -> centre y = -897.433  (expect ~0, on floor)\r\nsphere OFF, floor OFF -> centre y = -672.800  (expect << 0, free fall)\r\n",
+          "stderr_tail": "Traceback (most recent call last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\scripts\\py_collider_partition_test.py\", line 79, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\scripts\\py_collider_partition_test.py\", line 71, in main\r\n    assert y_AA > R, f\"sphere collider failed to hold cloth up: {y_AA}\"\r\n           ^^^^^^^^\r\nAssertionError: sphere collider failed to hold cloth up: 2.3699037928657956\r\n"
+        },
+        "K": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 18.4,
+          "stdout_sha256": "2bff160c10d1a7d8e95e00b1f8cd080fab340e863295d07862239f2b848638b5",
+          "stdout_bytes": 210,
+          "stdout_tail": "sphere ON , floor ON  -> centre y = +5.313  (expect ~16, on sphere)\r\nsphere OFF, floor ON  -> centre y = -803.736  (expect ~0, on floor)\r\nsphere OFF, floor OFF -> centre y = -672.800  (expect << 0, free fall)\r\n",
+          "stderr_tail": "Traceback (most recent call last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\scripts\\py_collider_partition_test.py\", line 79, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\scripts\\py_collider_partition_test.py\", line 71, in main\r\n    assert y_AA > R, f\"sphere collider failed to hold cloth up: {y_AA}\"\r\n           ^^^^^^^^\r\nAssertionError: sphere collider failed to hold cloth up: 5.3131277178606755\r\n"
+        },
+        "B": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 18.4,
+          "stdout_sha256": "2bff160c10d1a7d8e95e00b1f8cd080fab340e863295d07862239f2b848638b5",
+          "stdout_bytes": 210,
+          "stdout_tail": "sphere ON , floor ON  -> centre y = +5.313  (expect ~16, on sphere)\r\nsphere OFF, floor ON  -> centre y = -803.736  (expect ~0, on floor)\r\nsphere OFF, floor OFF -> centre y = -672.800  (expect << 0, free fall)\r\n",
+          "stderr_tail": "Traceback (most recent call last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\scripts\\py_collider_partition_test.py\", line 79, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\scripts\\py_collider_partition_test.py\", line 71, in main\r\n    assert y_AA > R, f\"sphere collider failed to hold cloth up: {y_AA}\"\r\n           ^^^^^^^^\r\nAssertionError: sphere collider failed to hold cloth up: 5.3131277178606755\r\n"
+        }
+      },
+      "final": {
+        "N": 1,
+        "K": 1,
+        "B": 1
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_collider_partition_validation_test.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "404ea83c51a382d92f0d4e52074202d8d7ac6211a2809d3b3a8ff78e5a26e62b",
+          "stdout_bytes": 70
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "404ea83c51a382d92f0d4e52074202d8d7ac6211a2809d3b3a8ff78e5a26e62b",
+          "stdout_bytes": 70
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "404ea83c51a382d92f0d4e52074202d8d7ac6211a2809d3b3a8ff78e5a26e62b",
+          "stdout_bytes": 70
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_cusick_test.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 66.7,
+          "stdout_sha256": "950bdb30cd38f7f92e27e456cd016ccd54a7fa52529cacb2a02bd8a9e0bed60b",
+          "stdout_bytes": 919
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 71.9,
+          "stdout_sha256": "d92415bacb7e35fb31195cee0de84bf447c370cc7867c6e0db643614fdf03324",
+          "stdout_bytes": 919
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 72.9,
+          "stdout_sha256": "d92415bacb7e35fb31195cee0de84bf447c370cc7867c6e0db643614fdf03324",
+          "stdout_bytes": 919
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_d1388_test.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 128.2,
+          "stdout_sha256": "53715381fae26b4794ce8a2c36f4b82fa32ee67dcc64c7c5bc9a15632d2002e1",
+          "stdout_bytes": 1207
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 302.3,
+          "stdout_sha256": "06cf12782814b0235217566c9bd5079fe22e2f12e077204a2e2758a3c4f919b9",
+          "stdout_bytes": 1206
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 303.9,
+          "stdout_sha256": "06cf12782814b0235217566c9bd5079fe22e2f12e077204a2e2758a3c4f919b9",
+          "stdout_bytes": 1206
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_degenerate_test.py": {
+      "first": {
+        "N": {
+          "exit": 2,
+          "timeout": false,
+          "seconds": 1.0,
+          "stdout_sha256": "b9f9ba2122977fb5baf1f51625b50ec9730d24a8128a0736f5ef4d6546e58584",
+          "stdout_bytes": 451,
+          "stdout_tail": "== 퇴화 입력 강건성 (0면적·중복점·슬리버 → NaN/폭주 없이 드레이프) ==\r\n  [FAIL] 0면적 요소 삽입: 유한, max|P|=784098.0\r\n  [PASS] 중복점(퇴화 삼각형): 유한, max|P|=10.0\r\n  [PASS] 슬리버(바늘) 삼각형: 유한, max|P|=10.0\r\n  [PASS] 공선 0면적(엣지 중점): 유한, max|P|=9739.6\r\n\r\n== 요약 ==\r\n  FAIL 1건 — 퇴화 입력에서 발산:\r\n    - 0면적 요소 삽입: 유한, max|P|=784098.0\r\n",
+          "stderr_tail": ""
+        },
+        "K": {
+          "exit": 2,
+          "timeout": false,
+          "seconds": 1.6,
+          "stdout_sha256": "b9f9ba2122977fb5baf1f51625b50ec9730d24a8128a0736f5ef4d6546e58584",
+          "stdout_bytes": 451,
+          "stdout_tail": "== 퇴화 입력 강건성 (0면적·중복점·슬리버 → NaN/폭주 없이 드레이프) ==\r\n  [FAIL] 0면적 요소 삽입: 유한, max|P|=784098.0\r\n  [PASS] 중복점(퇴화 삼각형): 유한, max|P|=10.0\r\n  [PASS] 슬리버(바늘) 삼각형: 유한, max|P|=10.0\r\n  [PASS] 공선 0면적(엣지 중점): 유한, max|P|=9739.6\r\n\r\n== 요약 ==\r\n  FAIL 1건 — 퇴화 입력에서 발산:\r\n    - 0면적 요소 삽입: 유한, max|P|=784098.0\r\n",
+          "stderr_tail": ""
+        },
+        "B": {
+          "exit": 2,
+          "timeout": false,
+          "seconds": 1.6,
+          "stdout_sha256": "b9f9ba2122977fb5baf1f51625b50ec9730d24a8128a0736f5ef4d6546e58584",
+          "stdout_bytes": 451,
+          "stdout_tail": "== 퇴화 입력 강건성 (0면적·중복점·슬리버 → NaN/폭주 없이 드레이프) ==\r\n  [FAIL] 0면적 요소 삽입: 유한, max|P|=784098.0\r\n  [PASS] 중복점(퇴화 삼각형): 유한, max|P|=10.0\r\n  [PASS] 슬리버(바늘) 삼각형: 유한, max|P|=10.0\r\n  [PASS] 공선 0면적(엣지 중점): 유한, max|P|=9739.6\r\n\r\n== 요약 ==\r\n  FAIL 1건 — 퇴화 입력에서 발산:\r\n    - 0면적 요소 삽입: 유한, max|P|=784098.0\r\n",
+          "stderr_tail": ""
+        }
+      },
+      "final": {
+        "N": 2,
+        "K": 2,
+        "B": 2
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_floor_test.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 13.2,
+          "stdout_sha256": "3f809fd05d5e8a28f090a19b76cc0d55dee6c5c5210302d86c0d96f4bc6fe840",
+          "stdout_bytes": 174
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 13.2,
+          "stdout_sha256": "3d010a2534d3c5e4e8df867b0e7d515169febaf89a5bd0895e3f4d187d05285b",
+          "stdout_bytes": 174
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 13.2,
+          "stdout_sha256": "3d010a2534d3c5e4e8df867b0e7d515169febaf89a5bd0895e3f4d187d05285b",
+          "stdout_bytes": 174
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_gpu_determinism_test.py": {
+      "first": {
+        "N": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "pts\\py_gpu_determinism_test.py\", line 77, in main\r\n    dll = args.dll or str(find_dll(args.backend))\r\n                          ^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\cfmsdrape\\__init__.py\", line 80, in find_dll\r\n    raise FileNotFoundError(\r\nFileNotFoundError: cfmsDrape_gpu.dll not found. Build it first:\r\n  cmake -S . -B build/0.2.2 -G \"Visual Studio 17 2022\" -A x64\r\n  cmake --build build/0.2.2 --config Release --target cfmsDrapeGPU_dll\r\n"
+        },
+        "K": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "pts\\py_gpu_determinism_test.py\", line 77, in main\r\n    dll = args.dll or str(find_dll(args.backend))\r\n                          ^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\cfmsdrape\\__init__.py\", line 80, in find_dll\r\n    raise FileNotFoundError(\r\nFileNotFoundError: cfmsDrape_gpu.dll not found. Build it first:\r\n  cmake -S . -B build/0.2.2 -G \"Visual Studio 17 2022\" -A x64\r\n  cmake --build build/0.2.2 --config Release --target cfmsDrapeGPU_dll\r\n"
+        },
+        "B": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "pts\\py_gpu_determinism_test.py\", line 77, in main\r\n    dll = args.dll or str(find_dll(args.backend))\r\n                          ^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\cfmsdrape\\__init__.py\", line 80, in find_dll\r\n    raise FileNotFoundError(\r\nFileNotFoundError: cfmsDrape_gpu.dll not found. Build it first:\r\n  cmake -S . -B build/0.2.2 -G \"Visual Studio 17 2022\" -A x64\r\n  cmake --build build/0.2.2 --config Release --target cfmsDrapeGPU_dll\r\n"
+        }
+      },
+      "final": {
+        "N": 1,
+        "K": 1,
+        "B": 1
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_gpu_set_positions_test.py": {
+      "first": {
+        "N": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "te_2\\N\\drape\\cfmsdrape\\__init__.py\", line 295, in __init__\r\n    self._dll_path = find_dll(backend)\r\n                     ^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\cfmsdrape\\__init__.py\", line 53, in find_dll\r\n    raise FileNotFoundError(f\"CFMS_DRAPE_DLL does not name a DLL file: {explicit}\")\r\nFileNotFoundError: CFMS_DRAPE_DLL does not name a DLL file: C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\build\\Release\\cfmsDrape_gpu.dll\r\n"
+        },
+        "K": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "te_2\\K\\drape\\cfmsdrape\\__init__.py\", line 295, in __init__\r\n    self._dll_path = find_dll(backend)\r\n                     ^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\cfmsdrape\\__init__.py\", line 53, in find_dll\r\n    raise FileNotFoundError(f\"CFMS_DRAPE_DLL does not name a DLL file: {explicit}\")\r\nFileNotFoundError: CFMS_DRAPE_DLL does not name a DLL file: C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\build\\Release\\cfmsDrape_gpu.dll\r\n"
+        },
+        "B": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "te_2\\B\\drape\\cfmsdrape\\__init__.py\", line 295, in __init__\r\n    self._dll_path = find_dll(backend)\r\n                     ^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\cfmsdrape\\__init__.py\", line 53, in find_dll\r\n    raise FileNotFoundError(f\"CFMS_DRAPE_DLL does not name a DLL file: {explicit}\")\r\nFileNotFoundError: CFMS_DRAPE_DLL does not name a DLL file: C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\build\\Release\\cfmsDrape_gpu.dll\r\n"
+        }
+      },
+      "final": {
+        "N": 1,
+        "K": 1,
+        "B": 1
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_implicit_mass_damping_test.py": {
+      "first": {
+        "N": {
+          "exit": 2,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "damping_test.py [-h] [--baseline BASELINE]\r\n                                        [--candidate CANDIDATE] --output\r\n                                        OUTPUT [--dll DLL] [--case CASE]\r\n                                        [--dt DT] [--damping DAMPING]\r\n                                        [--default-pcg]\r\n                                        [--mode {normal,static,mgcg,adaptive,switch_off}]\r\npy_implicit_mass_damping_test.py: error: the following arguments are required: --output\r\n"
+        },
+        "K": {
+          "exit": 2,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "damping_test.py [-h] [--baseline BASELINE]\r\n                                        [--candidate CANDIDATE] --output\r\n                                        OUTPUT [--dll DLL] [--case CASE]\r\n                                        [--dt DT] [--damping DAMPING]\r\n                                        [--default-pcg]\r\n                                        [--mode {normal,static,mgcg,adaptive,switch_off}]\r\npy_implicit_mass_damping_test.py: error: the following arguments are required: --output\r\n"
+        },
+        "B": {
+          "exit": 2,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "damping_test.py [-h] [--baseline BASELINE]\r\n                                        [--candidate CANDIDATE] --output\r\n                                        OUTPUT [--dll DLL] [--case CASE]\r\n                                        [--dt DT] [--damping DAMPING]\r\n                                        [--default-pcg]\r\n                                        [--mode {normal,static,mgcg,adaptive,switch_off}]\r\npy_implicit_mass_damping_test.py: error: the following arguments are required: --output\r\n"
+        }
+      },
+      "final": {
+        "N": 2,
+        "K": 2,
+        "B": 2
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_interpanel_collision_test.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.4,
+          "stdout_sha256": "51300504503f6f3548d158b2944548c0a6f7291eb21cc3b04bf03ad0c2000f16",
+          "stdout_bytes": 271
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.4,
+          "stdout_sha256": "db93258d02cfc3e144af4c8ecc55683ff9762f96ddfa30c442e0bb857afea1c4",
+          "stdout_bytes": 271
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.4,
+          "stdout_sha256": "db93258d02cfc3e144af4c8ecc55683ff9762f96ddfa30c442e0bb857afea1c4",
+          "stdout_bytes": 271
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_lifecycle_repeat_test.py": {
+      "first": {
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 18.8,
+          "stdout_sha256": "c6f32fce537f6831bd1253ae6d74929846436920bb0ebb27f3aab0c6540a9305",
+          "stdout_bytes": 699
+        },
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 19.1,
+          "stdout_sha256": "60d818e44f187718df11f72a1f937c59214d2acceb1529f831abe9c517d38f2c",
+          "stdout_bytes": 699
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 19.0,
+          "stdout_sha256": "36b3e2bb237580b23e783fa451a47eeb04665f83cba35cca0a6bb67f6bc38dad",
+          "stdout_bytes": 699
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": false,
+      "stdout_N_eq_K": false
+    },
+    "py_material_normals_test.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 2.6,
+          "stdout_sha256": "2592e347c83d3b7ecf9b8e77ff0e3bc2b859ef13ddb5fd1538d6e668c645cd86",
+          "stdout_bytes": 209
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 2.6,
+          "stdout_sha256": "2592e347c83d3b7ecf9b8e77ff0e3bc2b859ef13ddb5fd1538d6e668c645cd86",
+          "stdout_bytes": 209
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 2.6,
+          "stdout_sha256": "2592e347c83d3b7ecf9b8e77ff0e3bc2b859ef13ddb5fd1538d6e668c645cd86",
+          "stdout_bytes": 209
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_membrane_nonlinear_test.py": {
+      "first": {
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 716.1,
+          "stdout_sha256": "556c0a657e89dfca19930ab1c55db9ab9f3d64d8a31fa207987f2a52c49e230c",
+          "stdout_bytes": 1639
+        },
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 735.0,
+          "stdout_sha256": "1cd51cff3a36c21b4bc875349b7a32a176718e217cccbbd25c1dce691977515f",
+          "stdout_bytes": 1639
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 739.6,
+          "stdout_sha256": "556c0a657e89dfca19930ab1c55db9ab9f3d64d8a31fa207987f2a52c49e230c",
+          "stdout_bytes": 1639
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_open_shell_contact_test.py": {
+      "first": {
+        "N": {
+          "exit": null,
+          "timeout": true,
+          "seconds": 900.3,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": ""
+        },
+        "K": {
+          "exit": null,
+          "timeout": true,
+          "seconds": 900.4,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": ""
+        },
+        "B": {
+          "exit": null,
+          "timeout": true,
+          "seconds": 900.5,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": ""
+        }
+      },
+      "rerun_skipped": true,
+      "final": {
+        "N": "timeout",
+        "K": "timeout",
+        "B": "timeout"
+      },
+      "undecidable_time": true,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_orthotropic_api_test.py": {
+      "first": {
+        "N": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "e_2\\N\\drape\\cfmsdrape\\__init__.py\", line 295, in __init__\r\n    self._dll_path = find_dll(backend)\r\n                     ^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\cfmsdrape\\__init__.py\", line 53, in find_dll\r\n    raise FileNotFoundError(f\"CFMS_DRAPE_DLL does not name a DLL file: {explicit}\")\r\nFileNotFoundError: CFMS_DRAPE_DLL does not name a DLL file: C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\build2\\Release\\cfmsDrape_gpu.dll\r\n"
+        },
+        "K": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "e_2\\K\\drape\\cfmsdrape\\__init__.py\", line 295, in __init__\r\n    self._dll_path = find_dll(backend)\r\n                     ^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\cfmsdrape\\__init__.py\", line 53, in find_dll\r\n    raise FileNotFoundError(f\"CFMS_DRAPE_DLL does not name a DLL file: {explicit}\")\r\nFileNotFoundError: CFMS_DRAPE_DLL does not name a DLL file: C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\build2\\Release\\cfmsDrape_gpu.dll\r\n"
+        },
+        "B": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "e_2\\B\\drape\\cfmsdrape\\__init__.py\", line 295, in __init__\r\n    self._dll_path = find_dll(backend)\r\n                     ^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\cfmsdrape\\__init__.py\", line 53, in find_dll\r\n    raise FileNotFoundError(f\"CFMS_DRAPE_DLL does not name a DLL file: {explicit}\")\r\nFileNotFoundError: CFMS_DRAPE_DLL does not name a DLL file: C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\build2\\Release\\cfmsDrape_gpu.dll\r\n"
+        }
+      },
+      "final": {
+        "N": 1,
+        "K": 1,
+        "B": 1
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_params_test.py": {
+      "first": {
+        "N": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 1.6,
+          "stdout_sha256": "2a7ccea7b8ae7a8f179e1702c68e1276893b3668ae27e5a24df1af37abff4db4",
+          "stdout_bytes": 106,
+          "stdout_tail": "gravity: fell 5.818 cm @200 vs 28.510 cm @980\r\ndamping: late-window motion 7384.974 @0 vs 7411.736 @1000\r\n",
+          "stderr_tail": "Traceback (most recent call last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\scripts\\py_params_test.py\", line 79, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\scripts\\py_params_test.py\", line 74, in main\r\n    assert m_hi < m_lo - 2.0, \"more damping did not reduce residual swinging\"\r\n           ^^^^^^^^^^^^^^^^^\r\nAssertionError: more damping did not reduce residual swinging\r\n"
+        },
+        "K": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 1.6,
+          "stdout_sha256": "0da4512ff2b4bd2d124ce44f6f0232ce0356c9303dea7c6d019502d2bb2fb3af",
+          "stdout_bytes": 106,
+          "stdout_tail": "gravity: fell 5.818 cm @200 vs 28.510 cm @980\r\ndamping: late-window motion 7384.652 @0 vs 7411.393 @1000\r\n",
+          "stderr_tail": "Traceback (most recent call last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\scripts\\py_params_test.py\", line 79, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\scripts\\py_params_test.py\", line 74, in main\r\n    assert m_hi < m_lo - 2.0, \"more damping did not reduce residual swinging\"\r\n           ^^^^^^^^^^^^^^^^^\r\nAssertionError: more damping did not reduce residual swinging\r\n"
+        },
+        "B": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 1.6,
+          "stdout_sha256": "0da4512ff2b4bd2d124ce44f6f0232ce0356c9303dea7c6d019502d2bb2fb3af",
+          "stdout_bytes": 106,
+          "stdout_tail": "gravity: fell 5.818 cm @200 vs 28.510 cm @980\r\ndamping: late-window motion 7384.652 @0 vs 7411.393 @1000\r\n",
+          "stderr_tail": "Traceback (most recent call last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\scripts\\py_params_test.py\", line 79, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\scripts\\py_params_test.py\", line 74, in main\r\n    assert m_hi < m_lo - 2.0, \"more damping did not reduce residual swinging\"\r\n           ^^^^^^^^^^^^^^^^^\r\nAssertionError: more damping did not reduce residual swinging\r\n"
+        }
+      },
+      "final": {
+        "N": 1,
+        "K": 1,
+        "B": 1
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_pcg_diagnostics_test.py": {
+      "first": {
+        "N": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 2.4,
+          "stdout_sha256": "87eb9dca490cba821bdd0ae91f9dac4fe9fe9f08e7a0753919b0e35901ca712e",
+          "stdout_bytes": 2186,
+          "stdout_tail": " 1e-30 is read back and the absolute branch no longer fires\r\n  cap-4 history: 1 runs, attempts 1, first absolute@1 h=2.00e-02, last absolute@1 h=2.00e-02 attempt 0\r\n  [FAIL] iteration cap: failed attempts are recorded (reason iteration_cap, iterations == 4)\r\n  [FAIL] retries halve h and the accepted attempt is the last record\r\n  NaN force record: {'exit_reason': 'numerical_failure', 'iterations': 0} | StepDiverged raised: False\r\n  [ok] NaN right-hand side is reported as numerical_failure\r\nFAIL\r\n",
+          "stderr_tail": ""
+        },
+        "K": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 2.4,
+          "stdout_sha256": "1368908b6af63a5a7642a48986395a61fe8a248f6f3d21f9ec0c372205fc0235",
+          "stdout_bytes": 2186,
+          "stdout_tail": " 1e-30 is read back and the absolute branch no longer fires\r\n  cap-4 history: 1 runs, attempts 1, first absolute@1 h=2.00e-02, last absolute@1 h=2.00e-02 attempt 0\r\n  [FAIL] iteration cap: failed attempts are recorded (reason iteration_cap, iterations == 4)\r\n  [FAIL] retries halve h and the accepted attempt is the last record\r\n  NaN force record: {'exit_reason': 'numerical_failure', 'iterations': 0} | StepDiverged raised: False\r\n  [ok] NaN right-hand side is reported as numerical_failure\r\nFAIL\r\n",
+          "stderr_tail": ""
+        },
+        "B": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 2.4,
+          "stdout_sha256": "29f91c6418aab7995648ed83ed847fd31871c7eab3a414781119a8a549611190",
+          "stdout_bytes": 2186,
+          "stdout_tail": " 1e-30 is read back and the absolute branch no longer fires\r\n  cap-4 history: 1 runs, attempts 1, first absolute@1 h=2.00e-02, last absolute@1 h=2.00e-02 attempt 0\r\n  [FAIL] iteration cap: failed attempts are recorded (reason iteration_cap, iterations == 4)\r\n  [FAIL] retries halve h and the accepted attempt is the last record\r\n  NaN force record: {'exit_reason': 'numerical_failure', 'iterations': 0} | StepDiverged raised: False\r\n  [ok] NaN right-hand side is reported as numerical_failure\r\nFAIL\r\n",
+          "stderr_tail": ""
+        }
+      },
+      "final": {
+        "N": 1,
+        "K": 1,
+        "B": 1
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": false,
+      "stdout_N_eq_K": false
+    },
+    "py_pcg_parallel_test.py": {
+      "first": {
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 52.9,
+          "stdout_sha256": "bda46df83784d82226dfa3e2092aeb7a8e0c6d5671857ea4732886531612ffbd",
+          "stdout_bytes": 931
+        },
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 54.3,
+          "stdout_sha256": "193cd96a7a6841046626183ee848344cf49f0e7c655332b61cab3c5f07c8cfd6",
+          "stdout_bytes": 934
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 54.3,
+          "stdout_sha256": "bda46df83784d82226dfa3e2092aeb7a8e0c6d5671857ea4732886531612ffbd",
+          "stdout_bytes": 931
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_pftf_component_test.py": {
+      "first": {
+        "N": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 3.4,
+          "stdout_sha256": "bef85ce19bfe05df8e1f60beddb76609a9cd4ae2a7fa0bec3f8991bd6a61809c",
+          "stdout_bytes": 223,
+          "stdout_tail": "sheet gap   : OFF 0.110 cm   ON 0.110 cm  (윗장이 아랫장 위에 얹혀야 함)\r\nstep time   : OFF 1.55s   ON 1.59s\r\nstats(last) : OFF pairs=1312 skips=0   ON pairs=1312 skips=0\r\npos diff    : max|OFF-ON| = 0.0000 cm\r\n",
+          "stderr_tail": "Traceback (most recent call last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\scripts\\py_pftf_component_test.py\", line 97, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\scripts\\py_pftf_component_test.py\", line 92, in main\r\n    assert st_on[1] > 0, \"ON 인데 cone_skips=0 — 같은 조각 내부 프룬까지 사라짐(컴포넌트 할당 의심)\"\r\n           ^^^^^^^^^^^^\r\nAssertionError: ON 인데 cone_skips=0 — 같은 조각 내부 프룬까지 사라짐(컴포넌트 할당 의심)\r\n"
+        },
+        "K": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 3.6,
+          "stdout_sha256": "49836eecf7f8e8d162c636bb86e3d44b7b0887696248056e48b3a778c8c5e7d2",
+          "stdout_bytes": 223,
+          "stdout_tail": "sheet gap   : OFF 0.108 cm   ON 0.108 cm  (윗장이 아랫장 위에 얹혀야 함)\r\nstep time   : OFF 1.63s   ON 1.69s\r\nstats(last) : OFF pairs=1312 skips=0   ON pairs=1312 skips=0\r\npos diff    : max|OFF-ON| = 0.0000 cm\r\n",
+          "stderr_tail": "Traceback (most recent call last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\scripts\\py_pftf_component_test.py\", line 97, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\scripts\\py_pftf_component_test.py\", line 92, in main\r\n    assert st_on[1] > 0, \"ON 인데 cone_skips=0 — 같은 조각 내부 프룬까지 사라짐(컴포넌트 할당 의심)\"\r\n           ^^^^^^^^^^^^\r\nAssertionError: ON 인데 cone_skips=0 — 같은 조각 내부 프룬까지 사라짐(컴포넌트 할당 의심)\r\n"
+        },
+        "B": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 3.6,
+          "stdout_sha256": "49836eecf7f8e8d162c636bb86e3d44b7b0887696248056e48b3a778c8c5e7d2",
+          "stdout_bytes": 223,
+          "stdout_tail": "sheet gap   : OFF 0.108 cm   ON 0.108 cm  (윗장이 아랫장 위에 얹혀야 함)\r\nstep time   : OFF 1.63s   ON 1.69s\r\nstats(last) : OFF pairs=1312 skips=0   ON pairs=1312 skips=0\r\npos diff    : max|OFF-ON| = 0.0000 cm\r\n",
+          "stderr_tail": "Traceback (most recent call last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\scripts\\py_pftf_component_test.py\", line 97, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\scripts\\py_pftf_component_test.py\", line 92, in main\r\n    assert st_on[1] > 0, \"ON 인데 cone_skips=0 — 같은 조각 내부 프룬까지 사라짐(컴포넌트 할당 의심)\"\r\n           ^^^^^^^^^^^^\r\nAssertionError: ON 인데 cone_skips=0 — 같은 조각 내부 프룬까지 사라짐(컴포넌트 할당 의심)\r\n"
+        }
+      },
+      "final": {
+        "N": 1,
+        "K": 1,
+        "B": 1
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_pftf_engine_test.py": {
+      "first": {
+        "N": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 8.4,
+          "stdout_sha256": "5808768ed6e7371efc10b1a70e8e85d12d27f9a4e0d88124e3d54bfa67aeaa58",
+          "stdout_bytes": 232,
+          "stdout_tail": "fold extent : OFF 0.312 cm   ON 0.312 cm  (둘 다 >1.5 여야 자가충돌 정상)\r\nstep time   : OFF 4.02s   ON 4.25s   (x0.95)\r\nstats(last) : OFF pairs=6074 skips=0   ON pairs=6074 skips=0\r\npos diff    : max|OFF-ON| = 0.0000 cm\r\n",
+          "stderr_tail": "Traceback (most recent call last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\scripts\\py_pftf_engine_test.py\", line 94, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\scripts\\py_pftf_engine_test.py\", line 86, in main\r\n    assert ext_off > 1.5, \"OFF: 자가충돌이 접힘을 보존하지 못함 (기존 회귀!)\"\r\n           ^^^^^^^^^^^^^\r\nAssertionError: OFF: 자가충돌이 접힘을 보존하지 못함 (기존 회귀!)\r\n"
+        },
+        "K": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 8.8,
+          "stdout_sha256": "63c9d71f83641813d6268c56c23627619c18c50272470aef981c567dfcfeb7df",
+          "stdout_bytes": 232,
+          "stdout_tail": "fold extent : OFF 0.325 cm   ON 0.325 cm  (둘 다 >1.5 여야 자가충돌 정상)\r\nstep time   : OFF 4.22s   ON 4.43s   (x0.95)\r\nstats(last) : OFF pairs=6128 skips=0   ON pairs=6128 skips=0\r\npos diff    : max|OFF-ON| = 0.0000 cm\r\n",
+          "stderr_tail": "Traceback (most recent call last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\scripts\\py_pftf_engine_test.py\", line 94, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\scripts\\py_pftf_engine_test.py\", line 86, in main\r\n    assert ext_off > 1.5, \"OFF: 자가충돌이 접힘을 보존하지 못함 (기존 회귀!)\"\r\n           ^^^^^^^^^^^^^\r\nAssertionError: OFF: 자가충돌이 접힘을 보존하지 못함 (기존 회귀!)\r\n"
+        },
+        "B": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 8.8,
+          "stdout_sha256": "0c9e414ff10c28f5d0eec1414430cfe6f35680c52943b6029bc053db05ebb7d9",
+          "stdout_bytes": 232,
+          "stdout_tail": "fold extent : OFF 0.325 cm   ON 0.325 cm  (둘 다 >1.5 여야 자가충돌 정상)\r\nstep time   : OFF 4.20s   ON 4.45s   (x0.94)\r\nstats(last) : OFF pairs=6128 skips=0   ON pairs=6128 skips=0\r\npos diff    : max|OFF-ON| = 0.0000 cm\r\n",
+          "stderr_tail": "Traceback (most recent call last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\scripts\\py_pftf_engine_test.py\", line 94, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\scripts\\py_pftf_engine_test.py\", line 86, in main\r\n    assert ext_off > 1.5, \"OFF: 자가충돌이 접힘을 보존하지 못함 (기존 회귀!)\"\r\n           ^^^^^^^^^^^^^\r\nAssertionError: OFF: 자가충돌이 접힘을 보존하지 못함 (기존 회귀!)\r\n"
+        }
+      },
+      "final": {
+        "N": 1,
+        "K": 1,
+        "B": 1
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": false,
+      "stdout_N_eq_K": false
+    },
+    "py_pftf_pos_culling_test.py": {
+      "first": {
+        "N": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 2.0,
+          "stdout_sha256": "30ab362e0023fa31b7d26ad71f8b42ff7b14703152d8a0a30512dcef82510d05",
+          "stdout_bytes": 361,
+          "stdout_tail": "== 장면 A: 축정렬 두 시트 (18-DOP 에 포섭 → 게이트 무해·무발동) ==\r\n[axis] pos_skips ON=0 tiny=0 | byte-equal max|ON-OFF|=0.000000 max|tiny-OFF|=0.000000\r\n== 장면 B: 오블리크(1,1,1) 두 레이어 (18-DOP 사각지대 → 게이트 실효) ==\r\n[oblique] pos_skips ON=0 tiny=0 | byte-equal max|ON-OFF|=0.000000 max|tiny-OFF|=0.000000\r\n",
+          "stderr_tail": "\\N\\drape\\scripts\\py_pftf_pos_culling_test.py\", line 117, in main\r\n    b = check(\"oblique\", oblique_two_layer(), want_skips=True)\r\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\scripts\\py_pftf_pos_culling_test.py\", line 107, in check\r\n    assert sk_on > 0, f\"[{name}] 오블리크인데 pos_skips=0 — 18-DOP 사각지대 게이트 미발동(회귀!)\"\r\n           ^^^^^^^^^\r\nAssertionError: [oblique] 오블리크인데 pos_skips=0 — 18-DOP 사각지대 게이트 미발동(회귀!)\r\n"
+        },
+        "K": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 2.0,
+          "stdout_sha256": "30ab362e0023fa31b7d26ad71f8b42ff7b14703152d8a0a30512dcef82510d05",
+          "stdout_bytes": 361,
+          "stdout_tail": "== 장면 A: 축정렬 두 시트 (18-DOP 에 포섭 → 게이트 무해·무발동) ==\r\n[axis] pos_skips ON=0 tiny=0 | byte-equal max|ON-OFF|=0.000000 max|tiny-OFF|=0.000000\r\n== 장면 B: 오블리크(1,1,1) 두 레이어 (18-DOP 사각지대 → 게이트 실효) ==\r\n[oblique] pos_skips ON=0 tiny=0 | byte-equal max|ON-OFF|=0.000000 max|tiny-OFF|=0.000000\r\n",
+          "stderr_tail": "\\K\\drape\\scripts\\py_pftf_pos_culling_test.py\", line 117, in main\r\n    b = check(\"oblique\", oblique_two_layer(), want_skips=True)\r\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\scripts\\py_pftf_pos_culling_test.py\", line 107, in check\r\n    assert sk_on > 0, f\"[{name}] 오블리크인데 pos_skips=0 — 18-DOP 사각지대 게이트 미발동(회귀!)\"\r\n           ^^^^^^^^^\r\nAssertionError: [oblique] 오블리크인데 pos_skips=0 — 18-DOP 사각지대 게이트 미발동(회귀!)\r\n"
+        },
+        "B": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 2.0,
+          "stdout_sha256": "30ab362e0023fa31b7d26ad71f8b42ff7b14703152d8a0a30512dcef82510d05",
+          "stdout_bytes": 361,
+          "stdout_tail": "== 장면 A: 축정렬 두 시트 (18-DOP 에 포섭 → 게이트 무해·무발동) ==\r\n[axis] pos_skips ON=0 tiny=0 | byte-equal max|ON-OFF|=0.000000 max|tiny-OFF|=0.000000\r\n== 장면 B: 오블리크(1,1,1) 두 레이어 (18-DOP 사각지대 → 게이트 실효) ==\r\n[oblique] pos_skips ON=0 tiny=0 | byte-equal max|ON-OFF|=0.000000 max|tiny-OFF|=0.000000\r\n",
+          "stderr_tail": "\\B\\drape\\scripts\\py_pftf_pos_culling_test.py\", line 117, in main\r\n    b = check(\"oblique\", oblique_two_layer(), want_skips=True)\r\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\scripts\\py_pftf_pos_culling_test.py\", line 107, in check\r\n    assert sk_on > 0, f\"[{name}] 오블리크인데 pos_skips=0 — 18-DOP 사각지대 게이트 미발동(회귀!)\"\r\n           ^^^^^^^^^\r\nAssertionError: [oblique] 오블리크인데 pos_skips=0 — 18-DOP 사각지대 게이트 미발동(회귀!)\r\n"
+        }
+      },
+      "final": {
+        "N": 1,
+        "K": 1,
+        "B": 1
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_seam_flat_test.py": {
+      "first": {
+        "B": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 457.3,
+          "stdout_sha256": "17e12e71e5d308c5230000681adb5db0c953bfd0d6c40e5ae2d8f7c447a61ad7",
+          "stdout_bytes": 441,
+          "stdout_tail": "A matched/no-noise : |z|max 0.000e+00 cm  seam 0.00087 cm\r\nB matched/noise    : |z|max 0.0253 cm @15s -> 0.0948 cm @60s  seam 0.00281 cm\r\nC 5% mismatch/60s  : lenA 1.1180  lenB 1.1073  seam 0.00011 cm  resid 52.23\r\n\r\nFAIL:\r\n  - C: panel A length ran away (1.1180, tol 1.02)\r\n  - C: panel B length ran away (1.1073, tol 1.02)\r\n  - C: never reached equilibrium (residual 52.23 > 50.0; a constant residual means the seam keeps injecting work)\r\n",
+          "stderr_tail": ""
+        },
+        "K": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 460.8,
+          "stdout_sha256": "17e12e71e5d308c5230000681adb5db0c953bfd0d6c40e5ae2d8f7c447a61ad7",
+          "stdout_bytes": 441,
+          "stdout_tail": "A matched/no-noise : |z|max 0.000e+00 cm  seam 0.00087 cm\r\nB matched/noise    : |z|max 0.0253 cm @15s -> 0.0948 cm @60s  seam 0.00281 cm\r\nC 5% mismatch/60s  : lenA 1.1180  lenB 1.1073  seam 0.00011 cm  resid 52.23\r\n\r\nFAIL:\r\n  - C: panel A length ran away (1.1180, tol 1.02)\r\n  - C: panel B length ran away (1.1073, tol 1.02)\r\n  - C: never reached equilibrium (residual 52.23 > 50.0; a constant residual means the seam keeps injecting work)\r\n",
+          "stderr_tail": ""
+        },
+        "N": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 466.6,
+          "stdout_sha256": "056089fd0e7e6e0fbb72e2065a884cf63f2103894af8214f153ad5f429bf119f",
+          "stdout_bytes": 441,
+          "stdout_tail": "A matched/no-noise : |z|max 0.000e+00 cm  seam 0.00095 cm\r\nB matched/noise    : |z|max 0.0214 cm @15s -> 0.1015 cm @60s  seam 0.00630 cm\r\nC 5% mismatch/60s  : lenA 1.1180  lenB 1.1073  seam 0.00012 cm  resid 352.6\r\n\r\nFAIL:\r\n  - C: panel A length ran away (1.1180, tol 1.02)\r\n  - C: panel B length ran away (1.1073, tol 1.02)\r\n  - C: never reached equilibrium (residual 352.6 > 50.0; a constant residual means the seam keeps injecting work)\r\n",
+          "stderr_tail": ""
+        }
+      },
+      "final": {
+        "N": 1,
+        "K": 1,
+        "B": 1
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_selfcollision_test.py": {
+      "first": {
+        "N": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 4.8,
+          "stdout_sha256": "70f17e46cac612b35baaae3b7c08c4216ae2ee8f866b7a2b33fa6ed9daa3871e",
+          "stdout_bytes": 85,
+          "stdout_tail": "folded-cloth vertical extent:  self_coll OFF -> 0.098 cm   self_coll ON -> 0.312 cm\r\n",
+          "stderr_tail": "l last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\scripts\\py_selfcollision_test.py\", line 68, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\N\\drape\\scripts\\py_selfcollision_test.py\", line 63, in main\r\n    assert on > 1.5, \"with self-collision the fold should stay a 3D pile -> self-collision NOT working\"\r\n           ^^^^^^^^\r\nAssertionError: with self-collision the fold should stay a 3D pile -> self-collision NOT working\r\n"
+        },
+        "K": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 5.2,
+          "stdout_sha256": "8741656b7dd52a09b9fa13867de3af13cec7f2806acf46b578bcd9675380d451",
+          "stdout_bytes": 85,
+          "stdout_tail": "folded-cloth vertical extent:  self_coll OFF -> 0.099 cm   self_coll ON -> 0.325 cm\r\n",
+          "stderr_tail": "l last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\scripts\\py_selfcollision_test.py\", line 68, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\K\\drape\\scripts\\py_selfcollision_test.py\", line 63, in main\r\n    assert on > 1.5, \"with self-collision the fold should stay a 3D pile -> self-collision NOT working\"\r\n           ^^^^^^^^\r\nAssertionError: with self-collision the fold should stay a 3D pile -> self-collision NOT working\r\n"
+        },
+        "B": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 5.2,
+          "stdout_sha256": "8741656b7dd52a09b9fa13867de3af13cec7f2806acf46b578bcd9675380d451",
+          "stdout_bytes": 85,
+          "stdout_tail": "folded-cloth vertical extent:  self_coll OFF -> 0.099 cm   self_coll ON -> 0.325 cm\r\n",
+          "stderr_tail": "l last):\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\scripts\\py_selfcollision_test.py\", line 68, in <module>\r\n    main()\r\n  File \"C:\\Users\\USER\\AppData\\Local\\Temp\\cfmsSXJ_engine_suite_2\\B\\drape\\scripts\\py_selfcollision_test.py\", line 63, in main\r\n    assert on > 1.5, \"with self-collision the fold should stay a 3D pile -> self-collision NOT working\"\r\n           ^^^^^^^^\r\nAssertionError: with self-collision the fold should stay a 3D pile -> self-collision NOT working\r\n"
+        }
+      },
+      "final": {
+        "N": 1,
+        "K": 1,
+        "B": 1
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_sewing_test.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "977396e0f76da9376c388d5a7b4046abf65c51aaef07fd868171173bcc7fa9d5",
+          "stdout_bytes": 103
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "977396e0f76da9376c388d5a7b4046abf65c51aaef07fd868171173bcc7fa9d5",
+          "stdout_bytes": 103
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "977396e0f76da9376c388d5a7b4046abf65c51aaef07fd868171173bcc7fa9d5",
+          "stdout_bytes": 103
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_static_body_fastpath_test.py": {
+      "first": {
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 67.1,
+          "stdout_sha256": "20bb9703ac2f88e02d58ccf621c1f048c491c2306a2118cc7f27cf35f68c401b",
+          "stdout_bytes": 2777
+        },
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 68.7,
+          "stdout_sha256": "3e4be45b09ee5469c48eacd2a7250adbe0ecf1fa06671cc99f19fa28f654d956",
+          "stdout_bytes": 2777
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 69.1,
+          "stdout_sha256": "20bb9703ac2f88e02d58ccf621c1f048c491c2306a2118cc7f27cf35f68c401b",
+          "stdout_bytes": 2777
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_three_layer_collision_test.py": {
+      "first": {
+        "N": {
+          "exit": 2,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "usage: py_three_layer_collision_test.py [-h] --backend {cpu,gpu}\r\n                                        [--steps STEPS] [--layers LAYERS]\r\npy_three_layer_collision_test.py: error: the following arguments are required: --backend\r\n"
+        },
+        "K": {
+          "exit": 2,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "usage: py_three_layer_collision_test.py [-h] --backend {cpu,gpu}\r\n                                        [--steps STEPS] [--layers LAYERS]\r\npy_three_layer_collision_test.py: error: the following arguments are required: --backend\r\n"
+        },
+        "B": {
+          "exit": 2,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "stdout_bytes": 0,
+          "stdout_tail": "",
+          "stderr_tail": "usage: py_three_layer_collision_test.py [-h] --backend {cpu,gpu}\r\n                                        [--steps STEPS] [--layers LAYERS]\r\npy_three_layer_collision_test.py: error: the following arguments are required: --backend\r\n"
+        }
+      },
+      "final": {
+        "N": 2,
+        "K": 2,
+        "B": 2
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_two_sheet_lift_test.py": {
+      "first": {
+        "N": {
+          "exit": 2,
+          "timeout": false,
+          "seconds": 49.5,
+          "stdout_sha256": "8679a04a3855f675fa20303ceeb6da0c0f2f29d9f0fd7cfc0fbe1184fb0dfe1a",
+          "stdout_bytes": 1057,
+          "stdout_tail": " finite=True A end -2.1398 (drift +0.0019) max-over-lift pull +0.2973  B mean/min y +0.010/-8.426  min A-B dist 4.722  A nodes near B 0  B nodes below A 174 (worst -8.43)  -> separation PASS, no-tunnel FAIL, drift PASS\r\n         offdiag: finite=True A end -2.1417 (drift -0.0000) max-over-lift pull +0.0107  B mean/min y +7.210/+5.914  min A-B dist 8.001  A nodes near B 0  B nodes below A 0 (worst +8.17)  -> separation PASS, no-tunnel PASS, drift PASS\r\nRESULT: FAIL ['penalty', 'penalty_fixed20']\r\n",
+          "stderr_tail": ""
+        },
+        "K": {
+          "exit": 2,
+          "timeout": false,
+          "seconds": 55.3,
+          "stdout_sha256": "b9d8584f5505b6add7a89d5fde698e92f3cf95bca87e19efa175aaee0e5a1456",
+          "stdout_bytes": 1038,
+          "stdout_tail": "SS\r\n penalty_fixed20: finite=True A end -2.1404 (drift +0.0013) max-over-lift pull +0.0138  B mean/min y +5.118/+2.632  min A-B dist 4.326  A nodes near B 0  B nodes below A 0 (worst +3.42)  -> separation PASS, no-tunnel PASS, drift PASS\r\n         offdiag: finite=True A end -2.1417 (drift -0.0000) max-over-lift pull +0.0109  B mean/min y +7.477/+6.285  min A-B dist 8.470  A nodes near B 0  B nodes below A 0 (worst +8.60)  -> separation PASS, no-tunnel PASS, drift PASS\r\nRESULT: FAIL ['penalty']\r\n",
+          "stderr_tail": ""
+        },
+        "B": {
+          "exit": 2,
+          "timeout": false,
+          "seconds": 55.3,
+          "stdout_sha256": "b9d8584f5505b6add7a89d5fde698e92f3cf95bca87e19efa175aaee0e5a1456",
+          "stdout_bytes": 1038,
+          "stdout_tail": "SS\r\n penalty_fixed20: finite=True A end -2.1404 (drift +0.0013) max-over-lift pull +0.0138  B mean/min y +5.118/+2.632  min A-B dist 4.326  A nodes near B 0  B nodes below A 0 (worst +3.42)  -> separation PASS, no-tunnel PASS, drift PASS\r\n         offdiag: finite=True A end -2.1417 (drift -0.0000) max-over-lift pull +0.0109  B mean/min y +7.477/+6.285  min A-B dist 8.470  A nodes near B 0  B nodes below A 0 (worst +8.60)  -> separation PASS, no-tunnel PASS, drift PASS\r\nRESULT: FAIL ['penalty']\r\n",
+          "stderr_tail": ""
+        }
+      },
+      "final": {
+        "N": 2,
+        "K": 2,
+        "B": 2
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_velocity_readback_test.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "b64a99860c29d61e69757e5869eb63547b68c0bcb91f43b9a069d68daf739a3d",
+          "stdout_bytes": 70
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "b64a99860c29d61e69757e5869eb63547b68c0bcb91f43b9a069d68daf739a3d",
+          "stdout_bytes": 70
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "b64a99860c29d61e69757e5869eb63547b68c0bcb91f43b9a069d68daf739a3d",
+          "stdout_bytes": 70
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "py_vertex_mass_sewing_weight_test.py": {
+      "first": {
+        "N": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "36964f954dab1e0e234057edb1c7afb6fc1ddb94ec897d6d3eaf7a696d4db21a",
+          "stdout_bytes": 1796,
+          "stdout_tail": "ght pair: force 0 and stiffness product 0 on that pair f=[0. 0. 0.] f'=[0. 0. 0.] Kv=[0. 0. 0.]\r\n  [ok] B5 (df/dx)·v matches central finite difference (weighted stiffness in both) rel err 7.09e-08\r\n  [FAIL] B6 seam damping coefficient (c h/mu = 1/r - 1 - gamma*h) scales with the weight (w vs w/2) c h/mu: w=0.8737 w/2=0.412 ratio=2.120830113111809\r\n  [ok] B7 rejects wrong length / negative / NaN 3/3\r\n  [ok] B7 set_sewing clears the weights (legacy force again: 6 pairs / sum w 1) ratio=6.0\r\nFAIL\r\n",
+          "stderr_tail": ""
+        },
+        "K": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "b9c1ae5ad807bb1ff3fd1d058c308779613054c0710bc2246890058314bb45f4",
+          "stdout_bytes": 1797,
+          "stdout_tail": "ht pair: force 0 and stiffness product 0 on that pair f=[0. 0. 0.] f'=[0. 0. 0.] Kv=[0. 0. 0.]\r\n  [ok] B5 (df/dx)·v matches central finite difference (weighted stiffness in both) rel err 7.09e-08\r\n  [FAIL] B6 seam damping coefficient (c h/mu = 1/r - 1 - gamma*h) scales with the weight (w vs w/2) c h/mu: w=0.8737 w/2=0.412 ratio=2.1208301131118064\r\n  [ok] B7 rejects wrong length / negative / NaN 3/3\r\n  [ok] B7 set_sewing clears the weights (legacy force again: 6 pairs / sum w 1) ratio=6.0\r\nFAIL\r\n",
+          "stderr_tail": ""
+        },
+        "B": {
+          "exit": 1,
+          "timeout": false,
+          "seconds": 0.2,
+          "stdout_sha256": "b9c1ae5ad807bb1ff3fd1d058c308779613054c0710bc2246890058314bb45f4",
+          "stdout_bytes": 1797,
+          "stdout_tail": "ht pair: force 0 and stiffness product 0 on that pair f=[0. 0. 0.] f'=[0. 0. 0.] Kv=[0. 0. 0.]\r\n  [ok] B5 (df/dx)·v matches central finite difference (weighted stiffness in both) rel err 7.09e-08\r\n  [FAIL] B6 seam damping coefficient (c h/mu = 1/r - 1 - gamma*h) scales with the weight (w vs w/2) c h/mu: w=0.8737 w/2=0.412 ratio=2.1208301131118064\r\n  [ok] B7 rejects wrong length / negative / NaN 3/3\r\n  [ok] B7 set_sewing clears the weights (legacy force again: 6 pairs / sum w 1) ratio=6.0\r\nFAIL\r\n",
+          "stderr_tail": ""
+        }
+      },
+      "final": {
+        "N": 1,
+        "K": 1,
+        "B": 1
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "py_whitebox_fd_test.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.4,
+          "stdout_sha256": "92ff30a82f97232edd44be848a0a1b0a89e6523a8631825ab4907afba199cd8e",
+          "stdout_bytes": 2969
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.4,
+          "stdout_sha256": "9e134080f29bd5469153c30597dbec87c340eb16f1b78dcd24b006c4265f08da",
+          "stdout_bytes": 2969
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.4,
+          "stdout_sha256": "9e134080f29bd5469153c30597dbec87c340eb16f1b78dcd24b006c4265f08da",
+          "stdout_bytes": 2969
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": false
+    },
+    "test_cusick_shadow_area.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.8,
+          "stdout_sha256": "efc0e40ddbf42a576c935acea32fa27f885622e966d512d8a4cb48e48332b77a",
+          "stdout_bytes": 100
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.8,
+          "stdout_sha256": "efc0e40ddbf42a576c935acea32fa27f885622e966d512d8a4cb48e48332b77a",
+          "stdout_bytes": 100
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.8,
+          "stdout_sha256": "efc0e40ddbf42a576c935acea32fa27f885622e966d512d8a4cb48e48332b77a",
+          "stdout_bytes": 100
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    },
+    "test_dll_channel_selection.py": {
+      "first": {
+        "N": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.6,
+          "stdout_sha256": "8ca39dee5ab2d6a8a93f84576fb3c4b3449f19eb7b221782c58620b48ea42f68",
+          "stdout_bytes": 100
+        },
+        "K": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.6,
+          "stdout_sha256": "8ca39dee5ab2d6a8a93f84576fb3c4b3449f19eb7b221782c58620b48ea42f68",
+          "stdout_bytes": 100
+        },
+        "B": {
+          "exit": 0,
+          "timeout": false,
+          "seconds": 0.6,
+          "stdout_sha256": "8ca39dee5ab2d6a8a93f84576fb3c4b3449f19eb7b221782c58620b48ea42f68",
+          "stdout_bytes": 100
+        }
+      },
+      "final": {
+        "N": 0,
+        "K": 0,
+        "B": 0
+      },
+      "undecidable_time": false,
+      "stdout_K_eq_B": true,
+      "stdout_N_eq_K": true
+    }
+  }
+}

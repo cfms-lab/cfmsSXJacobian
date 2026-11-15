@@ -1,0 +1,71 @@
+{
+  "spec": "baraff_bend.py",
+  "spec_sha256": "ed10842d8b2b0efa",
+  "sympy": "1.14.0",
+  "variants": {
+    "exact": {
+      "cse_seconds": 0.82,
+      "temporaries": 1337,
+      "ops": 15952,
+      "diff_seconds": 10.97,
+      "body_sha256": "06fadd36f3efca38c82786346ee7631a02032ca4bcbbc542050420258e970093"
+    },
+    "frozen": {
+      "cse_seconds": 0.15,
+      "temporaries": 336,
+      "ops": 2462,
+      "diff_seconds": 1.61,
+      "body_sha256": "d46888e7fedd6d5b9219ca0df6c2057f3964ee60a47868a75da5fa9116e64c49"
+    },
+    "staged": {
+      "cse_seconds": 0.09,
+      "temporaries": 601,
+      "ops": 2752,
+      "stages": 9,
+      "diff_seconds": 0.68,
+      "body_sha256": "3bef4acf1b3541c1ab8222e85e2414492a036a4d44f2366d69c934475203b4fb"
+    },
+    "implicit": {
+      "cse_seconds": 0.09,
+      "temporaries": 760,
+      "ops": 3250,
+      "stages": 9,
+      "diff_seconds": 0.68,
+      "body_sha256": "afccb93dc115a5c181eab0faa3c74460ad635a4463195e2b7b7ff511fcfe5b6d"
+    },
+    "implicit_gn": {
+      "cse_seconds": 0.02,
+      "temporaries": 197,
+      "ops": 544,
+      "stages": 9,
+      "body_sha256": "6bb2c0f053118849fb0b20b4dfd1028df45c80bf253d6e702f36c7d83c13aa22"
+    },
+    "engine": {
+      "cse_seconds": 0.12,
+      "temporaries": 702,
+      "ops": 2792,
+      "stages": 9,
+      "body_sha256": "135da5c51cbd4cfd744820bc084beabaf616edb8082ac2479a66b781e45831a5"
+    },
+    "engine_gn": {
+      "cse_seconds": 0.02,
+      "temporaries": 238,
+      "ops": 597,
+      "stages": 9,
+      "body_sha256": "ec4e1acb7ae32c6bfd37034ff4832ce61e60304fc319522ff7c914e7557c5f3d"
+    },
+    "engine_gn_undamped": {
+      "cse_seconds": 0.01,
+      "temporaries": 236,
+      "ops": 517,
+      "stages": 9,
+      "body_sha256": "a70105d7a7890ac281e95dec9330538934d2be833fe4be864abf632e1140899b"
+    }
+  },
+  "header": "generated/BaraffBend.h",
+  "header_bytes": 252078,
+  "header_lines": 3868,
+  "engine_header": "generated/BaraffBend_Engine.h",
+  "engine_header_bytes": 69410,
+  "engine_header_lines": 1606
+}

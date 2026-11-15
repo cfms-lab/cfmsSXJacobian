@@ -1,0 +1,136 @@
+{
+  "engine_dir": "D:/__CFMS_Projects/cfmsDrape_dev_base378d20c",
+  "engine_commit": "378d20c",
+  "dll_sha256": "f5466b2bf8fc23056ec18785eaec19c2e36363ca4f9cfdc953947ccf05f1213f",
+  "build_info": {
+    "schema": 1,
+    "product": "cfmsDrape",
+    "product_version": "0.2.2",
+    "abi_version": 1,
+    "backend": "cpu",
+    "git_commit": "378d20c",
+    "dirty": false,
+    "build_utc": "2026-11-13T12:16:41Z",
+    "source_repository": "https://github.com/cfms-lab/cfmsDrape_dev.git",
+    "sha256_scope": "loaded-dll-file",
+    "sha256": "f5466b2bf8fc23056ec18785eaec19c2e36363ca4f9cfdc953947ccf05f1213f",
+    "capabilities": {
+      "schema": 1,
+      "absent": [],
+      "no_op": []
+    }
+  },
+  "threads": {
+    "default": 32,
+    "single_process": 1
+  },
+  "scene": {
+    "nodes": 25,
+    "triangles": 32,
+    "hinges": 40,
+    "cells": 4,
+    "spacing_cm": 2.0,
+    "seed": 20261113,
+    "random_vectors": 5,
+    "fd_step_cm": 0.0001,
+    "materials": {
+      "stretch": {
+        "E": 100000.0,
+        "SE": 0.0,
+        "BE_U": 0.0
+      },
+      "shear": {
+        "E": 0.0,
+        "SE": 100000.0,
+        "BE_U": 0.0
+      },
+      "bend": {
+        "E": 0.0,
+        "SE": 0.0,
+        "BE_U": 1.0
+      },
+      "all": {
+        "E": 100000.0,
+        "SE": 100000.0,
+        "BE_U": 1.0
+      }
+    },
+    "k_stretch": 100000.0,
+    "k_bend": 1.0
+  },
+  "L0_0": {
+    "build_ok": true,
+    "engine_status_clean": true
+  },
+  "L0_1": {
+    "limit": 1e-12,
+    "rel": {
+      "stretch": 1.8497934465998492e-16,
+      "shear": 1.9613565251265904e-16,
+      "bend": 2.6418343966527075e-16,
+      "all": 2.1785639201983618e-16
+    }
+  },
+  "L0_2": {
+    "limit": 1e-10,
+    "f_rel": 3.800400250530191e-16
+  },
+  "L0_3": {
+    "limit": 1e-10,
+    "J_vs_J_T_rel": 3.9913641354425676e-16,
+    "components_C_pos": 38,
+    "components_C_nonpos": 26,
+    "min_branch": 10
+  },
+  "L0_4": {
+    "stretch": {
+      "same_process": true,
+      "threads_1_vs_default": true
+    },
+    "shear": {
+      "same_process": true,
+      "threads_1_vs_default": true
+    },
+    "bend": {
+      "same_process": true,
+      "threads_1_vs_default": true
+    },
+    "all": {
+      "same_process": true,
+      "threads_1_vs_default": true
+    }
+  },
+  "report": {
+    "stretch": {
+      "asym": 0.0,
+      "J_vs_fd": 0.10196768404088151,
+      "J_max": 218751.00443703285,
+      "f_max": 38290.48065749581,
+      "J_vs_exact": 0.10196768649358684,
+      "exact_vs_fd": 2.3838014797019047e-09
+    },
+    "shear": {
+      "asym": 0.0,
+      "J_vs_fd": 0.1844624265061707,
+      "J_max": 460758.78516132734,
+      "f_max": 100577.05475220131
+    },
+    "bend": {
+      "asym": 0.0,
+      "J_vs_fd": 1.0623044685564096,
+      "J_max": 21.53880871208606,
+      "f_max": 2.579929705267969,
+      "f_vs_bridson_state_w": 3.442645812738814e-16,
+      "J_vs_gn_state_w": 0.9930844746752838,
+      "J_vs_exact_state_w": 1.0505378149885523,
+      "exact_state_w_vs_fd": 0.048915005825025414
+    },
+    "all": {
+      "asym": 0.0,
+      "J_vs_fd": 0.145617994736792,
+      "J_max": 665287.3927151228,
+      "f_max": 131201.35790580855
+    }
+  },
+  "gates_failed": 0
+}

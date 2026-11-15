@@ -1,0 +1,337 @@
+{
+ "angles_deg": [
+  0.0,
+  10.0,
+  30.0,
+  60.0,
+  90.0
+ ],
+ "hinges": {
+  "edge along a grid line": [
+   {
+    "angle_deg": 0.0,
+    "theta_check_deg": 0.0,
+    "GN": {
+     "rot_max": 0.0,
+     "rot_min": 0.0,
+     "eig_min": -1.0848755821241727e-16,
+     "translation": 0.0,
+     "block_asymmetry": 0.0
+    },
+    "symGN": {
+     "rot_max": 0.0,
+     "rot_min": 0.0,
+     "eig_min": -1.0848755821241727e-16,
+     "translation": 0.0,
+     "block_asymmetry": 0.0
+    },
+    "Eq14": {
+     "rot_max": 0.5000000000000001,
+     "rot_min": 0.0,
+     "eig_min": 0.0,
+     "translation": 0.0,
+     "block_asymmetry": 0.0
+    },
+    "Eq10": {
+     "rot_max": 0.5000000000000001,
+     "rot_min": 0.0,
+     "eig_min": 0.0,
+     "translation": 0.0,
+     "block_asymmetry": 0.0
+    }
+   },
+   {
+    "angle_deg": 10.0,
+    "theta_check_deg": 10.0,
+    "GN": {
+     "rot_max": 0.0,
+     "rot_min": -4.33625934364815e-17,
+     "eig_min": -5.329991101740111e-17,
+     "translation": 0.0,
+     "block_asymmetry": 0.04341204441673259
+    },
+    "symGN": {
+     "rot_max": 0.007482441829986842,
+     "rot_min": -4.152161438514727e-34,
+     "eig_min": -0.043412044416732555,
+     "translation": 0.0,
+     "block_asymmetry": 0.0
+    },
+    "Eq14": {
+     "rot_max": 0.4962869836159944,
+     "rot_min": 0.0,
+     "eig_min": -3.4408946172571072e-18,
+     "translation": 0.0,
+     "block_asymmetry": 0.0
+    },
+    "Eq10": {
+     "rot_max": 0.4962869836159944,
+     "rot_min": 0.0,
+     "eig_min": -3.4408946172571072e-18,
+     "translation": 0.0,
+     "block_asymmetry": 0.0
+    }
+   },
+   {
+    "angle_deg": 30.0,
+    "theta_check_deg": 29.999999999999996,
+    "GN": {
+     "rot_max": 0.0,
+     "rot_min": -2.0779263503500336e-17,
+     "eig_min": -5.728367126383219e-17,
+     "translation": 1.3877787807814454e-17,
+     "block_asymmetry": 0.12499999999999996
+    },
+    "symGN": {
+     "rot_max": 0.059041572440394735,
+     "rot_min": 0.0,
+     "eig_min": -0.12499999999999993,
+     "translation": 0.0,
+     "block_asymmetry": 0.0
+    },
+    "Eq14": {
+     "rot_max": 0.472332579523158,
+     "rot_min": 0.0,
+     "eig_min": -1.0121259522663676e-17,
+     "translation": 0.0,
+     "block_asymmetry": 0.0
+    },
+    "Eq10": {
+     "rot_max": 0.472332579523158,
+     "rot_min": 0.0,
+     "eig_min": -1.0121259522663676e-17,
+     "translation": 0.0,
+     "block_asymmetry": 0.0
+    }
+   },
+   {
+    "angle_deg": 60.0,
+    "theta_check_deg": 59.99999999999999,
+    "GN": {
+     "rot_max": 0.0,
+     "rot_min": -1.1100697427425464e-18,
+     "eig_min": -7.919438121965485e-17,
+     "translation": 0.0,
+     "block_asymmetry": 0.21650635094610965
+    },
+    "symGN": {
+     "rot_max": 0.1630434782608695,
+     "rot_min": -1.7407814792352308e-33,
+     "eig_min": -0.21650635094610957,
+     "translation": 0.0,
+     "block_asymmetry": 0.0
+    },
+    "Eq14": {
+     "rot_max": 0.4347826086956521,
+     "rot_min": 0.0,
+     "eig_min": -2.3648566313514432e-17,
+     "translation": 0.0,
+     "block_asymmetry": 0.0
+    },
+    "Eq10": {
+     "rot_max": 0.4347826086956521,
+     "rot_min": 0.0,
+     "eig_min": -2.3648566313514432e-17,
+     "translation": 0.0,
+     "block_asymmetry": 0.0
+    }
+   },
+   {
+    "angle_deg": 90.0,
+    "theta_check_deg": 90.0,
+    "GN": {
+     "rot_max": 1.7195681752712614e-34,
+     "rot_min": -5.249196274161453e-34,
+     "eig_min": -1.0848755821241726e-16,
+     "translation": 0.0,
+     "block_asymmetry": 0.25000000000000006
+    },
+    "symGN": {
+     "rot_max": 0.21428571428571427,
+     "rot_min": -2.3838286358791064e-19,
+     "eig_min": -0.25,
+     "translation": 7.151485907637293e-19,
+     "block_asymmetry": 0.0
+    },
+    "Eq14": {
+     "rot_max": 0.42857142857142855,
+     "rot_min": 0.0,
+     "eig_min": -1.387778780781446e-17,
+     "translation": 0.0,
+     "block_asymmetry": 0.0
+    },
+    "Eq10": {
+     "rot_max": 0.42857142857142855,
+     "rot_min": 0.0,
+     "eig_min": -1.387778780781446e-17,
+     "translation": 0.0,
+     "block_asymmetry": 0.0
+    }
+   }
+  ],
+  "edge along the diagonal": [
+   {
+    "angle_deg": 0.0,
+    "theta_check_deg": 0.0,
+    "GN": {
+     "rot_max": 4.512734564966329e-34,
+     "rot_min": 0.0,
+     "eig_min": -1.0196793774759327e-16,
+     "translation": 2.7755575615628914e-17,
+     "block_asymmetry": 0.0
+    },
+    "symGN": {
+     "rot_max": 0.0,
+     "rot_min": -8.326672684688674e-17,
+     "eig_min": -1.9077250601897521e-16,
+     "translation": 2.7755575615628914e-17,
+     "block_asymmetry": 0.0
+    },
+    "Eq14": {
+     "rot_max": 0.25,
+     "rot_min": -1.3877787807814457e-17,
+     "eig_min": -4.718547403771187e-17,
+     "translation": 1.3877787807814457e-17,
+     "block_asymmetry": 0.0
+    },
+    "Eq10": {
+     "rot_max": 0.25000000000000006,
+     "rot_min": 0.0,
+     "eig_min": -7.059055670453181e-17,
+     "translation": 1.3877787807814457e-17,
+     "block_asymmetry": 0.0
+    }
+   },
+   {
+    "angle_deg": 10.0,
+    "theta_check_deg": 9.999999999999996,
+    "GN": {
+     "rot_max": 2.7294711977698255e-17,
+     "rot_min": -7.762050281156117e-18,
+     "eig_min": -6.974441629327796e-17,
+     "translation": 2.786139491386787e-17,
+     "block_asymmetry": 0.03081398440769311
+    },
+    "symGN": {
+     "rot_max": 0.003798006540310285,
+     "rot_min": -6.899978715646842e-18,
+     "eig_min": -0.03081398440769302,
+     "translation": 2.786139491386787e-17,
+     "block_asymmetry": 0.0
+    },
+    "Eq14": {
+     "rot_max": 0.2519099048776282,
+     "rot_min": -3.959003863549317e-17,
+     "eig_min": -5.488859408693851e-17,
+     "translation": 1.3930697456933935e-17,
+     "block_asymmetry": 0.0
+    },
+    "Eq10": {
+     "rot_max": 0.2519099048776283,
+     "rot_min": 0.0009567693733930491,
+     "eig_min": -1.0886178607532397e-16,
+     "translation": 1.3930697456933935e-17,
+     "block_asymmetry": 0.0
+    }
+   },
+   {
+    "angle_deg": 30.0,
+    "theta_check_deg": 29.999999999999993,
+    "GN": {
+     "rot_max": 3.123354988201969e-19,
+     "rot_min": -9.230794252761443e-19,
+     "eig_min": -1.3102527756170008e-16,
+     "translation": 4.3076140557885224e-17,
+     "block_asymmetry": 0.09145138835538472
+    },
+    "symGN": {
+     "rot_max": 0.033453425728509595,
+     "rot_min": -6.565870211181917e-17,
+     "eig_min": -0.0914513883553846,
+     "translation": 1.4358713519295075e-17,
+     "block_asymmetry": 0.0
+    },
+    "Eq14": {
+     "rot_max": 0.26762740582807665,
+     "rot_min": -3.1997337353252544e-18,
+     "eig_min": -5.534920870850472e-17,
+     "translation": 1.4358713519295075e-17,
+     "block_asymmetry": 0.0
+    },
+    "Eq10": {
+     "rot_max": 0.2676274058280767,
+     "rot_min": 0.008963818408008709,
+     "eig_min": -6.850818535360526e-17,
+     "translation": 1.4358713519295075e-17,
+     "block_asymmetry": 0.0
+    }
+   },
+   {
+    "angle_deg": 60.0,
+    "theta_check_deg": 59.99999999999999,
+    "GN": {
+     "rot_max": 1.4900784740171728e-17,
+     "rot_min": -1.482619300746468e-17,
+     "eig_min": -2.287405980502642e-16,
+     "translation": 2.7755575615628914e-17,
+     "block_asymmetry": 0.1749635530559413
+    },
+    "symGN": {
+     "rot_max": 0.12244897959183684,
+     "rot_min": -2.8251770917935595e-17,
+     "eig_min": -0.1749635530559412,
+     "translation": 1.586032892321652e-17,
+     "block_asymmetry": 0.0
+    },
+    "Eq14": {
+     "rot_max": 0.32653061224489804,
+     "rot_min": 0.0,
+     "eig_min": -3.274516239909775e-17,
+     "translation": 1.586032892321652e-17,
+     "block_asymmetry": 0.0
+    },
+    "Eq10": {
+     "rot_max": 0.32653061224489827,
+     "rot_min": 0.040816326530612256,
+     "eig_min": -2.6768403972043214e-17,
+     "translation": 1.586032892321652e-17,
+     "block_asymmetry": 0.0
+    }
+   },
+   {
+    "angle_deg": 90.0,
+    "theta_check_deg": 90.0,
+    "GN": {
+     "rot_max": 5.565527958145718e-17,
+     "rot_min": -2.4698805708621415e-18,
+     "eig_min": -1.116549658456588e-16,
+     "translation": 1.8503717077085932e-17,
+     "block_asymmetry": 0.23570226039551576
+    },
+    "symGN": {
+     "rot_max": 0.22222222222222215,
+     "rot_min": -1.5647381530951578e-17,
+     "eig_min": -0.23570226039551573,
+     "translation": 6.9388939039072245e-18,
+     "block_asymmetry": 0.0
+    },
+    "Eq14": {
+     "rot_max": 0.44444444444444453,
+     "rot_min": -1.0190480571604528e-25,
+     "eig_min": -6.205246660909177e-17,
+     "translation": 1.8503717077085932e-17,
+     "block_asymmetry": 0.0
+    },
+    "Eq10": {
+     "rot_max": 0.44444444444444453,
+     "rot_min": 0.11111111111111106,
+     "eig_min": -1.178396965487187e-16,
+     "translation": 1.8503717077085932e-17,
+     "block_asymmetry": 0.0
+    }
+   }
+  ]
+ },
+ "gradient_vs_fd": 1.3130899119738616e-10,
+ "valid": true
+}

@@ -1,0 +1,127 @@
+{
+ "bases": [
+  "0x140000000",
+  "0x140010000",
+  "0x140020000",
+  "0x140030000",
+  "0x150000000",
+  "0x160000000",
+  "0x1A0000000",
+  "0x240000000"
+ ],
+ "raw": {
+  "per_base": [
+   {
+    "EE_bridsonG_stiff": 376.192,
+    "TE_bridsonG_stiff": 378.49,
+    "EE_bridsonG": 59.008,
+    "TE_bridsonG": 353.515
+   },
+   {
+    "EE_bridsonG_stiff": 370.512,
+    "TE_bridsonG_stiff": 371.208,
+    "EE_bridsonG": 58.171,
+    "TE_bridsonG": 347.648
+   },
+   {
+    "EE_bridsonG_stiff": 370.417,
+    "TE_bridsonG_stiff": 372.933,
+    "EE_bridsonG": 58.556,
+    "TE_bridsonG": 349.706
+   },
+   {
+    "EE_bridsonG_stiff": 371.827,
+    "TE_bridsonG_stiff": 371.47,
+    "EE_bridsonG": 58.617,
+    "TE_bridsonG": 349.035
+   },
+   {
+    "EE_bridsonG_stiff": 373.176,
+    "TE_bridsonG_stiff": 404.861,
+    "EE_bridsonG": 64.188,
+    "TE_bridsonG": 373.729
+   },
+   {
+    "EE_bridsonG_stiff": 382.139,
+    "TE_bridsonG_stiff": 380.746,
+    "EE_bridsonG": 60.295,
+    "TE_bridsonG": 361.171
+   },
+   {
+    "EE_bridsonG_stiff": 377.254,
+    "TE_bridsonG_stiff": 379.439,
+    "EE_bridsonG": 60.173,
+    "TE_bridsonG": 352.898
+   },
+   {
+    "EE_bridsonG_stiff": 374.719,
+    "TE_bridsonG_stiff": 375.356,
+    "EE_bridsonG": 59.322,
+    "TE_bridsonG": 352.173
+   }
+  ],
+  "min": {
+   "EE_bridsonG_stiff": 370.417,
+   "TE_bridsonG_stiff": 371.208,
+   "EE_bridsonG": 58.171,
+   "TE_bridsonG": 347.648
+  },
+  "median": {
+   "EE_bridsonG_stiff": 373.9475,
+   "TE_bridsonG_stiff": 376.923,
+   "EE_bridsonG": 59.165000000000006,
+   "TE_bridsonG": 352.5355
+  }
+ },
+ "usable": {
+  "EE_bridsonG_stiff": 1.0,
+  "TE_bridsonG_stiff": 1.0,
+  "EE_bridsonG": 0.0,
+  "TE_bridsonG": 1.0
+ },
+ "pcg_iters": {
+  "EE_bridsonG_stiff": 58920.0,
+  "TE_bridsonG_stiff": 59101.0,
+  "EE_bridsonG": 5860.0,
+  "TE_bridsonG": 55112.0
+ },
+ "asm_ms_per_sim_second_last": {
+  "EE_bridsonG_stiff": 22.949,
+  "TE_bridsonG_stiff": 22.711,
+  "EE_bridsonG": 23.337,
+  "TE_bridsonG": 22.954
+ },
+ "C": {
+  "time_E": 370.42,
+  "time_T": 371.21,
+  "T_over_E": 1.0021,
+  "limit": 1.05,
+  "usable_E": true,
+  "usable_T": true,
+  "ok": true
+ },
+ "A_ok": true,
+ "B_ok": true,
+ "D_ok": true,
+ "recommend": "tension",
+ "soft_report": {
+  "time_E": 58.17,
+  "time_T": 347.65,
+  "usable_E": false,
+  "usable_T": true,
+  "iters_E": 5860.0,
+  "iters_T": 55112.0
+ },
+ "per_base_ratios": {
+  "C": [
+   1.006,
+   1.002,
+   1.007,
+   0.999,
+   1.085,
+   0.996,
+   1.006,
+   1.002
+  ]
+ }
+}

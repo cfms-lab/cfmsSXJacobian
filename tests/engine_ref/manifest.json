@@ -1,0 +1,282 @@
+{
+ "engine_commit": "378d20c",
+ "files": {
+  "SDECore_globals.inc": [
+   {
+    "name": "BEST_SSE pointers",
+    "source": "SDECore.cpp",
+    "first_line": 182,
+    "last_line": 217,
+    "sha256": "5b457450fc1ffcec22f2d2b5f33a130832b8cbaa6ccc4af18d2efac7bd6d007b"
+   },
+   {
+    "name": "constants",
+    "source": "SDECore.cpp",
+    "first_line": 235,
+    "last_line": 250,
+    "sha256": "cc677e81ac8cb5725c0140717f028021a3956da557feaf63cbaf004ae86d51de"
+   },
+   {
+    "name": "my_sse_crossproduct",
+    "source": "SDECore.cpp",
+    "first_line": 352,
+    "last_line": 360,
+    "sha256": "4691b8b7c4cc372b58fb5cbc6c105e0fcf2ab93bc2faad41e377dd0f72804887"
+   }
+  ],
+  "SDECore_assign.inc": [
+   {
+    "name": "BEST_SSE assignment (__PrepareImplicit)",
+    "source": "SDECore.cpp",
+    "first_line": 2040,
+    "last_line": 2063,
+    "sha256": "f5c03606751c59e85a3b6bea9830626ed1395a7f74ae2b4f383f2e6a0dcc3e53"
+   }
+  ],
+  "SDECore_decl.inc": [
+   {
+    "name": "declarations: bending",
+    "source": "SDECore.h",
+    "first_line": 242,
+    "last_line": 248,
+    "sha256": "1ba1e84d47020fd0d8d8c999fa03631d2ef0ed384b28f12dfa749337a069e1f7"
+   },
+   {
+    "name": "declarations: SoA helpers",
+    "source": "SDECore.h",
+    "first_line": 276,
+    "last_line": 309,
+    "sha256": "ddd75ae4fce25fcd68f0e9bd9db50698f6b5ba41bc216323f6ac7b50fb3e0abf"
+   },
+   {
+    "name": "declarations: TEMP check",
+    "source": "SDECore.h",
+    "first_line": 389,
+    "last_line": 390,
+    "sha256": "ab63cecddef736e240ff057141ccdbee5365f92090b629f3fecbbfcd7bb47059"
+   }
+  ],
+  "SDEImplicitVariables_sbv.inc": [
+   {
+    "name": "NUM_TEMP",
+    "source": "SDEImplicitVariables.h",
+    "first_line": 92,
+    "last_line": 92,
+    "sha256": "7a123c0f95a6a3cb2584ab2c548919a9cf78d14b61338c7e57943a153b2e27a6"
+   },
+   {
+    "name": "class _SerialBendingVariables",
+    "source": "SDEImplicitVariables.h",
+    "first_line": 201,
+    "last_line": 342,
+    "sha256": "2037eed6dd925bcdf3b725fdbd84a345c7b991823841ab5ff20b52e99096b0eb"
+   }
+  ],
+  "SDECore_macri.inc": [
+   {
+    "name": "SDECore::CheckBendingChange_Macri_SOA",
+    "source": "SDECore.cpp",
+    "first_line": 7605,
+    "last_line": 8003,
+    "sha256": "d2a1a581ceb2d91c075eb24b449df206835fa9739d35951b832d491f61b4a7ec"
+   },
+   {
+    "name": "SDECore::_Input_b012",
+    "source": "SDECore.cpp",
+    "first_line": 9725,
+    "last_line": 9980,
+    "sha256": "d13fee57413010da7c95de985840c28bdf5847fc8750301f8af77fc277ccbbc6"
+   },
+   {
+    "name": "SDECore::_Tilde_Operation",
+    "source": "SDECore.cpp",
+    "first_line": 9982,
+    "last_line": 10019,
+    "sha256": "13696d69911dd86bd51bd5292f7a292f7dcbba94e9d365f113c0d0090dac109d"
+   },
+   {
+    "name": "SDECore::_Dot31_M33_by_V31 #1",
+    "source": "SDECore.cpp",
+    "first_line": 10022,
+    "last_line": 10088,
+    "sha256": "1abe7536f4ef5252f126f09eece65ac681cd154cf82ec11968f37eece3583726"
+   },
+   {
+    "name": "SDECore::_Dot31_M33_by_V31 #2",
+    "source": "SDECore.cpp",
+    "first_line": 10158,
+    "last_line": 10225,
+    "sha256": "e6c9d0e6e4cb6915cfb35aca2621a391ef0e553f128a492516d7086dbc7b4e24"
+   },
+   {
+    "name": "SDECore::_Dot31_M33_by_V31 #3",
+    "source": "SDECore.cpp",
+    "first_line": 10227,
+    "last_line": 10294,
+    "sha256": "20455470c7dd4102e279559b69823577763ca88994e771d140201bfce3b8479f"
+   },
+   {
+    "name": "SDECore::_TripleProduct31_V31_M33_W31",
+    "source": "SDECore.cpp",
+    "first_line": 10296,
+    "last_line": 10388,
+    "sha256": "d4094d4e9be142ef90cd7587b86be85ccfc0ce67713f7db771ea61ce53cae27b"
+   },
+   {
+    "name": "SDECore::_Dot33_M33_by_N33",
+    "source": "SDECore.cpp",
+    "first_line": 10390,
+    "last_line": 10448,
+    "sha256": "84c50ff60d5cd3dc9ede44dec2496e57650acaa0b044e78582bdc97b76aaa360"
+   },
+   {
+    "name": "SDECore::_Input_CosD2",
+    "source": "SDECore.cpp",
+    "first_line": 10450,
+    "last_line": 10563,
+    "sha256": "682b853573e577bfc9c73621f8e498b33c85bd317d6ae56369255f01bda6856b"
+   },
+   {
+    "name": "SDECore::_Input_SinD2",
+    "source": "SDECore.cpp",
+    "first_line": 10565,
+    "last_line": 10705,
+    "sha256": "9afb748d5fa9a9feb625e9d07f8c45d3786f4262483a5874e7e796c6eac80258"
+   },
+   {
+    "name": "SDECore::_Outer33_V31_W31",
+    "source": "SDECore.cpp",
+    "first_line": 10707,
+    "last_line": 10740,
+    "sha256": "0c6ae23816e50d6dfe05c55f5e4a6b8333ee9512a30548c5198cd353b6187fe4"
+   },
+   {
+    "name": "SDECore::_Add33_M33_N33 #1",
+    "source": "SDECore.cpp",
+    "first_line": 10777,
+    "last_line": 10812,
+    "sha256": "e9fa0ab6fb6ed71a2e46ae539eba15f4d486398b7c89a78de3ebc7ab57d2ab7a"
+   },
+   {
+    "name": "SDECore::_Add33_M33_N33 #2",
+    "source": "SDECore.cpp",
+    "first_line": 10814,
+    "last_line": 10849,
+    "sha256": "8bb61b4dbd72632c5f7de2f40cc21c37d0c0f1b6ff5929c8954600a9d30a1bcf"
+   },
+   {
+    "name": "SDECore::_AXPY33_M33_N33 #1",
+    "source": "SDECore.cpp",
+    "first_line": 11115,
+    "last_line": 11187,
+    "sha256": "ec57487497f96dd05c95851a5330fd93b5a53a3d2809497c36c1457257ff5f23"
+   },
+   {
+    "name": "SDECore::_AXPY33_M33_N33 #2",
+    "source": "SDECore.cpp",
+    "first_line": 11189,
+    "last_line": 11274,
+    "sha256": "dc1be309d65cae6a0fdec77dca0c32667a9b85b937afc8635545ea697e6da785"
+   },
+   {
+    "name": "SDECore::_Dot33_T333_M33_V3",
+    "source": "SDECore.cpp",
+    "first_line": 11276,
+    "last_line": 11302,
+    "sha256": "5d6bdc3a563e5c3fb4241207847791d34459fc255323891bf863d8f8e4b63fea"
+   },
+   {
+    "name": "SDECore::_Factor33 #1",
+    "source": "SDECore.cpp",
+    "first_line": 11304,
+    "last_line": 11332,
+    "sha256": "849a2186e9dd06092235513739fca2f169ec224357701530d0d7bb07f442a7b7"
+   },
+   {
+    "name": "SDECore::_Factor33 #2",
+    "source": "SDECore.cpp",
+    "first_line": 11334,
+    "last_line": 11366,
+    "sha256": "ad8936ed51f2a4052c1b3f4cf8629e759446d7bbe223ed10365e49d4e4273865"
+   },
+   {
+    "name": "SDECore::_Dot33_T333_V3",
+    "source": "SDECore.cpp",
+    "first_line": 11368,
+    "last_line": 11395,
+    "sha256": "8c7d5cb02c2edc3891816c2ba51362c544050809463fe12c9f942b2c7f5b3cd0"
+   },
+   {
+    "name": "SDECore::__StartCheckTEMPmem",
+    "source": "SDECore.cpp",
+    "first_line": 15423,
+    "last_line": 15426,
+    "sha256": "549f78be3a606f5301ecda6dacae2ecd345e0db3b353939d11d54454a3e526c0"
+   },
+   {
+    "name": "SDECore::__EndCheckTEMPmem",
+    "source": "SDECore.cpp",
+    "first_line": 15428,
+    "last_line": 15431,
+    "sha256": "33056dc438deb2830a4237e5789387081fcdf93d9eeae40343a5c705a2548cb4"
+   }
+  ],
+  "SDECore_oh.inc": [
+   {
+    "name": "OuterProduct",
+    "source": "SDECore.cpp",
+    "first_line": 337,
+    "last_line": 350,
+    "sha256": "60de8117a5ec1deebdb3f01f35bf63bc4e3f4b2dabce2ee6ef1e6d4ceea431e5"
+   },
+   {
+    "name": "s_BendSkip",
+    "source": "SDECore.cpp",
+    "first_line": 8009,
+    "last_line": 8009,
+    "sha256": "88c895a0c4107348157ff9ee8212655ca3064240da435331d2ca358e947b316e"
+   },
+   {
+    "name": "SDECore::GetImpBending_Oh_SOA",
+    "source": "SDECore.cpp",
+    "first_line": 8011,
+    "last_line": 8570,
+    "sha256": "e6d10409cc33c004b3bbc4bb370be9008ee44ae00e33420723ee91251a701b5e"
+   }
+  ],
+  "SDEMatrix3f_oh.inc": [
+   {
+    "name": "SDEMatrix3f::AXPY(double, double[3][3], double)",
+    "source": "SDEMatrix3f.cpp",
+    "first_line": 321,
+    "last_line": 332,
+    "sha256": "acbd809a0f53963c1ce41e41925899c362fde8aa981e58243daa11ea403bca30"
+   },
+   {
+    "name": "SDEMatrix3f::Set(double*, double)",
+    "source": "SDEMatrix3f.cpp",
+    "first_line": 411,
+    "last_line": 425,
+    "sha256": "794da533ce3db67b6b18d860bea8e0b7e33901b19f58f167e441a2e65284cc5b"
+   }
+  ],
+  "SDEmysse.h": [
+   {
+    "name": "SDEmysse.h (whole file)",
+    "source": "SDEmysse.h",
+    "first_line": 1,
+    "last_line": 44,
+    "sha256": "67d43ac12094b5631e00fb73ef72aa327bc753c782c3d888a374bee32b05f14b"
+   }
+  ],
+  "SDEmysse.cpp": [
+   {
+    "name": "SDEmysse.cpp (whole file)",
+    "source": "SDEmysse.cpp",
+    "first_line": 1,
+    "last_line": 544,
+    "sha256": "a5e9ee51b17f9779d5b6b59920adabfa7df5d575a6c2f60df7e4fe4af0e536e4"
+   }
+  ]
+ }
+}

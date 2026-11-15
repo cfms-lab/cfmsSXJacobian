@@ -1,0 +1,22 @@
+{
+  "samples": 1000, "k": 1, "kd": 0.1, "h": 0.01,
+  "BaraffStretch": {
+    "T1_mathematica": {"triangles": 200, "eval": {"C_abs_over_sqrt_a": 4.332e-16, "grad_rel": 4.848e-16, "hess_rel": 8.154e-16, "grad_rel_median": 1.710e-16, "hess_rel_median": 2.510e-16}, "staged": {"C_abs_over_sqrt_a": 4.493e-16, "grad_rel": 4.734e-16, "hess_rel": 7.395e-16, "grad_rel_median": 1.622e-16, "hess_rel_median": 2.237e-16}},
+    "T2_finite_difference": {"eval": {"grad_rel_max": 3.129e-10, "hess_rel_max": 2.482e-10}, "staged": {"grad_rel_max": 2.993e-10, "hess_rel_max": 2.470e-10}},
+    "T3_staged_vs_flat": {"C_abs_over_sqrt_a": 4.519e-16, "grad_rel": 6.096e-16, "hess_rel": 9.458e-16, "grad_rel_median": 1.669e-16, "hess_rel_median": 2.683e-16},
+    "T4_implicit": {"A_rel": 1.281e-15, "b_rel": 5.996e-15, "f_rel": 8.663e-15, "A_rel_median": 3.347e-16, "b_rel_median": 4.167e-16, "f_rel_median": 3.437e-16},
+    "report": {"sum_grad_rel_max": 3.102e-16, "torque_grad_rel_max": 5.157e-16, "rest_C_over_sqrt_a": 1.221e-15, "frozen_differs": 0},
+    "T5_stencil_loop": {"nodes": 40000, "triangles": 79202, "mismatch": 0},
+    "ns_per_triangle": {"eval": 41.8, "staged": 38.8, "implicit": 71.8}
+  },
+  "BaraffShear": {
+    "T1_mathematica": {"triangles": 200, "eval": {"C_abs_over_sqrt_a": 2.974e-16, "grad_rel": 6.043e-16, "hess_rel": 5.705e-16, "grad_rel_median": 2.033e-16, "hess_rel_median": 1.795e-16}, "staged": {"C_abs_over_sqrt_a": 3.577e-16, "grad_rel": 7.371e-16, "hess_rel": 5.705e-16, "grad_rel_median": 1.868e-16, "hess_rel_median": 1.568e-16}},
+    "T2_finite_difference": {"eval": {"grad_rel_max": 1.631e-10, "hess_rel_max": 3.181e-10}, "staged": {"grad_rel_max": 1.713e-10, "hess_rel_max": 3.160e-10}},
+    "T3_staged_vs_flat": {"C_abs_over_sqrt_a": 2.512e-16, "grad_rel": 5.841e-16, "hess_rel": 5.309e-16, "grad_rel_median": 1.733e-16, "hess_rel_median": 1.633e-16},
+    "T4_implicit": {"A_rel": 1.381e-15, "b_rel": 1.909e-13, "f_rel": 1.405e-13, "A_rel_median": 3.292e-16, "b_rel_median": 4.673e-16, "f_rel_median": 3.603e-16},
+    "report": {"sum_grad_rel_max": 4.746e-16, "torque_grad_rel_max": 5.185e-16, "rest_C_over_sqrt_a": 3.608e-15, "frozen_differs": 0},
+    "T5_stencil_loop": {"nodes": 40000, "triangles": 79202, "mismatch": 0},
+    "ns_per_triangle": {"eval": 14.8, "staged": 16.5, "implicit": 59.1}
+  },
+  "gates_failed": 0
+}

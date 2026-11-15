@@ -1,0 +1,15 @@
+{
+  "attempt": 2, "samples": 1000, "k": 1, "kd": 0.1, "h": 0.01,
+  "Q1_mathematica": {"triangles": 200, "eval": {"C_abs_over_sqrt_a": 5.863e-16, "grad_rel": 5.654e-16, "hess_rel": 1.184e-15, "grad_rel_median": 1.880e-16, "hess_rel_median": 3.993e-16}, "staged": {"C_abs_over_sqrt_a": 6.366e-16, "grad_rel": 5.680e-16, "hess_rel": 7.843e-16, "grad_rel_median": 1.821e-16, "hess_rel_median": 3.344e-16}},
+  "Q1b_paper_closed_form": {"triangles": 200, "grad_rel": 5.654e-16, "hess_rel": 1.184e-15, "grad_rel_median": 1.880e-16, "hess_rel_median": 3.993e-16},
+  "Q2_finite_difference": {"eval": {"grad_rel_max": 2.835e-10, "hess_rel_max": 3.557e-10}, "staged": {"grad_rel_max": 3.373e-10, "hess_rel_max": 5.567e-10}},
+  "Q3_staged_vs_flat": {"C_abs_over_sqrt_a": 4.420e-16, "grad_rel": 5.922e-16, "hess_rel": 1.272e-15, "grad_rel_median": 1.773e-16, "hess_rel_median": 3.960e-16},
+  "Q4_implicit": {"A_rel": 1.266e-15, "b_scaled": 8.993e-16, "f_rel": 9.262e-14, "A_rel_median": 3.395e-16, "b_scaled_median": 1.001e-16, "f_rel_median": 3.806e-16, "report_b_rel_first_attempt": 4.481e-13},
+  "Q5_stencil_loop": {"nodes": 40000, "triangles": 79202, "mismatch": 0},
+  "Q6": {"samples": 1000, "C_abs_over_sqrt_a": 4.420e-16, "A_rel": 1.090e-15, "b_scaled": 7.253e-16, "f_rel": 5.636e-14, "A_rel_median": 3.468e-16, "b_scaled_median": 1.136e-16, "f_rel_median": 3.764e-16, "report_b_rel_first_attempt": 1.260e-12,
+    "C_pos": 594, "C_neg": 406, "beta_pos": 426, "beta_neg": 407, "beta_zero": 167, "min_branch": 100},
+  "Q7": {"min_eig_ratio": -2.145e-16, "limit": -1e-12, "indefinite": 0},
+  "report": {"sum_grad_rel_max": 4.224e-16, "torque_grad_rel_max": 4.699e-16, "rest_C_over_sqrt_a": 1.110e-16, "frozen_differs": 0, "wu_len_min": 0.800167, "wu_len_max": 1.299822, "wv_len_min": 0.800629, "wv_len_max": 1.351804,
+    "indefinite_hessian_C": 1000, "indefinite_A_exact_C_pos": 529, "indefinite_A_exact_C_nonpos": 382, "indefinite_A_exact_eig_ratio_median": 4.060e-02, "indefinite_A_tension_rule_C_pos": 489, "A_GN_vs_A_E_rel_median": 1.027e-01, "A_GN_vs_A_E_rel_max": 9.999e-01},
+  "gates_failed": 0
+}

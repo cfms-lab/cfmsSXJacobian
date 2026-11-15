@@ -1,0 +1,71 @@
+{
+  "spec": "baraff_shear.py",
+  "spec_sha256": "dbc361315f1d5e77",
+  "sympy": "1.14.0",
+  "variants": {
+    "exact": {
+      "cse_seconds": 0.01,
+      "temporaries": 35,
+      "ops": 117,
+      "diff_seconds": 0.05,
+      "body_sha256": "cb216d0dd1d28abb69856bc1373d97e1d66e60a84aab220fcd3eff381d4bd471"
+    },
+    "frozen": {
+      "cse_seconds": 0.0,
+      "temporaries": 35,
+      "ops": 117,
+      "diff_seconds": 0.01,
+      "body_sha256": "72923184a0b8126a870afde2473962f182b6bd82a5c593514eaa4491335d47b9"
+    },
+    "staged": {
+      "cse_seconds": 0.0,
+      "temporaries": 73,
+      "ops": 180,
+      "stages": 6,
+      "diff_seconds": 0.01,
+      "body_sha256": "f9cbdceb248a19871bc59911b8a795212cbd6acad77d545afde2e8fc93c9d945"
+    },
+    "implicit": {
+      "cse_seconds": 0.0,
+      "temporaries": 193,
+      "ops": 630,
+      "stages": 6,
+      "diff_seconds": 0.01,
+      "body_sha256": "acd93885b575ae264d5ea4f2231b706c407bb947ebe1beeb936764e9f5bfbf2f"
+    },
+    "implicit_gn": {
+      "cse_seconds": 0.0,
+      "temporaries": 77,
+      "ops": 210,
+      "stages": 6,
+      "body_sha256": "f41d40267943c123d06f5f1b3941501bbb1ace487b47cfc1e83c881e189b47b0"
+    },
+    "engine": {
+      "cse_seconds": 0.0,
+      "temporaries": 112,
+      "ops": 272,
+      "stages": 6,
+      "body_sha256": "95cc6c80dc29ccedac9dc47ff7dfc1a890df1fba24ce263a14077852e8fdf5af"
+    },
+    "engine_gn": {
+      "cse_seconds": 0.0,
+      "temporaries": 94,
+      "ops": 221,
+      "stages": 6,
+      "body_sha256": "63aaa6043791b3fd496f8f2303a962aa368a274bb625681e4552a91164903e07"
+    },
+    "engine_gn_undamped": {
+      "cse_seconds": 0.0,
+      "temporaries": 92,
+      "ops": 174,
+      "stages": 6,
+      "body_sha256": "224abe2fd8cd443841401588d07ff1d5a3a39a62b87edc4e49cf1fc1350492e3"
+    }
+  },
+  "header": "generated/BaraffShear.h",
+  "header_bytes": 28736,
+  "header_lines": 868,
+  "engine_header": "generated/BaraffShear_Engine.h",
+  "engine_header_bytes": 18969,
+  "engine_header_lines": 584
+}

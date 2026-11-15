@@ -1,0 +1,142 @@
+{
+ "bases": [
+  "0x140000000",
+  "0x140010000",
+  "0x140020000",
+  "0x140030000",
+  "0x150000000",
+  "0x160000000",
+  "0x1A0000000",
+  "0x240000000"
+ ],
+ "raw": {
+  "per_base": [
+   {
+    "engine_oh": 106.1,
+    "engine_oh_serial": 122.1,
+    "gen_implicit_store": 341.3,
+    "gen_staged_store": 172.6,
+    "gen_implicit_scatter": 344.3,
+    "small_engine_oh": 90.0,
+    "small_gen_implicit_store": 353.9
+   },
+   {
+    "engine_oh": 107.6,
+    "engine_oh_serial": 123.4,
+    "gen_implicit_store": 343.0,
+    "gen_staged_store": 170.8,
+    "gen_implicit_scatter": 341.1,
+    "small_engine_oh": 85.0,
+    "small_gen_implicit_store": 345.7
+   },
+   {
+    "engine_oh": 106.1,
+    "engine_oh_serial": 122.5,
+    "gen_implicit_store": 338.4,
+    "gen_staged_store": 194.7,
+    "gen_implicit_scatter": 340.4,
+    "small_engine_oh": 84.2,
+    "small_gen_implicit_store": 348.6
+   },
+   {
+    "engine_oh": 105.9,
+    "engine_oh_serial": 123.3,
+    "gen_implicit_store": 343.4,
+    "gen_staged_store": 170.9,
+    "gen_implicit_scatter": 340.8,
+    "small_engine_oh": 84.6,
+    "small_gen_implicit_store": 349.7
+   },
+   {
+    "engine_oh": 106.5,
+    "engine_oh_serial": 122.0,
+    "gen_implicit_store": 343.3,
+    "gen_staged_store": 170.8,
+    "gen_implicit_scatter": 340.6,
+    "small_engine_oh": 86.0,
+    "small_gen_implicit_store": 346.8
+   },
+   {
+    "engine_oh": 105.0,
+    "engine_oh_serial": 123.6,
+    "gen_implicit_store": 338.3,
+    "gen_staged_store": 171.8,
+    "gen_implicit_scatter": 342.4,
+    "small_engine_oh": 86.5,
+    "small_gen_implicit_store": 348.3
+   },
+   {
+    "engine_oh": 109.2,
+    "engine_oh_serial": 126.2,
+    "gen_implicit_store": 346.5,
+    "gen_staged_store": 173.0,
+    "gen_implicit_scatter": 347.3,
+    "small_engine_oh": 91.3,
+    "small_gen_implicit_store": 347.1
+   },
+   {
+    "engine_oh": 108.6,
+    "engine_oh_serial": 125.2,
+    "gen_implicit_store": 346.8,
+    "gen_staged_store": 174.2,
+    "gen_implicit_scatter": 343.9,
+    "small_engine_oh": 94.4,
+    "small_gen_implicit_store": 352.1
+   }
+  ],
+  "min": {
+   "engine_oh": 105.0,
+   "engine_oh_serial": 122.0,
+   "gen_implicit_store": 338.3,
+   "gen_staged_store": 170.8,
+   "gen_implicit_scatter": 340.4,
+   "small_engine_oh": 84.2,
+   "small_gen_implicit_store": 345.7
+  },
+  "median": {
+   "engine_oh": 106.3,
+   "engine_oh_serial": 123.35,
+   "gen_implicit_store": 343.15,
+   "gen_staged_store": 172.2,
+   "gen_implicit_scatter": 341.75,
+   "small_engine_oh": 86.25,
+   "small_gen_implicit_store": 348.45000000000005
+  }
+ },
+ "gates": {
+  "B8": {
+   "value": 3.2219,
+   "limit": 1.0,
+   "pass": false
+  }
+ },
+ "min": {
+  "B8_gen_implicit_store_over_engine": 3.2219,
+  "gen_staged_store_over_engine": 1.6267,
+  "gen_implicit_scatter_over_engine": 3.2419,
+  "engine_serial_over_engine": 1.1619,
+  "gen_implicit_store_over_engine_serial": 2.773,
+  "small_gen_over_engine": 4.1057
+ },
+ "median": {
+  "B8_gen_implicit_store_over_engine": 3.2281,
+  "gen_staged_store_over_engine": 1.6199,
+  "gen_implicit_scatter_over_engine": 3.215,
+  "engine_serial_over_engine": 1.1604,
+  "gen_implicit_store_over_engine_serial": 2.7819,
+  "small_gen_over_engine": 4.04
+ },
+ "per_base_ratios": {
+  "B8": [
+   3.217,
+   3.188,
+   3.189,
+   3.243,
+   3.223,
+   3.222,
+   3.173,
+   3.193
+  ]
+ },
+ "gates_failed": 1
+}
